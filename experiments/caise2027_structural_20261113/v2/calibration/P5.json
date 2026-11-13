@@ -1,0 +1,3287 @@
+{
+  "spec": {
+    "name": "P5",
+    "tree": {
+      "op": "seq",
+      "children": [
+        "A",
+        "B",
+        {
+          "op": "loop",
+          "tag": "late",
+          "children": [
+            {
+              "op": "seq",
+              "children": [
+                "C",
+                "D",
+                "E"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "base_duration": {
+      "A": 1.0,
+      "B": 2.2,
+      "C": 1.0,
+      "D": 2.6,
+      "E": 1.2
+    },
+    "roles": {
+      "A": "entry",
+      "B": "early",
+      "C": "middle",
+      "D": "late",
+      "E": "finish"
+    },
+    "capacities": {
+      "entry": 2,
+      "early": 2,
+      "middle": 2,
+      "late": 3,
+      "finish": 2
+    },
+    "service_feedback": {
+      "B": 1.1,
+      "D": 0.65
+    },
+    "routes": {
+      "late": {
+        "source": "E",
+        "queue_pool": "late",
+        "base": 0.045,
+        "complexity": 0.03,
+        "amplitude": 0.4,
+        "driver": "global"
+      }
+    },
+    "actions": [
+      {
+        "name": "none",
+        "kind": "none",
+        "target": null,
+        "cost": 0.0
+      },
+      {
+        "name": "capacity_B",
+        "kind": "capacity",
+        "target": "early",
+        "cost": 2.0
+      },
+      {
+        "name": "capacity_D",
+        "kind": "capacity",
+        "target": "late",
+        "cost": 2.0
+      },
+      {
+        "name": "rework",
+        "kind": "rework",
+        "target": [
+          "E"
+        ],
+        "cost": 0.5
+      }
+    ],
+    "complex_fraction": 0.35,
+    "process_fractions": [
+      1.0
+    ],
+    "log_duration_sigma": 0.25,
+    "complexity_duration_multiplier": 0.35,
+    "truth_queue_saturation_per_worker": 2.0,
+    "truth_wip_onset": 3.016289159327208,
+    "truth_wip_saturation": 9.048867477981624,
+    "normal_scale": 5,
+    "status": "truth_calibrated_before_main_protocol_freeze",
+    "nominal_fixed_throughput": 0.8098805426199635,
+    "nominal_pool_demand": {
+      "entry": 1.1225,
+      "early": 2.4695000000000005,
+      "middle": 1.1914390830621198,
+      "late": 3.0977416159615117,
+      "finish": 1.4297268996745436
+    },
+    "cycle_scale": 10,
+    "severe_wip": 50,
+    "severe_duration": 200,
+    "sample_interval": 5.0,
+    "safe_rate": 0.4454342984409799,
+    "thresholds": [
+      10,
+      20,
+      40
+    ]
+  },
+  "reference": [
+    {
+      "seed": 70005000000,
+      "cases": 479,
+      "max_wip": 9.0
+    },
+    {
+      "seed": 70005000100,
+      "cases": 509,
+      "max_wip": 10.0
+    },
+    {
+      "seed": 70005000200,
+      "cases": 463,
+      "max_wip": 8.0
+    },
+    {
+      "seed": 70005000300,
+      "cases": 480,
+      "max_wip": 7.0
+    }
+  ],
+  "grid": [
+    {
+      "fraction": 0.25,
+      "qualified": true,
+      "episodes": [
+        {
+          "seed": 71005000000,
+          "fraction": 0.25,
+          "qualified": true,
+          "drift": -1.18,
+          "cases": 192,
+          "cost": 2135.0,
+          "wip_area": 2135.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 9.0,
+          "residual_wip": 0.0,
+          "completed": 192,
+          "cycle_mean": 10.709165036816481,
+          "cycle_p95": 15.72330010139068,
+          "process": [
+            {
+              "wip_area": 2135.0,
+              "completed": 192,
+              "cycle_mean": 10.709165036816481
+            }
+          ]
+        },
+        {
+          "seed": 71005000010,
+          "fraction": 0.25,
+          "qualified": true,
+          "drift": -0.47999999999999976,
+          "cases": 214,
+          "cost": 2135.0,
+          "wip_area": 2135.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 7.0,
+          "residual_wip": 0.0,
+          "completed": 214,
+          "cycle_mean": 10.139453535627263,
+          "cycle_p95": 14.218087473109907,
+          "process": [
+            {
+              "wip_area": 2135.0,
+              "completed": 214,
+              "cycle_mean": 10.139453535627263
+            }
+          ]
+        },
+        {
+          "seed": 71005000020,
+          "fraction": 0.25,
+          "qualified": true,
+          "drift": -0.3200000000000003,
+          "cases": 215,
+          "cost": 2345.0,
+          "wip_area": 2345.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 8.0,
+          "residual_wip": 0.0,
+          "completed": 215,
+          "cycle_mean": 10.801901985252986,
+          "cycle_p95": 16.44738512559685,
+          "process": [
+            {
+              "wip_area": 2345.0,
+              "completed": 215,
+              "cycle_mean": 10.801901985252986
+            }
+          ]
+        },
+        {
+          "seed": 71005000030,
+          "fraction": 0.25,
+          "qualified": true,
+          "drift": -0.5,
+          "cases": 215,
+          "cost": 2165.0,
+          "wip_area": 2165.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 7.0,
+          "residual_wip": 0.0,
+          "completed": 215,
+          "cycle_mean": 10.113632581660703,
+          "cycle_p95": 14.150587116702296,
+          "process": [
+            {
+              "wip_area": 2165.0,
+              "completed": 215,
+              "cycle_mean": 10.113632581660703
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.35,
+      "qualified": true,
+      "episodes": [
+        {
+          "seed": 71005001000,
+          "fraction": 0.35,
+          "qualified": true,
+          "drift": 0.7000000000000002,
+          "cases": 297,
+          "cost": 3230.0,
+          "wip_area": 3230.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 10.0,
+          "residual_wip": 0.0,
+          "completed": 297,
+          "cycle_mean": 10.937419848909629,
+          "cycle_p95": 17.27964808176298,
+          "process": [
+            {
+              "wip_area": 3230.0,
+              "completed": 297,
+              "cycle_mean": 10.937419848909629
+            }
+          ]
+        },
+        {
+          "seed": 71005001010,
+          "fraction": 0.35,
+          "qualified": true,
+          "drift": 0.6400000000000001,
+          "cases": 289,
+          "cost": 3075.0,
+          "wip_area": 3075.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 10.0,
+          "residual_wip": 0.0,
+          "completed": 289,
+          "cycle_mean": 10.828094534976088,
+          "cycle_p95": 16.38964377699737,
+          "process": [
+            {
+              "wip_area": 3075.0,
+              "completed": 289,
+              "cycle_mean": 10.828094534976088
+            }
+          ]
+        },
+        {
+          "seed": 71005001020,
+          "fraction": 0.35,
+          "qualified": true,
+          "drift": -0.5800000000000001,
+          "cases": 292,
+          "cost": 3120.0,
+          "wip_area": 3120.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 9.0,
+          "residual_wip": 0.0,
+          "completed": 292,
+          "cycle_mean": 10.838161148912443,
+          "cycle_p95": 15.685751154035586,
+          "process": [
+            {
+              "wip_area": 3120.0,
+              "completed": 292,
+              "cycle_mean": 10.838161148912443
+            }
+          ]
+        },
+        {
+          "seed": 71005001030,
+          "fraction": 0.35,
+          "qualified": true,
+          "drift": 0.7000000000000002,
+          "cases": 292,
+          "cost": 3000.0,
+          "wip_area": 3000.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 10.0,
+          "residual_wip": 0.0,
+          "completed": 292,
+          "cycle_mean": 10.409781375747592,
+          "cycle_p95": 14.781030176525425,
+          "process": [
+            {
+              "wip_area": 3000.0,
+              "completed": 292,
+              "cycle_mean": 10.409781375747592
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.45,
+      "qualified": true,
+      "episodes": [
+        {
+          "seed": 71005002000,
+          "fraction": 0.45,
+          "qualified": true,
+          "drift": 0.9399999999999995,
+          "cases": 395,
+          "cost": 5030.0,
+          "wip_area": 5030.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 17.0,
+          "residual_wip": 0.0,
+          "completed": 395,
+          "cycle_mean": 12.728848759971573,
+          "cycle_p95": 22.66819802026552,
+          "process": [
+            {
+              "wip_area": 5030.0,
+              "completed": 395,
+              "cycle_mean": 12.728848759971573
+            }
+          ]
+        },
+        {
+          "seed": 71005002010,
+          "fraction": 0.45,
+          "qualified": true,
+          "drift": -1.94,
+          "cases": 382,
+          "cost": 4350.0,
+          "wip_area": 4350.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 10.0,
+          "residual_wip": 0.0,
+          "completed": 382,
+          "cycle_mean": 11.365291894494671,
+          "cycle_p95": 18.37480943607156,
+          "process": [
+            {
+              "wip_area": 4350.0,
+              "completed": 382,
+              "cycle_mean": 11.365291894494671
+            }
+          ]
+        },
+        {
+          "seed": 71005002020,
+          "fraction": 0.45,
+          "qualified": true,
+          "drift": -0.5,
+          "cases": 370,
+          "cost": 5290.0,
+          "wip_area": 5290.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 19.0,
+          "residual_wip": 0.0,
+          "completed": 370,
+          "cycle_mean": 14.299331171896572,
+          "cycle_p95": 29.7616701765558,
+          "process": [
+            {
+              "wip_area": 5290.0,
+              "completed": 370,
+              "cycle_mean": 14.299331171896572
+            }
+          ]
+        },
+        {
+          "seed": 71005002030,
+          "fraction": 0.45,
+          "qualified": true,
+          "drift": 0.8600000000000003,
+          "cases": 368,
+          "cost": 5050.0,
+          "wip_area": 5050.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 14.0,
+          "residual_wip": 0.0,
+          "completed": 368,
+          "cycle_mean": 13.516416913383733,
+          "cycle_p95": 24.222260186727198,
+          "process": [
+            {
+              "wip_area": 5050.0,
+              "completed": 368,
+              "cycle_mean": 13.516416913383733
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.55,
+      "qualified": true,
+      "episodes": [
+        {
+          "seed": 71005003000,
+          "fraction": 0.55,
+          "qualified": true,
+          "drift": 1.08,
+          "cases": 437,
+          "cost": 5860.0,
+          "wip_area": 5860.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 17.0,
+          "residual_wip": 0.0,
+          "completed": 437,
+          "cycle_mean": 13.4229853670669,
+          "cycle_p95": 23.703197336424967,
+          "process": [
+            {
+              "wip_area": 5860.0,
+              "completed": 437,
+              "cycle_mean": 13.4229853670669
+            }
+          ]
+        },
+        {
+          "seed": 71005003010,
+          "fraction": 0.55,
+          "qualified": true,
+          "drift": -0.5200000000000005,
+          "cases": 443,
+          "cost": 5870.0,
+          "wip_area": 5870.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 16.0,
+          "residual_wip": 0.0,
+          "completed": 443,
+          "cycle_mean": 13.081061436063699,
+          "cycle_p95": 22.97985630074888,
+          "process": [
+            {
+              "wip_area": 5870.0,
+              "completed": 443,
+              "cycle_mean": 13.081061436063699
+            }
+          ]
+        },
+        {
+          "seed": 71005003020,
+          "fraction": 0.55,
+          "qualified": true,
+          "drift": 2.960000000000001,
+          "cases": 438,
+          "cost": 11755.0,
+          "wip_area": 11755.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 26.0,
+          "residual_wip": 0.0,
+          "completed": 438,
+          "cycle_mean": 26.917846714198397,
+          "cycle_p95": 53.57830545602613,
+          "process": [
+            {
+              "wip_area": 11755.0,
+              "completed": 438,
+              "cycle_mean": 26.917846714198397
+            }
+          ]
+        },
+        {
+          "seed": 71005003030,
+          "fraction": 0.55,
+          "qualified": true,
+          "drift": 2.12,
+          "cases": 444,
+          "cost": 6030.0,
+          "wip_area": 6030.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": false,
+          "crisis_onset": null,
+          "maximum_wip": 16.0,
+          "residual_wip": 0.0,
+          "completed": 444,
+          "cycle_mean": 13.695885954606458,
+          "cycle_p95": 25.382333798749244,
+          "process": [
+            {
+              "wip_area": 6030.0,
+              "completed": 444,
+              "cycle_mean": 13.695885954606458
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.65,
+      "qualified": false,
+      "episodes": [
+        {
+          "seed": 71005004000,
+          "fraction": 0.65,
+          "qualified": false,
+          "drift": 23.099999999999994,
+          "cases": 529,
+          "cost": 87345.0,
+          "wip_area": 87345.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 425.0,
+          "maximum_wip": 130.0,
+          "residual_wip": 0.0,
+          "completed": 529,
+          "cycle_mean": 165.12271697768742,
+          "cycle_p95": 305.96004747089773,
+          "process": [
+            {
+              "wip_area": 87345.0,
+              "completed": 529,
+              "cycle_mean": 165.12271697768742
+            }
+          ]
+        },
+        {
+          "seed": 71005004010,
+          "fraction": 0.65,
+          "qualified": false,
+          "drift": 29.540000000000006,
+          "cases": 518,
+          "cost": 66815.0,
+          "wip_area": 66815.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 510.0,
+          "maximum_wip": 113.0,
+          "residual_wip": 0.0,
+          "completed": 518,
+          "cycle_mean": 129.15966883797708,
+          "cycle_p95": 269.93641515407666,
+          "process": [
+            {
+              "wip_area": 66815.0,
+              "completed": 518,
+              "cycle_mean": 129.15966883797708
+            }
+          ]
+        },
+        {
+          "seed": 71005004020,
+          "fraction": 0.65,
+          "qualified": false,
+          "drift": 42.400000000000006,
+          "cases": 552,
+          "cost": 99105.0,
+          "wip_area": 99105.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 355.0,
+          "maximum_wip": 147.0,
+          "residual_wip": 0.0,
+          "completed": 552,
+          "cycle_mean": 179.57976005184327,
+          "cycle_p95": 347.38556027134166,
+          "process": [
+            {
+              "wip_area": 99105.0,
+              "completed": 552,
+              "cycle_mean": 179.57976005184327
+            }
+          ]
+        },
+        {
+          "seed": 71005004030,
+          "fraction": 0.65,
+          "qualified": false,
+          "drift": 19.799999999999997,
+          "cases": 521,
+          "cost": 100105.0,
+          "wip_area": 100105.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 305.0,
+          "maximum_wip": 137.0,
+          "residual_wip": 0.0,
+          "completed": 521,
+          "cycle_mean": 192.19567675990893,
+          "cycle_p95": 315.3059799784239,
+          "process": [
+            {
+              "wip_area": 100105.0,
+              "completed": 521,
+              "cycle_mean": 192.19567675990893
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.75,
+      "qualified": false,
+      "episodes": [
+        {
+          "seed": 71005005000,
+          "fraction": 0.75,
+          "qualified": false,
+          "drift": 56.78,
+          "cases": 624,
+          "cost": 182820.0,
+          "wip_area": 182820.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 260.0,
+          "maximum_wip": 236.0,
+          "residual_wip": 0.0,
+          "completed": 624,
+          "cycle_mean": 292.95241882021935,
+          "cycle_p95": 569.5882768966804,
+          "process": [
+            {
+              "wip_area": 182820.0,
+              "completed": 624,
+              "cycle_mean": 292.95241882021935
+            }
+          ]
+        },
+        {
+          "seed": 71005005010,
+          "fraction": 0.75,
+          "qualified": false,
+          "drift": 55.65999999999998,
+          "cases": 570,
+          "cost": 98130.0,
+          "wip_area": 98130.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 480.0,
+          "maximum_wip": 161.0,
+          "residual_wip": 0.0,
+          "completed": 570,
+          "cycle_mean": 172.20131414426936,
+          "cycle_p95": 384.8743979805053,
+          "process": [
+            {
+              "wip_area": 98130.0,
+              "completed": 570,
+              "cycle_mean": 172.20131414426936
+            }
+          ]
+        },
+        {
+          "seed": 71005005020,
+          "fraction": 0.75,
+          "qualified": false,
+          "drift": 52.239999999999995,
+          "cases": 591,
+          "cost": 140545.0,
+          "wip_area": 140545.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 320.0,
+          "maximum_wip": 189.0,
+          "residual_wip": 0.0,
+          "completed": 591,
+          "cycle_mean": 237.8404471398941,
+          "cycle_p95": 502.48918555264623,
+          "process": [
+            {
+              "wip_area": 140545.0,
+              "completed": 591,
+              "cycle_mean": 237.8404471398941
+            }
+          ]
+        },
+        {
+          "seed": 71005005030,
+          "fraction": 0.75,
+          "qualified": false,
+          "drift": 51.96000000000001,
+          "cases": 599,
+          "cost": 123940.0,
+          "wip_area": 123940.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 380.0,
+          "maximum_wip": 192.0,
+          "residual_wip": 0.0,
+          "completed": 599,
+          "cycle_mean": 206.91829758447165,
+          "cycle_p95": 451.92240046929965,
+          "process": [
+            {
+              "wip_area": 123940.0,
+              "completed": 599,
+              "cycle_mean": 206.91829758447165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.85,
+      "qualified": false,
+      "episodes": [
+        {
+          "seed": 71005006000,
+          "fraction": 0.85,
+          "qualified": false,
+          "drift": 75.18,
+          "cases": 684,
+          "cost": 269445.0,
+          "wip_area": 269445.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 135.0,
+          "maximum_wip": 297.0,
+          "residual_wip": 0.0,
+          "completed": 684,
+          "cycle_mean": 393.8848259650029,
+          "cycle_p95": 746.7252285867953,
+          "process": [
+            {
+              "wip_area": 269445.0,
+              "completed": 684,
+              "cycle_mean": 393.8848259650029
+            }
+          ]
+        },
+        {
+          "seed": 71005006010,
+          "fraction": 0.85,
+          "qualified": false,
+          "drift": 63.66,
+          "cases": 650,
+          "cost": 212990.0,
+          "wip_area": 212990.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 255.0,
+          "maximum_wip": 256.0,
+          "residual_wip": 0.0,
+          "completed": 650,
+          "cycle_mean": 327.6586638026056,
+          "cycle_p95": 646.5687515678712,
+          "process": [
+            {
+              "wip_area": 212990.0,
+              "completed": 650,
+              "cycle_mean": 327.6586638026056
+            }
+          ]
+        },
+        {
+          "seed": 71005006020,
+          "fraction": 0.85,
+          "qualified": false,
+          "drift": 74.69999999999999,
+          "cases": 682,
+          "cost": 244265.0,
+          "wip_area": 244265.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 170.0,
+          "maximum_wip": 286.0,
+          "residual_wip": 0.0,
+          "completed": 682,
+          "cycle_mean": 358.1609039401539,
+          "cycle_p95": 687.2673095601551,
+          "process": [
+            {
+              "wip_area": 244265.0,
+              "completed": 682,
+              "cycle_mean": 358.1609039401539
+            }
+          ]
+        },
+        {
+          "seed": 71005006030,
+          "fraction": 0.85,
+          "qualified": false,
+          "drift": 82.0,
+          "cases": 703,
+          "cost": 266050.0,
+          "wip_area": 266050.0,
+          "action_cost": 0.0,
+          "trigger": -1.0,
+          "crisis": true,
+          "crisis_onset": 185.0,
+          "maximum_wip": 311.0,
+          "residual_wip": 0.0,
+          "completed": 703,
+          "cycle_mean": 378.6206784485916,
+          "cycle_p95": 736.8680941526007,
+          "process": [
+            {
+              "wip_area": 266050.0,
+              "completed": 703,
+              "cycle_mean": 378.6206784485916
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stress": [
+    {
+      "world": "fixed",
+      "condition": 0,
+      "repeat": 0,
+      "seed": 72005000000,
+      "drained": true,
+      "cost": 6120.0,
+      "wip_area": 6120.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 11.0,
+      "residual_wip": 1.0,
+      "completed": 631,
+      "cycle_mean": 9.730108265138792,
+      "cycle_p95": 13.767659284460592,
+      "process": [
+        {
+          "wip_area": 6120.0,
+          "completed": 631,
+          "cycle_mean": 9.730108265138792
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 0,
+      "repeat": 1,
+      "seed": 72005000010,
+      "drained": true,
+      "cost": 5815.0,
+      "wip_area": 5815.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 9.0,
+      "residual_wip": 3.0,
+      "completed": 602,
+      "cycle_mean": 9.66019242954974,
+      "cycle_p95": 13.863873113077368,
+      "process": [
+        {
+          "wip_area": 5815.0,
+          "completed": 602,
+          "cycle_mean": 9.66019242954974
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 0,
+      "repeat": 2,
+      "seed": 72005000020,
+      "drained": true,
+      "cost": 5740.0,
+      "wip_area": 5740.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 9.0,
+      "residual_wip": 3.0,
+      "completed": 611,
+      "cycle_mean": 9.442424397267054,
+      "cycle_p95": 13.173161372178583,
+      "process": [
+        {
+          "wip_area": 5740.0,
+          "completed": 611,
+          "cycle_mean": 9.442424397267054
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 0,
+      "repeat": 3,
+      "seed": 72005000030,
+      "drained": true,
+      "cost": 6130.0,
+      "wip_area": 6130.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 14.0,
+      "residual_wip": 4.0,
+      "completed": 640,
+      "cycle_mean": 9.682029911502829,
+      "cycle_p95": 13.83442781604153,
+      "process": [
+        {
+          "wip_area": 6130.0,
+          "completed": 640,
+          "cycle_mean": 9.682029911502829
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 1,
+      "repeat": 0,
+      "seed": 72005000100,
+      "drained": true,
+      "cost": 7640.0,
+      "wip_area": 7640.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 12.0,
+      "residual_wip": 6.0,
+      "completed": 769,
+      "cycle_mean": 9.897289096124657,
+      "cycle_p95": 14.613937374917766,
+      "process": [
+        {
+          "wip_area": 7640.0,
+          "completed": 769,
+          "cycle_mean": 9.897289096124657
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 1,
+      "repeat": 1,
+      "seed": 72005000110,
+      "drained": true,
+      "cost": 7385.0,
+      "wip_area": 7385.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 13.0,
+      "residual_wip": 7.0,
+      "completed": 729,
+      "cycle_mean": 10.122200175168597,
+      "cycle_p95": 14.529881643637282,
+      "process": [
+        {
+          "wip_area": 7385.0,
+          "completed": 729,
+          "cycle_mean": 10.122200175168597
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 1,
+      "repeat": 2,
+      "seed": 72005000120,
+      "drained": true,
+      "cost": 7945.0,
+      "wip_area": 7945.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 14.0,
+      "residual_wip": 7.0,
+      "completed": 777,
+      "cycle_mean": 10.183739685649574,
+      "cycle_p95": 15.816619780134225,
+      "process": [
+        {
+          "wip_area": 7945.0,
+          "completed": 777,
+          "cycle_mean": 10.183739685649574
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 1,
+      "repeat": 3,
+      "seed": 72005000130,
+      "drained": true,
+      "cost": 7550.0,
+      "wip_area": 7550.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 12.0,
+      "residual_wip": 7.0,
+      "completed": 752,
+      "cycle_mean": 10.121394594914465,
+      "cycle_p95": 14.849752294397636,
+      "process": [
+        {
+          "wip_area": 7550.0,
+          "completed": 752,
+          "cycle_mean": 10.121394594914465
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 2,
+      "repeat": 0,
+      "seed": 72005000200,
+      "drained": true,
+      "cost": 9340.0,
+      "wip_area": 9340.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 33.0,
+      "residual_wip": 5.0,
+      "completed": 709,
+      "cycle_mean": 13.095714226140059,
+      "cycle_p95": 30.06713589865553,
+      "process": [
+        {
+          "wip_area": 9340.0,
+          "completed": 709,
+          "cycle_mean": 13.095714226140059
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 2,
+      "repeat": 1,
+      "seed": 72005000210,
+      "drained": true,
+      "cost": 11130.0,
+      "wip_area": 11130.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 48.0,
+      "residual_wip": 4.0,
+      "completed": 692,
+      "cycle_mean": 16.100215010239197,
+      "cycle_p95": 47.29647940175496,
+      "process": [
+        {
+          "wip_area": 11130.0,
+          "completed": 692,
+          "cycle_mean": 16.100215010239197
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 2,
+      "repeat": 2,
+      "seed": 72005000220,
+      "drained": true,
+      "cost": 11770.0,
+      "wip_area": 11770.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 41.0,
+      "residual_wip": 4.0,
+      "completed": 751,
+      "cycle_mean": 15.65973388288141,
+      "cycle_p95": 44.26234431532822,
+      "process": [
+        {
+          "wip_area": 11770.0,
+          "completed": 751,
+          "cycle_mean": 15.65973388288141
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 2,
+      "repeat": 3,
+      "seed": 72005000230,
+      "drained": true,
+      "cost": 11210.0,
+      "wip_area": 11210.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 44.0,
+      "residual_wip": 4.0,
+      "completed": 717,
+      "cycle_mean": 15.598433888122077,
+      "cycle_p95": 43.982996355656574,
+      "process": [
+        {
+          "wip_area": 11210.0,
+          "completed": 717,
+          "cycle_mean": 15.598433888122077
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 3,
+      "repeat": 0,
+      "seed": 72005000300,
+      "drained": true,
+      "cost": 17725.0,
+      "wip_area": 17725.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 57.0,
+      "residual_wip": 5.0,
+      "completed": 917,
+      "cycle_mean": 19.393362090323762,
+      "cycle_p95": 61.44095041798333,
+      "process": [
+        {
+          "wip_area": 17725.0,
+          "completed": 917,
+          "cycle_mean": 19.393362090323762
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 3,
+      "repeat": 1,
+      "seed": 72005000310,
+      "drained": true,
+      "cost": 16335.0,
+      "wip_area": 16335.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 64.0,
+      "residual_wip": 2.0,
+      "completed": 905,
+      "cycle_mean": 17.979288624465152,
+      "cycle_p95": 64.11372812637005,
+      "process": [
+        {
+          "wip_area": 16335.0,
+          "completed": 905,
+          "cycle_mean": 17.979288624465152
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 3,
+      "repeat": 2,
+      "seed": 72005000320,
+      "drained": true,
+      "cost": 12345.0,
+      "wip_area": 12345.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 44.0,
+      "residual_wip": 5.0,
+      "completed": 810,
+      "cycle_mean": 15.30338806103003,
+      "cycle_p95": 41.89078763935733,
+      "process": [
+        {
+          "wip_area": 12345.0,
+          "completed": 810,
+          "cycle_mean": 15.30338806103003
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 3,
+      "repeat": 3,
+      "seed": 72005000330,
+      "drained": true,
+      "cost": 15295.0,
+      "wip_area": 15295.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 60.0,
+      "residual_wip": 3.0,
+      "completed": 867,
+      "cycle_mean": 17.682808485666925,
+      "cycle_p95": 62.34180074995571,
+      "process": [
+        {
+          "wip_area": 15295.0,
+          "completed": 867,
+          "cycle_mean": 17.682808485666925
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 4,
+      "repeat": 0,
+      "seed": 72005000400,
+      "drained": true,
+      "cost": 39595.0,
+      "wip_area": 39595.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 455.0,
+      "maximum_wip": 138.0,
+      "residual_wip": 5.0,
+      "completed": 857,
+      "cycle_mean": 46.26627708553872,
+      "cycle_p95": 145.06760921056977,
+      "process": [
+        {
+          "wip_area": 39595.0,
+          "completed": 857,
+          "cycle_mean": 46.26627708553872
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 4,
+      "repeat": 1,
+      "seed": 72005000410,
+      "drained": true,
+      "cost": 58490.0,
+      "wip_area": 58490.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 166.0,
+      "residual_wip": 3.0,
+      "completed": 889,
+      "cycle_mean": 65.68939571203073,
+      "cycle_p95": 196.5188746302525,
+      "process": [
+        {
+          "wip_area": 58490.0,
+          "completed": 889,
+          "cycle_mean": 65.68939571203073
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 4,
+      "repeat": 2,
+      "seed": 72005000420,
+      "drained": true,
+      "cost": 38065.0,
+      "wip_area": 38065.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 455.0,
+      "maximum_wip": 133.0,
+      "residual_wip": 4.0,
+      "completed": 829,
+      "cycle_mean": 45.89064190467934,
+      "cycle_p95": 151.36112645601196,
+      "process": [
+        {
+          "wip_area": 38065.0,
+          "completed": 829,
+          "cycle_mean": 45.89064190467934
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 4,
+      "repeat": 3,
+      "seed": 72005000430,
+      "drained": true,
+      "cost": 58525.0,
+      "wip_area": 58525.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 175.0,
+      "residual_wip": 4.0,
+      "completed": 862,
+      "cycle_mean": 67.81459206267716,
+      "cycle_p95": 200.83326344343232,
+      "process": [
+        {
+          "wip_area": 58525.0,
+          "completed": 862,
+          "cycle_mean": 67.81459206267716
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 5,
+      "repeat": 0,
+      "seed": 72005000500,
+      "drained": true,
+      "cost": 47040.0,
+      "wip_area": 47040.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 435.0,
+      "maximum_wip": 135.0,
+      "residual_wip": 4.0,
+      "completed": 964,
+      "cycle_mean": 48.90667628418812,
+      "cycle_p95": 153.96838441049917,
+      "process": [
+        {
+          "wip_area": 47040.0,
+          "completed": 964,
+          "cycle_mean": 48.90667628418812
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 5,
+      "repeat": 1,
+      "seed": 72005000510,
+      "drained": true,
+      "cost": 43115.0,
+      "wip_area": 43115.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 475.0,
+      "maximum_wip": 127.0,
+      "residual_wip": 3.0,
+      "completed": 979,
+      "cycle_mean": 44.03019979787153,
+      "cycle_p95": 147.3191211684161,
+      "process": [
+        {
+          "wip_area": 43115.0,
+          "completed": 979,
+          "cycle_mean": 44.03019979787153
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 5,
+      "repeat": 2,
+      "seed": 72005000520,
+      "drained": true,
+      "cost": 47030.0,
+      "wip_area": 47030.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 445.0,
+      "maximum_wip": 147.0,
+      "residual_wip": 6.0,
+      "completed": 947,
+      "cycle_mean": 49.705648442440086,
+      "cycle_p95": 160.39716053028909,
+      "process": [
+        {
+          "wip_area": 47030.0,
+          "completed": 947,
+          "cycle_mean": 49.705648442440086
+        }
+      ]
+    },
+    {
+      "world": "fixed",
+      "condition": 5,
+      "repeat": 3,
+      "seed": 72005000530,
+      "drained": true,
+      "cost": 51735.0,
+      "wip_area": 51735.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 425.0,
+      "maximum_wip": 149.0,
+      "residual_wip": 2.0,
+      "completed": 983,
+      "cycle_mean": 52.628464731301,
+      "cycle_p95": 154.493996571652,
+      "process": [
+        {
+          "wip_area": 51735.0,
+          "completed": 983,
+          "cycle_mean": 52.628464731301
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 0,
+      "repeat": 0,
+      "seed": 72005010000,
+      "drained": true,
+      "cost": 9720.0,
+      "wip_area": 9720.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 33.0,
+      "residual_wip": 25.0,
+      "completed": 623,
+      "cycle_mean": 14.301782397380393,
+      "cycle_p95": 36.052047360993626,
+      "process": [
+        {
+          "wip_area": 9720.0,
+          "completed": 623,
+          "cycle_mean": 14.301782397380393
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 0,
+      "repeat": 1,
+      "seed": 72005010010,
+      "drained": true,
+      "cost": 6380.0,
+      "wip_area": 6380.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 10.0,
+      "residual_wip": 1.0,
+      "completed": 589,
+      "cycle_mean": 10.761625462205052,
+      "cycle_p95": 15.970659916535837,
+      "process": [
+        {
+          "wip_area": 6380.0,
+          "completed": 589,
+          "cycle_mean": 10.761625462205052
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 0,
+      "repeat": 2,
+      "seed": 72005010020,
+      "drained": true,
+      "cost": 6005.0,
+      "wip_area": 6005.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 10.0,
+      "residual_wip": 3.0,
+      "completed": 556,
+      "cycle_mean": 10.90765396173577,
+      "cycle_p95": 16.85215317397068,
+      "process": [
+        {
+          "wip_area": 6005.0,
+          "completed": 556,
+          "cycle_mean": 10.90765396173577
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 0,
+      "repeat": 3,
+      "seed": 72005010030,
+      "drained": true,
+      "cost": 5840.0,
+      "wip_area": 5840.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 10.0,
+      "residual_wip": 5.0,
+      "completed": 546,
+      "cycle_mean": 10.57072248428734,
+      "cycle_p95": 15.270975129190987,
+      "process": [
+        {
+          "wip_area": 5840.0,
+          "completed": 546,
+          "cycle_mean": 10.57072248428734
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 1,
+      "repeat": 0,
+      "seed": 72005010100,
+      "drained": true,
+      "cost": 9460.0,
+      "wip_area": 9460.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 15.0,
+      "residual_wip": 5.0,
+      "completed": 745,
+      "cycle_mean": 12.70183888226054,
+      "cycle_p95": 22.026009595397134,
+      "process": [
+        {
+          "wip_area": 9460.0,
+          "completed": 745,
+          "cycle_mean": 12.70183888226054
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 1,
+      "repeat": 1,
+      "seed": 72005010110,
+      "drained": true,
+      "cost": 45170.0,
+      "wip_area": 45170.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 48.0,
+      "residual_wip": 32.0,
+      "completed": 770,
+      "cycle_mean": 56.78264374030783,
+      "cycle_p95": 111.83682855534865,
+      "process": [
+        {
+          "wip_area": 45170.0,
+          "completed": 770,
+          "cycle_mean": 56.78264374030783
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 1,
+      "repeat": 2,
+      "seed": 72005010120,
+      "drained": true,
+      "cost": 8835.0,
+      "wip_area": 8835.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 14.0,
+      "residual_wip": 9.0,
+      "completed": 720,
+      "cycle_mean": 12.162670110075068,
+      "cycle_p95": 19.69845135842119,
+      "process": [
+        {
+          "wip_area": 8835.0,
+          "completed": 720,
+          "cycle_mean": 12.162670110075068
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 1,
+      "repeat": 3,
+      "seed": 72005010130,
+      "drained": true,
+      "cost": 10220.0,
+      "wip_area": 10220.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 16.0,
+      "residual_wip": 6.0,
+      "completed": 758,
+      "cycle_mean": 13.526310877124127,
+      "cycle_p95": 27.388384851715124,
+      "process": [
+        {
+          "wip_area": 10220.0,
+          "completed": 758,
+          "cycle_mean": 13.526310877124127
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 2,
+      "repeat": 0,
+      "seed": 72005010200,
+      "drained": true,
+      "cost": 63110.0,
+      "wip_area": 63110.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 105.0,
+      "residual_wip": 1.0,
+      "completed": 692,
+      "cycle_mean": 91.1240715998465,
+      "cycle_p95": 222.5778232290535,
+      "process": [
+        {
+          "wip_area": 63110.0,
+          "completed": 692,
+          "cycle_mean": 91.1240715998465
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 2,
+      "repeat": 1,
+      "seed": 72005010210,
+      "drained": true,
+      "cost": 65490.0,
+      "wip_area": 65490.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 435.0,
+      "maximum_wip": 97.0,
+      "residual_wip": 2.0,
+      "completed": 688,
+      "cycle_mean": 95.2500299330416,
+      "cycle_p95": 224.7300938759217,
+      "process": [
+        {
+          "wip_area": 65490.0,
+          "completed": 688,
+          "cycle_mean": 95.2500299330416
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 2,
+      "repeat": 2,
+      "seed": 72005010220,
+      "drained": true,
+      "cost": 96515.0,
+      "wip_area": 96515.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 425.0,
+      "maximum_wip": 110.0,
+      "residual_wip": 17.0,
+      "completed": 691,
+      "cycle_mean": 138.97885584150163,
+      "cycle_p95": 272.1699881208823,
+      "process": [
+        {
+          "wip_area": 96515.0,
+          "completed": 691,
+          "cycle_mean": 138.97885584150163
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 2,
+      "repeat": 3,
+      "seed": 72005010230,
+      "drained": true,
+      "cost": 89360.0,
+      "wip_area": 89360.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 106.0,
+      "residual_wip": 3.0,
+      "completed": 699,
+      "cycle_mean": 127.98658424481862,
+      "cycle_p95": 252.74535269656073,
+      "process": [
+        {
+          "wip_area": 89360.0,
+          "completed": 699,
+          "cycle_mean": 127.98658424481862
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 3,
+      "repeat": 0,
+      "seed": 72005010300,
+      "drained": true,
+      "cost": 133145.0,
+      "wip_area": 133145.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 450.0,
+      "maximum_wip": 117.0,
+      "residual_wip": 107.0,
+      "completed": 699,
+      "cycle_mean": 170.62426003520474,
+      "cycle_p95": 297.6201456750943,
+      "process": [
+        {
+          "wip_area": 133145.0,
+          "completed": 699,
+          "cycle_mean": 170.62426003520474
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 3,
+      "repeat": 1,
+      "seed": 72005010310,
+      "drained": true,
+      "cost": 179055.0,
+      "wip_area": 179055.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 430.0,
+      "maximum_wip": 149.0,
+      "residual_wip": 143.0,
+      "completed": 687,
+      "cycle_mean": 224.47088694096848,
+      "cycle_p95": 356.68779128878754,
+      "process": [
+        {
+          "wip_area": 179055.0,
+          "completed": 687,
+          "cycle_mean": 224.47088694096848
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 3,
+      "repeat": 2,
+      "seed": 72005010320,
+      "drained": true,
+      "cost": 176950.0,
+      "wip_area": 176950.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 425.0,
+      "maximum_wip": 162.0,
+      "residual_wip": 161.0,
+      "completed": 724,
+      "cycle_mean": 211.37090503609528,
+      "cycle_p95": 340.9100358837208,
+      "process": [
+        {
+          "wip_area": 176950.0,
+          "completed": 724,
+          "cycle_mean": 211.37090503609528
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 3,
+      "repeat": 3,
+      "seed": 72005010330,
+      "drained": true,
+      "cost": 181075.0,
+      "wip_area": 181075.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 159.0,
+      "residual_wip": 144.0,
+      "completed": 716,
+      "cycle_mean": 216.25941611065966,
+      "cycle_p95": 383.99543943546047,
+      "process": [
+        {
+          "wip_area": 181075.0,
+          "completed": 716,
+          "cycle_mean": 216.25941611065966
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 4,
+      "repeat": 0,
+      "seed": 72005010400,
+      "drained": true,
+      "cost": 250345.0,
+      "wip_area": 250345.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 228.0,
+      "residual_wip": 165.0,
+      "completed": 655,
+      "cycle_mean": 326.69106164914706,
+      "cycle_p95": 594.9860695055244,
+      "process": [
+        {
+          "wip_area": 250345.0,
+          "completed": 655,
+          "cycle_mean": 326.69106164914706
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 4,
+      "repeat": 1,
+      "seed": 72005010410,
+      "drained": true,
+      "cost": 297505.0,
+      "wip_area": 297505.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 395.0,
+      "maximum_wip": 256.0,
+      "residual_wip": 192.0,
+      "completed": 671,
+      "cycle_mean": 361.5642892771959,
+      "cycle_p95": 649.7061341981795,
+      "process": [
+        {
+          "wip_area": 297505.0,
+          "completed": 671,
+          "cycle_mean": 361.5642892771959
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 4,
+      "repeat": 2,
+      "seed": 72005010420,
+      "drained": true,
+      "cost": 269610.0,
+      "wip_area": 269610.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 224.0,
+      "residual_wip": 167.0,
+      "completed": 665,
+      "cycle_mean": 344.44403883517094,
+      "cycle_p95": 557.7501674148984,
+      "process": [
+        {
+          "wip_area": 269610.0,
+          "completed": 665,
+          "cycle_mean": 344.44403883517094
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 4,
+      "repeat": 3,
+      "seed": 72005010430,
+      "drained": true,
+      "cost": 303255.0,
+      "wip_area": 303255.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 395.0,
+      "maximum_wip": 259.0,
+      "residual_wip": 179.0,
+      "completed": 690,
+      "cycle_mean": 361.4913163855496,
+      "cycle_p95": 646.7255615842015,
+      "process": [
+        {
+          "wip_area": 303255.0,
+          "completed": 690,
+          "cycle_mean": 361.4913163855496
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 5,
+      "repeat": 0,
+      "seed": 72005010500,
+      "drained": true,
+      "cost": 277460.0,
+      "wip_area": 277460.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 233.0,
+      "residual_wip": 216.0,
+      "completed": 705,
+      "cycle_mean": 306.0529536491857,
+      "cycle_p95": 543.2547375664509,
+      "process": [
+        {
+          "wip_area": 277460.0,
+          "completed": 705,
+          "cycle_mean": 306.0529536491857
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 5,
+      "repeat": 1,
+      "seed": 72005010510,
+      "drained": true,
+      "cost": 315830.0,
+      "wip_area": 315830.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 254.0,
+      "residual_wip": 248.0,
+      "completed": 699,
+      "cycle_mean": 340.22518151488487,
+      "cycle_p95": 627.5806380736398,
+      "process": [
+        {
+          "wip_area": 315830.0,
+          "completed": 699,
+          "cycle_mean": 340.22518151488487
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 5,
+      "repeat": 2,
+      "seed": 72005010520,
+      "drained": true,
+      "cost": 394250.0,
+      "wip_area": 394250.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 395.0,
+      "maximum_wip": 337.0,
+      "residual_wip": 336.0,
+      "completed": 709,
+      "cycle_mean": 380.563332065236,
+      "cycle_p95": 733.3347278865683,
+      "process": [
+        {
+          "wip_area": 394250.0,
+          "completed": 709,
+          "cycle_mean": 380.563332065236
+        }
+      ]
+    },
+    {
+      "world": "service",
+      "condition": 5,
+      "repeat": 3,
+      "seed": 72005010530,
+      "drained": true,
+      "cost": 342800.0,
+      "wip_area": 342800.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 395.0,
+      "maximum_wip": 293.0,
+      "residual_wip": 290.0,
+      "completed": 734,
+      "cycle_mean": 345.2472633055178,
+      "cycle_p95": 669.1096392498416,
+      "process": [
+        {
+          "wip_area": 342800.0,
+          "completed": 734,
+          "cycle_mean": 345.2472633055178
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 0,
+      "repeat": 0,
+      "seed": 72005020000,
+      "drained": true,
+      "cost": 5800.0,
+      "wip_area": 5800.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 13.0,
+      "residual_wip": 0.0,
+      "completed": 591,
+      "cycle_mean": 9.70127573508208,
+      "cycle_p95": 14.438979136471943,
+      "process": [
+        {
+          "wip_area": 5800.0,
+          "completed": 591,
+          "cycle_mean": 9.70127573508208
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 0,
+      "repeat": 1,
+      "seed": 72005020010,
+      "drained": true,
+      "cost": 5425.0,
+      "wip_area": 5425.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 11.0,
+      "residual_wip": 3.0,
+      "completed": 569,
+      "cycle_mean": 9.629999651109753,
+      "cycle_p95": 13.649836865126327,
+      "process": [
+        {
+          "wip_area": 5425.0,
+          "completed": 569,
+          "cycle_mean": 9.629999651109753
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 0,
+      "repeat": 2,
+      "seed": 72005020020,
+      "drained": true,
+      "cost": 5875.0,
+      "wip_area": 5875.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 12.0,
+      "residual_wip": 2.0,
+      "completed": 598,
+      "cycle_mean": 9.763426515331751,
+      "cycle_p95": 14.243157673679564,
+      "process": [
+        {
+          "wip_area": 5875.0,
+          "completed": 598,
+          "cycle_mean": 9.763426515331751
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 0,
+      "repeat": 3,
+      "seed": 72005020030,
+      "drained": true,
+      "cost": 5965.0,
+      "wip_area": 5965.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 13.0,
+      "residual_wip": 4.0,
+      "completed": 590,
+      "cycle_mean": 9.970630984625402,
+      "cycle_p95": 15.346527434544052,
+      "process": [
+        {
+          "wip_area": 5965.0,
+          "completed": 590,
+          "cycle_mean": 9.970630984625402
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 1,
+      "repeat": 0,
+      "seed": 72005020100,
+      "drained": true,
+      "cost": 7530.0,
+      "wip_area": 7530.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 11.0,
+      "residual_wip": 7.0,
+      "completed": 731,
+      "cycle_mean": 10.182670717161583,
+      "cycle_p95": 16.158198635696408,
+      "process": [
+        {
+          "wip_area": 7530.0,
+          "completed": 731,
+          "cycle_mean": 10.182670717161583
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 1,
+      "repeat": 1,
+      "seed": 72005020110,
+      "drained": true,
+      "cost": 7250.0,
+      "wip_area": 7250.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 14.0,
+      "residual_wip": 5.0,
+      "completed": 704,
+      "cycle_mean": 10.303197765821258,
+      "cycle_p95": 15.924317948046195,
+      "process": [
+        {
+          "wip_area": 7250.0,
+          "completed": 704,
+          "cycle_mean": 10.303197765821258
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 1,
+      "repeat": 2,
+      "seed": 72005020120,
+      "drained": true,
+      "cost": 7555.0,
+      "wip_area": 7555.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 14.0,
+      "residual_wip": 5.0,
+      "completed": 741,
+      "cycle_mean": 10.251254062520447,
+      "cycle_p95": 15.784804967652576,
+      "process": [
+        {
+          "wip_area": 7555.0,
+          "completed": 741,
+          "cycle_mean": 10.251254062520447
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 1,
+      "repeat": 3,
+      "seed": 72005020130,
+      "drained": true,
+      "cost": 7995.0,
+      "wip_area": 7995.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 13.0,
+      "residual_wip": 2.0,
+      "completed": 761,
+      "cycle_mean": 10.478914199559915,
+      "cycle_p95": 16.85146607114416,
+      "process": [
+        {
+          "wip_area": 7995.0,
+          "completed": 761,
+          "cycle_mean": 10.478914199559915
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 2,
+      "repeat": 0,
+      "seed": 72005020200,
+      "drained": true,
+      "cost": 30075.0,
+      "wip_area": 30075.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 98.0,
+      "residual_wip": 3.0,
+      "completed": 727,
+      "cycle_mean": 41.50503756077438,
+      "cycle_p95": 180.85423913757313,
+      "process": [
+        {
+          "wip_area": 30075.0,
+          "completed": 727,
+          "cycle_mean": 41.50503756077438
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 2,
+      "repeat": 1,
+      "seed": 72005020210,
+      "drained": true,
+      "cost": 30925.0,
+      "wip_area": 30925.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 101.0,
+      "residual_wip": 5.0,
+      "completed": 743,
+      "cycle_mean": 41.54377359227746,
+      "cycle_p95": 163.97906967299113,
+      "process": [
+        {
+          "wip_area": 30925.0,
+          "completed": 743,
+          "cycle_mean": 41.54377359227746
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 2,
+      "repeat": 2,
+      "seed": 72005020220,
+      "drained": true,
+      "cost": 29305.0,
+      "wip_area": 29305.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 74.0,
+      "residual_wip": 1.0,
+      "completed": 748,
+      "cycle_mean": 39.24495108193942,
+      "cycle_p95": 142.06285352043983,
+      "process": [
+        {
+          "wip_area": 29305.0,
+          "completed": 748,
+          "cycle_mean": 39.24495108193942
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 2,
+      "repeat": 3,
+      "seed": 72005020230,
+      "drained": true,
+      "cost": 37805.0,
+      "wip_area": 37805.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 109.0,
+      "residual_wip": 4.0,
+      "completed": 733,
+      "cycle_mean": 51.59930449174018,
+      "cycle_p95": 210.01161592824658,
+      "process": [
+        {
+          "wip_area": 37805.0,
+          "completed": 733,
+          "cycle_mean": 51.59930449174018
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 3,
+      "repeat": 0,
+      "seed": 72005020300,
+      "drained": true,
+      "cost": 21810.0,
+      "wip_area": 21810.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 62.0,
+      "residual_wip": 7.0,
+      "completed": 823,
+      "cycle_mean": 26.573160990975737,
+      "cycle_p95": 97.51799382249607,
+      "process": [
+        {
+          "wip_area": 21810.0,
+          "completed": 823,
+          "cycle_mean": 26.573160990975737
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 3,
+      "repeat": 1,
+      "seed": 72005020310,
+      "drained": true,
+      "cost": 39175.0,
+      "wip_area": 39175.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 435.0,
+      "maximum_wip": 89.0,
+      "residual_wip": 5.0,
+      "completed": 900,
+      "cycle_mean": 43.43764948552825,
+      "cycle_p95": 170.10558805515367,
+      "process": [
+        {
+          "wip_area": 39175.0,
+          "completed": 900,
+          "cycle_mean": 43.43764948552825
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 3,
+      "repeat": 2,
+      "seed": 72005020320,
+      "drained": true,
+      "cost": 22975.0,
+      "wip_area": 22975.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 73.0,
+      "residual_wip": 6.0,
+      "completed": 838,
+      "cycle_mean": 27.318828427570523,
+      "cycle_p95": 100.60902599657553,
+      "process": [
+        {
+          "wip_area": 22975.0,
+          "completed": 838,
+          "cycle_mean": 27.318828427570523
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 3,
+      "repeat": 3,
+      "seed": 72005020330,
+      "drained": true,
+      "cost": 40805.0,
+      "wip_area": 40805.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 430.0,
+      "maximum_wip": 108.0,
+      "residual_wip": 3.0,
+      "completed": 895,
+      "cycle_mean": 45.65883299666842,
+      "cycle_p95": 171.31245134384756,
+      "process": [
+        {
+          "wip_area": 40805.0,
+          "completed": 895,
+          "cycle_mean": 45.65883299666842
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 4,
+      "repeat": 0,
+      "seed": 72005020400,
+      "drained": true,
+      "cost": 104785.0,
+      "wip_area": 104785.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 188.0,
+      "residual_wip": 4.0,
+      "completed": 856,
+      "cycle_mean": 122.28649678349838,
+      "cycle_p95": 379.62064924930485,
+      "process": [
+        {
+          "wip_area": 104785.0,
+          "completed": 856,
+          "cycle_mean": 122.28649678349838
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 4,
+      "repeat": 1,
+      "seed": 72005020410,
+      "drained": true,
+      "cost": 120080.0,
+      "wip_area": 120080.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 190.0,
+      "residual_wip": 8.0,
+      "completed": 835,
+      "cycle_mean": 143.7690327548018,
+      "cycle_p95": 452.7173625439008,
+      "process": [
+        {
+          "wip_area": 120080.0,
+          "completed": 835,
+          "cycle_mean": 143.7690327548018
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 4,
+      "repeat": 2,
+      "seed": 72005020420,
+      "drained": true,
+      "cost": 111025.0,
+      "wip_area": 111025.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 194.0,
+      "residual_wip": 2.0,
+      "completed": 844,
+      "cycle_mean": 131.51013946236904,
+      "cycle_p95": 421.7982834284287,
+      "process": [
+        {
+          "wip_area": 111025.0,
+          "completed": 844,
+          "cycle_mean": 131.51013946236904
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 4,
+      "repeat": 3,
+      "seed": 72005020430,
+      "drained": true,
+      "cost": 132790.0,
+      "wip_area": 132790.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 400.0,
+      "maximum_wip": 223.0,
+      "residual_wip": 5.0,
+      "completed": 842,
+      "cycle_mean": 157.8166939725188,
+      "cycle_p95": 482.6936182133046,
+      "process": [
+        {
+          "wip_area": 132790.0,
+          "completed": 842,
+          "cycle_mean": 157.8166939725188
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 5,
+      "repeat": 0,
+      "seed": 72005020500,
+      "drained": true,
+      "cost": 148350.0,
+      "wip_area": 148350.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 430.0,
+      "maximum_wip": 198.0,
+      "residual_wip": 3.0,
+      "completed": 927,
+      "cycle_mean": 160.01275955523369,
+      "cycle_p95": 480.25094140014903,
+      "process": [
+        {
+          "wip_area": 148350.0,
+          "completed": 927,
+          "cycle_mean": 160.01275955523369
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 5,
+      "repeat": 1,
+      "seed": 72005020510,
+      "drained": true,
+      "cost": 120115.0,
+      "wip_area": 120115.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 400.0,
+      "maximum_wip": 191.0,
+      "residual_wip": 3.0,
+      "completed": 948,
+      "cycle_mean": 126.68729757680751,
+      "cycle_p95": 388.6221389579699,
+      "process": [
+        {
+          "wip_area": 120115.0,
+          "completed": 948,
+          "cycle_mean": 126.68729757680751
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 5,
+      "repeat": 2,
+      "seed": 72005020520,
+      "drained": true,
+      "cost": 151170.0,
+      "wip_area": 151170.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 196.0,
+      "residual_wip": 4.0,
+      "completed": 958,
+      "cycle_mean": 157.7577343505563,
+      "cycle_p95": 467.37931279521314,
+      "process": [
+        {
+          "wip_area": 151170.0,
+          "completed": 958,
+          "cycle_mean": 157.7577343505563
+        }
+      ]
+    },
+    {
+      "world": "routing",
+      "condition": 5,
+      "repeat": 3,
+      "seed": 72005020530,
+      "drained": true,
+      "cost": 167510.0,
+      "wip_area": 167510.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 208.0,
+      "residual_wip": 26.0,
+      "completed": 979,
+      "cycle_mean": 169.8277073505177,
+      "cycle_p95": 492.4284300442313,
+      "process": [
+        {
+          "wip_area": 167510.0,
+          "completed": 979,
+          "cycle_mean": 169.8277073505177
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 0,
+      "repeat": 0,
+      "seed": 72005030000,
+      "drained": true,
+      "cost": 6920.0,
+      "wip_area": 6920.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 13.0,
+      "residual_wip": 4.0,
+      "completed": 611,
+      "cycle_mean": 11.313033187318608,
+      "cycle_p95": 18.610440044608026,
+      "process": [
+        {
+          "wip_area": 6920.0,
+          "completed": 611,
+          "cycle_mean": 11.313033187318608
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 0,
+      "repeat": 1,
+      "seed": 72005030010,
+      "drained": true,
+      "cost": 6925.0,
+      "wip_area": 6925.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 16.0,
+      "residual_wip": 9.0,
+      "completed": 587,
+      "cycle_mean": 11.835690149070775,
+      "cycle_p95": 20.15458778703784,
+      "process": [
+        {
+          "wip_area": 6925.0,
+          "completed": 587,
+          "cycle_mean": 11.835690149070775
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 0,
+      "repeat": 2,
+      "seed": 72005030020,
+      "drained": true,
+      "cost": 6375.0,
+      "wip_area": 6375.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 12.0,
+      "residual_wip": 3.0,
+      "completed": 573,
+      "cycle_mean": 11.132900374683228,
+      "cycle_p95": 17.721566320476448,
+      "process": [
+        {
+          "wip_area": 6375.0,
+          "completed": 573,
+          "cycle_mean": 11.132900374683228
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 0,
+      "repeat": 3,
+      "seed": 72005030030,
+      "drained": true,
+      "cost": 6740.0,
+      "wip_area": 6740.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 15.0,
+      "residual_wip": 2.0,
+      "completed": 580,
+      "cycle_mean": 11.45450659389324,
+      "cycle_p95": 20.407069357965238,
+      "process": [
+        {
+          "wip_area": 6740.0,
+          "completed": 580,
+          "cycle_mean": 11.45450659389324
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 1,
+      "repeat": 0,
+      "seed": 72005030100,
+      "drained": true,
+      "cost": 26070.0,
+      "wip_area": 26070.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 41.0,
+      "residual_wip": 3.0,
+      "completed": 790,
+      "cycle_mean": 33.01258668124741,
+      "cycle_p95": 79.02363267117939,
+      "process": [
+        {
+          "wip_area": 26070.0,
+          "completed": 790,
+          "cycle_mean": 33.01258668124741
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 1,
+      "repeat": 1,
+      "seed": 72005030110,
+      "drained": true,
+      "cost": 9985.0,
+      "wip_area": 9985.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 16.0,
+      "residual_wip": 6.0,
+      "completed": 746,
+      "cycle_mean": 13.249709352763325,
+      "cycle_p95": 24.216491157772907,
+      "process": [
+        {
+          "wip_area": 9985.0,
+          "completed": 746,
+          "cycle_mean": 13.249709352763325
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 1,
+      "repeat": 2,
+      "seed": 72005030120,
+      "drained": true,
+      "cost": 11705.0,
+      "wip_area": 11705.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 28.0,
+      "residual_wip": 26.0,
+      "completed": 748,
+      "cycle_mean": 14.901591210036758,
+      "cycle_p95": 38.923982678658525,
+      "process": [
+        {
+          "wip_area": 11705.0,
+          "completed": 748,
+          "cycle_mean": 14.901591210036758
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 1,
+      "repeat": 3,
+      "seed": 72005030130,
+      "drained": true,
+      "cost": 12065.0,
+      "wip_area": 12065.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": false,
+      "crisis_onset": null,
+      "maximum_wip": 17.0,
+      "residual_wip": 13.0,
+      "completed": 812,
+      "cycle_mean": 14.588281358757811,
+      "cycle_p95": 27.153168212264408,
+      "process": [
+        {
+          "wip_area": 12065.0,
+          "completed": 812,
+          "cycle_mean": 14.588281358757811
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 2,
+      "repeat": 0,
+      "seed": 72005030200,
+      "drained": true,
+      "cost": 88645.0,
+      "wip_area": 88645.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 113.0,
+      "residual_wip": 4.0,
+      "completed": 673,
+      "cycle_mean": 131.5963965119283,
+      "cycle_p95": 281.0793340640195,
+      "process": [
+        {
+          "wip_area": 88645.0,
+          "completed": 673,
+          "cycle_mean": 131.5963965119283
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 2,
+      "repeat": 1,
+      "seed": 72005030210,
+      "drained": true,
+      "cost": 109090.0,
+      "wip_area": 109090.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 430.0,
+      "maximum_wip": 111.0,
+      "residual_wip": 26.0,
+      "completed": 681,
+      "cycle_mean": 159.05548980068215,
+      "cycle_p95": 265.29961834302776,
+      "process": [
+        {
+          "wip_area": 109090.0,
+          "completed": 681,
+          "cycle_mean": 159.05548980068215
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 2,
+      "repeat": 2,
+      "seed": 72005030220,
+      "drained": true,
+      "cost": 106230.0,
+      "wip_area": 106230.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 130.0,
+      "residual_wip": 14.0,
+      "completed": 686,
+      "cycle_mean": 154.49576071247415,
+      "cycle_p95": 301.18693950381817,
+      "process": [
+        {
+          "wip_area": 106230.0,
+          "completed": 686,
+          "cycle_mean": 154.49576071247415
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 2,
+      "repeat": 3,
+      "seed": 72005030230,
+      "drained": true,
+      "cost": 105585.0,
+      "wip_area": 105585.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 131.0,
+      "residual_wip": 5.0,
+      "completed": 700,
+      "cycle_mean": 150.7485723177789,
+      "cycle_p95": 304.7254446230484,
+      "process": [
+        {
+          "wip_area": 105585.0,
+          "completed": 700,
+          "cycle_mean": 150.7485723177789
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 3,
+      "repeat": 0,
+      "seed": 72005030300,
+      "drained": true,
+      "cost": 167530.0,
+      "wip_area": 167530.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 435.0,
+      "maximum_wip": 165.0,
+      "residual_wip": 165.0,
+      "completed": 696,
+      "cycle_mean": 198.84719422659435,
+      "cycle_p95": 331.1947624493464,
+      "process": [
+        {
+          "wip_area": 167530.0,
+          "completed": 696,
+          "cycle_mean": 198.84719422659435
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 3,
+      "repeat": 1,
+      "seed": 72005030310,
+      "drained": true,
+      "cost": 171560.0,
+      "wip_area": 171560.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 160.0,
+      "residual_wip": 152.0,
+      "completed": 721,
+      "cycle_mean": 200.48638534103426,
+      "cycle_p95": 332.01367568401497,
+      "process": [
+        {
+          "wip_area": 171560.0,
+          "completed": 721,
+          "cycle_mean": 200.48638534103426
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 3,
+      "repeat": 2,
+      "seed": 72005030320,
+      "drained": true,
+      "cost": 177265.0,
+      "wip_area": 177265.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 415.0,
+      "maximum_wip": 172.0,
+      "residual_wip": 165.0,
+      "completed": 706,
+      "cycle_mean": 213.0063930139787,
+      "cycle_p95": 361.25154619826617,
+      "process": [
+        {
+          "wip_area": 177265.0,
+          "completed": 706,
+          "cycle_mean": 213.0063930139787
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 3,
+      "repeat": 3,
+      "seed": 72005030330,
+      "drained": true,
+      "cost": 180315.0,
+      "wip_area": 180315.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 420.0,
+      "maximum_wip": 163.0,
+      "residual_wip": 161.0,
+      "completed": 723,
+      "cycle_mean": 212.10510153621473,
+      "cycle_p95": 352.4747123470516,
+      "process": [
+        {
+          "wip_area": 180315.0,
+          "completed": 723,
+          "cycle_mean": 212.10510153621473
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 4,
+      "repeat": 0,
+      "seed": 72005030400,
+      "drained": true,
+      "cost": 265230.0,
+      "wip_area": 265230.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 239.0,
+      "residual_wip": 166.0,
+      "completed": 696,
+      "cycle_mean": 328.3251587894945,
+      "cycle_p95": 594.2823569416552,
+      "process": [
+        {
+          "wip_area": 265230.0,
+          "completed": 696,
+          "cycle_mean": 328.3251587894945
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 4,
+      "repeat": 1,
+      "seed": 72005030410,
+      "drained": true,
+      "cost": 318795.0,
+      "wip_area": 318795.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 400.0,
+      "maximum_wip": 256.0,
+      "residual_wip": 222.0,
+      "completed": 700,
+      "cycle_mean": 360.21939858213483,
+      "cycle_p95": 647.880660489919,
+      "process": [
+        {
+          "wip_area": 318795.0,
+          "completed": 700,
+          "cycle_mean": 360.21939858213483
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 4,
+      "repeat": 2,
+      "seed": 72005030420,
+      "drained": true,
+      "cost": 241170.0,
+      "wip_area": 241170.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 221.0,
+      "residual_wip": 155.0,
+      "completed": 657,
+      "cycle_mean": 314.61853367416535,
+      "cycle_p95": 540.2592746653958,
+      "process": [
+        {
+          "wip_area": 241170.0,
+          "completed": 657,
+          "cycle_mean": 314.61853367416535
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 4,
+      "repeat": 3,
+      "seed": 72005030430,
+      "drained": true,
+      "cost": 277290.0,
+      "wip_area": 277290.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 405.0,
+      "maximum_wip": 233.0,
+      "residual_wip": 201.0,
+      "completed": 695,
+      "cycle_mean": 330.54794807815307,
+      "cycle_p95": 571.6710467711354,
+      "process": [
+        {
+          "wip_area": 277290.0,
+          "completed": 695,
+          "cycle_mean": 330.54794807815307
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 5,
+      "repeat": 0,
+      "seed": 72005030500,
+      "drained": true,
+      "cost": 320505.0,
+      "wip_area": 320505.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 410.0,
+      "maximum_wip": 294.0,
+      "residual_wip": 293.0,
+      "completed": 688,
+      "cycle_mean": 332.80101100575246,
+      "cycle_p95": 607.8199350590414,
+      "process": [
+        {
+          "wip_area": 320505.0,
+          "completed": 688,
+          "cycle_mean": 332.80101100575246
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 5,
+      "repeat": 1,
+      "seed": 72005030510,
+      "drained": true,
+      "cost": 377795.0,
+      "wip_area": 377795.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 395.0,
+      "maximum_wip": 315.0,
+      "residual_wip": 305.0,
+      "completed": 706,
+      "cycle_mean": 376.56724442083566,
+      "cycle_p95": 694.4150215995808,
+      "process": [
+        {
+          "wip_area": 377795.0,
+          "completed": 706,
+          "cycle_mean": 376.56724442083566
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 5,
+      "repeat": 2,
+      "seed": 72005030520,
+      "drained": true,
+      "cost": 350220.0,
+      "wip_area": 350220.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 390.0,
+      "maximum_wip": 297.0,
+      "residual_wip": 280.0,
+      "completed": 717,
+      "cycle_mean": 350.9158778922085,
+      "cycle_p95": 655.9352824368657,
+      "process": [
+        {
+          "wip_area": 350220.0,
+          "completed": 717,
+          "cycle_mean": 350.9158778922085
+        }
+      ]
+    },
+    {
+      "world": "combined",
+      "condition": 5,
+      "repeat": 3,
+      "seed": 72005030530,
+      "drained": true,
+      "cost": 381180.0,
+      "wip_area": 381180.0,
+      "action_cost": 0.0,
+      "trigger": -1.0,
+      "crisis": true,
+      "crisis_onset": 380.0,
+      "maximum_wip": 309.0,
+      "residual_wip": 279.0,
+      "completed": 710,
+      "cycle_mean": 388.946771626948,
+      "cycle_p95": 714.1683915944185,
+      "process": [
+        {
+          "wip_area": 381180.0,
+          "completed": 710,
+          "cycle_mean": 388.946771626948
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "02e978fa97f99259e982b7fbd72054731061c139354efab73e6ef2d91be24973"
+}
