@@ -1,0 +1,22 @@
+\section{Results}
+\subsection{The serial control isolates the effect of component selection}
+In P0's primary routing-feedback setting, retained-load planning reduces mean cost by 38.2\% relative to static planning and by 38.1\% relative to capacity-at-20 (Table~\ref{tab:primary}). The paired, multiplicity-adjusted 97.5\% intervals are $[-51.56,-19.40]$ and $[-51.23,-19.32]$ thousand. Relative to predictive selection, the reduction is 35.4\%, with descriptive 95\% interval $[-46.30,-16.66]$ thousand.
+
+\begin{table}[t]\caption{P0: mean realized cost in thousands over 12 independent fits per mechanism. All methods use the same test conditions.}\label{tab:primary}\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}\toprule
+Mechanism & \shortstack{No\\action} & Static & Retained & Predictive & \shortstack{Capacity\\at 20} & \shortstack{Rework\\at 20}\\\midrule
+\input{generated/e7_costs_en.tex}
+\end{tabular}\end{table}
+
+Predictive selection retains the return-load component in 2 of 12 fits and chooses rework reduction in 1; retained-load planning chooses it in 9. Every retained-load fit selects threshold 20, so this result concerns action choice, not improved timing. The fixed rework rule and known-generator planner both cost 45.3 thousand, below retained-load's 57.4. Their paired difference is $12.04$ thousand, with 95\% interval $[-1.87,25.94]$. A feedback-strength heuristic costs 73.0 thousand and chooses rework in 5 fits; the retained-load minus heuristic interval is $[-38.90,7.65]$ thousand. These comparisons do not establish an advantage over either strong simple baseline.
+
+The known-generator planner selects rework-at-20 for all 12 fits. Retained-load's excess cost comes from its 3 capacity choices: their fitted models reverse the ranking observed on the independent test. Those calibration histories reach only 12--19 unfinished cases. The error therefore concerns action ranking beyond observed support; the experiment does not isolate a unique incorrect coefficient.
+
+The other mechanisms distinguish useful adaptation from indiscriminate complexity. Under service feedback all planners choose capacity-at-20. Under fixed behavior, retained-load raises cost by 10.9\% relative to static planning; under combined feedback it reduces cost by 6.7\%, while severe-event incidence increases from 69.3\% to 71.0\%. A lower integrated cost therefore need not imply fewer sustained overload events.
+
+\subsection{Selector sensitivity and observable response behavior}
+The P0 diagnostic reuses every saved test action while varying the return-selection threshold over $0,0.001,0.0025,0.005,0.01$. The selector retains the component in $8,5,2,2,0$ of the 12 routing fits, respectively; mean costs are $80.8,84.9,88.8,88.8,92.8$ thousand. Retained-load remains at $57.4$ thousand. The observed difference is consequently not confined to the original threshold $0.005$. Varying the duration threshold over $0,0.0025,0.005,0.01,0.02$ gives selector costs of $85.1$ thousand at zero and $88.8$ at the other settings. These are diagnostics on the existing independent-test catalog, not additional confirmatory datasets. Duration-only and return-only retention cost $69.4$ and $80.8$ thousand, respectively; both retained components produce the lowest mean among these ablations.
+
+In all 289 P0 routing trajectories with a severe event under no action, the retained-load rule activates beforehand, with mean lead 108.0. It prevents 93 events (32.2\%). No activation occurs in 192 calm trajectories, but 95 of the 287 trajectories without a no-action severe event activate the rule. With the originally selected policies unchanged, actual rework reductions of 30\%, 50\% and 70\% yield cost reductions of 17.0--48.7\% relative to static planning. These results separate timely activation, event prevention, cost reduction and robustness to action-effect error.
+
+\input{sections/structural_results_en.tex}

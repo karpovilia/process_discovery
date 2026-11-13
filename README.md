@@ -2,11 +2,29 @@
 
 Research artifact for the CAiSE2027 manuscript. The method prepares an intervention and an observable activation rule from pre-crisis process logs and a specified stress library.
 
-## Current state
+## Checked manuscript revision v7
 
-The frozen structural extension is running: six process structures, four feedback mechanisms, twelve independent training datasets per combination (288 total). Known and train-only discovered structures are evaluated separately. Code and protocol are available here; complete verified results and revised manuscripts will be added when the run finishes. No new cost advantage is claimed before the complete analysis.
+- [English paper](artifact/manuscript/paper_en.pdf), 13 main-text LNCS pages.
+- [Russian translation](artifact/manuscript/paper_ru.pdf), 14 main-text pages.
+- [English supplement](artifact/manuscript/supplement_en.pdf).
+- [Russian supplement](artifact/manuscript/supplement_ru.pdf).
 
-`experiments/caise2027_structural_20261113/v2/PROTOCOL.md` defines the experiment. `FREEZE.json` records the exact executed source and generator hashes. The preceding implementation was superseded after a pre-outcome loss-definition audit; `AMENDMENT.json` records this correction. No generator constants were selected using method performance.
+All 288 structural fits completed; all 3168 calibration/validation episodes pass
+the pre-crisis criterion. Independent arithmetic checks cover 200448 policy paths
+with zero discrepancy. Source/PDF consistency, numeric translation parity, references
+and anonymous PDF metadata passed automated checks; selected pages were also
+visually inspected. The original P0 evidence remains unchanged.
+
+The new primary results are mixed: no per-structure improvement passes correction
+for six comparisons, and P4 worsens. Secondary routing/combined averages favor
+retention with supplied structure, but the routing aggregate benefit disappears
+with discovered structure. The paper and supplement report strong comparators,
+selector sensitivity and structural failures alongside the supported benefits.
+
+The complete trajectory archive is being packaged and verified in a fresh location.
+It has not yet been uploaded. PDFs use Git LFS; install LFS and run `git lfs pull`
+if a downloaded file is a text pointer. This owner repository is not an anonymous
+review link; a separate anonymous mirror is still required.
 
 ## Implementation
 
