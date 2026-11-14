@@ -1,10 +1,11 @@
 # Preparing Congestion Responses from Pre-Crisis Process Logs
 
-CAiSE2027 research manuscript and reproducibility release, 14 November 2026.
+CAiSE 2027 research manuscript and reproducibility release, 14 November 2026.
 
 - [English manuscript, v7](papers/CAiSE2027_Preparing_Congestion_Responses_v7_EN.pdf): 13 pages before references.
 - [Russian translation, v7](papers/CAiSE2027_Preparing_Congestion_Responses_v7_RU.pdf): 14 pages before references.
 - [English supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_EN.pdf) and [Russian supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_RU.pdf).
+- [Submission fields in the requested HTML format](submission/CAiSE2027_Preparing_Congestion_Responses_v7_Submission_Fields.html), with matching [plain text](submission/submission_fields_en.txt).
 - [Complete package index](releases/v3/packages/packages.json), [fresh-extraction verification](releases/v3/VERIFIED.json).
 - [Frozen structural protocol](artifact/structural/PROTOCOL.md) and [aggregate comparisons](artifact/structural/analysis/aggregate.json).
 
