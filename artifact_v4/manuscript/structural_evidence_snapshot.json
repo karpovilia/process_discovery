@@ -1,0 +1,36 @@
+{
+  "source_freeze_sha256": "b9d2d6fc6ba718874e578c4550dbc11ba135105ec7cec42bc223742768e02869",
+  "analysis_inputs": {
+    "aggregate.json": "0403a881218ffbc9cd05f0fcf19831fb667c6c235d6830fcb6bc70027bcc6594",
+    "confirmatory_summary.json": "2c23f1d5388a4aca8643b9296e9db5747384e698eb2627ce92bc3a263a86215c",
+    "contrasts.json": "7b8dc98cef1f8dc329aead61bf10374a0f626ae63daa18879c28f6a76e2664a3",
+    "decision_integrity_audit.json": "1ebd464f765d64717b626ede6dad4d4985516929e64dc26964abf1aa54556deb",
+    "discovery_summary.json": "4943b20a29b9e03dbdfd3c7a4cf03b1703b4f5e374953d3944cf118ee3c31f21",
+    "input_isolation_audit.json": "a80132bafc4b0043eb3085539bf4021b4d48a54b2f5fce507c0c2210d6b846c8",
+    "paper_claims.json": "af0c34d14934b6bf5adbd9e4f56307d96c5092791bdd76594dc3410407663645",
+    "raw_audit.json": "95176cc2365e1020cbba23c70283e5a4af50e02b32b4b539f29a67a25f17ced3",
+    "resource_summary.json": "d14f9b958840aadf5f73b25cb484529bb5ab032fd43da3ff7f4be6f50d1b4e1b",
+    "selector_summary.json": "1b32884257fab27c7646651c8edbf5c32c070145bd7c11f4e2c55308c1dceae7",
+    "summary.json": "95667ba8077006353fccc103d2e0c0bfc3f11a4edd1211229f3f3eff295e2970",
+    "trigger_support.json": "6a1d583307cdb94163d4f53eb4765bbc6738a2e8944af006684c0ba612c061b7"
+  },
+  "generators_sha256": {
+    "render_results.py": "6c25c9ab5e17f8595620e858eac8c1eb9642f1e4958ea57ff2df1f058c8065ca",
+    "report_diagnostics.py": "d06c2143be28cb90827fa989c49a83cfe8e5e4cb86c85934dc838b05fa2aa782",
+    "operational_report.py": "c4fce55641c20412c278c5717707f6f79684d0170b6458d2cd52960781c6c81e",
+    "paper_claims.py": "66bb6d480735d42214d779b7a54dcf0ff6f8dae0433c8103ea4c3442bd5abace"
+  },
+  "outputs": {
+    "operational_supplement_en.tex": "1d975642b51af888f430d79aadbf9e86affbc72a4c47aeec18cd77aa7a2adb68",
+    "operational_supplement_ru.tex": "13cc53f94a224810083b92c96c1a0ad9e4976f08d031fcf33d07d367b9cc36f2",
+    "structural_matrix_en.pdf": "186d3f4b7444bb69af63b344b8946db4ee5cbaca5fafa4e6acac3b75c08f852c",
+    "structural_matrix_en.png": "f9ee91c83d109fe2355a13993317f0387936cf2107e84262b159c39b149f499d",
+    "structural_matrix_ru.pdf": "cb275dc785cfa3ae52d124c2772df05f5b1f00d523004129b9d743db2f5620d3",
+    "structural_matrix_ru.png": "92b3e1f7695963546c3656b3ab013e48150ece8eb8e090476cc20cfd12fcdf8d",
+    "structural_primary_en.tex": "82b21ed6d3955fd86b036faf4dd3748ed3ce44f896acdc5ec0631f3d051d7691",
+    "structural_primary_ru.tex": "069dd3ce5f00aa6dc3f40ae062ed6cd460478c623c1304a525e44a54efc0c693",
+    "structural_supplement_en.tex": "32ddd92f312b75b90dfec47225245ba1355549a8b1aec53ec2996d33e11a3bfc",
+    "structural_supplement_ru.tex": "6cc4e76fbb2b067eca33faedf8d9078736f2f2d6b0ad3ca9b38e78491fa2cec2"
+  },
+  "scope": "Assets copied only after completed raw and independent primary-contrast audits; no manuscript numerical assertion is inferred from uncompleted calculations."
+}

@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-14T07:57:37.291922+00:00",
+  "scope": "Presentation scripts copied from v2 contained obsolete hypothesis labels and fixed replay counts. Updated to display the already-frozen two primary aggregate contrasts, all three structural variants, and computed replay counts. No experimental, selection, generator, seed or frozen statistical-analysis file changed. No new main policy-cost summary was inspected for this edit.",
+  "changes": [
+    {
+      "file": "report_diagnostics.py",
+      "before_sha256": "7c210032b8f242a0af86223cf2c25799c1eeffd0ceff63068368c01bfa4de1e4",
+      "after_sha256": "72506516d1799ad3d2d2f19eec2d4e10b01dd33c7e15c89206fb72e8ba328843"
+    },
+    {
+      "file": "operational_report.py",
+      "before_sha256": "810ebc536674a2fbc16982fca9d3f2f3fcea5edc7280f0ab75e84311507de8da",
+      "after_sha256": "c4fce55641c20412c278c5717707f6f79684d0170b6458d2cd52960781c6c81e"
+    },
+    {
+      "file": "render_results.py",
+      "before_sha256": "37e9cce184d567ee2015155cb0e83b80c1a0c4c655ae138fe0aa40520ee0d725",
+      "after_sha256": "6c25c9ab5e17f8595620e858eac8c1eb9642f1e4958ea57ff2df1f058c8065ca"
+    }
+  ]
+}

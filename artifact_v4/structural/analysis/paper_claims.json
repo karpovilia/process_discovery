@@ -1,0 +1,6719 @@
+{
+  "source_sha256": {
+    "summary.json": "95667ba8077006353fccc103d2e0c0bfc3f11a4edd1211229f3f3eff295e2970",
+    "contrasts.json": "7b8dc98cef1f8dc329aead61bf10374a0f626ae63daa18879c28f6a76e2664a3",
+    "aggregate.json": "0403a881218ffbc9cd05f0fcf19831fb667c6c235d6830fcb6bc70027bcc6594",
+    "confirmatory_summary.json": "2c23f1d5388a4aca8643b9296e9db5747384e698eb2627ce92bc3a263a86215c",
+    "selector_summary.json": "1b32884257fab27c7646651c8edbf5c32c070145bd7c11f4e2c55308c1dceae7",
+    "discovery_summary.json": "4943b20a29b9e03dbdfd3c7a4cf03b1703b4f5e374953d3944cf118ee3c31f21",
+    "resource_summary.json": "d14f9b958840aadf5f73b25cb484529bb5ab032fd43da3ff7f4be6f50d1b4e1b",
+    "trigger_support.json": "6a1d583307cdb94163d4f53eb4765bbc6738a2e8944af006684c0ba612c061b7",
+    "decision_integrity_audit.json": "1ebd464f765d64717b626ede6dad4d4985516929e64dc26964abf1aa54556deb",
+    "raw_audit.json": "95176cc2365e1020cbba23c70283e5a4af50e02b32b4b539f29a67a25f17ced3"
+  },
+  "precrisis_violations": [
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 1,
+      "stage": "train",
+      "episode": 7,
+      "maximum_wip": 100.0,
+      "crisis_onset": 122.5
+    }
+  ],
+  "primary": [
+    {
+      "hypothesis": "H1_retention",
+      "method": "discovered_retained",
+      "baseline": "discovered_predictive",
+      "complete_and_precrisis": true,
+      "mean": -0.08477281153059191,
+      "low": -0.13526141102849917,
+      "high": -0.034284212032684634,
+      "df": 28.21736498208389,
+      "benefit_established": true,
+      "weighting": "equal 1/6 across predeclared designed process classes, independent fit-paired variance"
+    },
+    {
+      "hypothesis": "H2_structure",
+      "method": "discovered_retained",
+      "baseline": "legacy_discovered_retained",
+      "complete_and_precrisis": true,
+      "mean": -0.0958215046689483,
+      "low": -0.12054856711878427,
+      "high": -0.07109444221911233,
+      "df": 21.96636303474699,
+      "benefit_established": true,
+      "weighting": "equal 1/6 across predeclared designed process classes, independent fit-paired variance"
+    }
+  ],
+  "routing": [
+    {
+      "process": "P1",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 0.5843590190643556,
+            "low": 0.5760868699073944,
+            "high": 0.5926311682213168,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.15570891744550625,
+            "low": 0.1453723757234205,
+            "high": 0.166045459167592,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3888888888888889,
+            "low": 0.3698876140213216,
+            "high": 0.4078901637564562,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q24": 2,
+            "capacity_shared_q12": 9,
+            "capacity_shared_q6": 1
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.5545219269701996,
+            "low": 0.5159619009391854,
+            "high": 0.5930819530012139,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.12587182535135033,
+            "low": 0.08774687445128553,
+            "high": 0.16399677625141512,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.38020833333333326,
+            "low": 0.3613825125910997,
+            "high": 0.3990341540755668,
+            "n": 12
+          },
+          "policies": {
+            "rework_joint_q6": 2,
+            "capacity_shared_q12": 9,
+            "capacity_shared_q6": 1
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290328,
+            "high": 0.4139839820362366,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.490589171771618,
+            "low": 0.444110875543949,
+            "high": 0.537067467999287,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.061939070152768665,
+            "low": 0.014318101979234409,
+            "high": 0.10956003832630293,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3645833333333333,
+            "low": 0.34462800325718596,
+            "high": 0.3845386634094807,
+            "n": 12
+          },
+          "policies": {
+            "rework_joint_q6": 6,
+            "rework_joint_q12": 1,
+            "capacity_shared_q6": 3,
+            "capacity_shared_q12": 2
+          },
+          "action_agreement": {
+            "mean": 0.5833333333333334,
+            "low": 0.25616327763932606,
+            "high": 0.9105033890273406,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.566034493885437,
+            "low": 0.5596973724771768,
+            "high": 0.5723716152936973,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.13738439226658775,
+            "low": 0.1315929658406469,
+            "high": 0.1431758186925286,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.375,
+            "low": 0.3590357359390821,
+            "high": 0.3909642640609179,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q6": 11,
+            "capacity_shared_q12": 1
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.4989300323721327,
+            "low": 0.452818952862745,
+            "high": 0.5450411118815204,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.07027993075328341,
+            "low": 0.023589803673916818,
+            "high": 0.11697005783265,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.36284722222222215,
+            "low": 0.34459418459278945,
+            "high": 0.38110025985165485,
+            "n": 12
+          },
+          "policies": {
+            "rework_joint_q6": 6,
+            "capacity_shared_q6": 6
+          },
+          "action_agreement": {
+            "mean": 0.5,
+            "low": 0.16818900249253282,
+            "high": 0.8318109975074672,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.4286501016188493,
+            "low": 0.42382756490070805,
+            "high": 0.43347263833699057,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.34375,
+            "low": 0.3368372708852611,
+            "high": 0.3506627291147389,
+            "n": 12
+          },
+          "policies": {
+            "rework_joint_q6": 12
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P1",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": -1594.7330729166667,
+          "low": -2714.191336853339,
+          "high": -475.2748089799943,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": -0.06393275519858169,
+          "low": -0.10882045536332502,
+          "high": -0.01904505503383836,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": -1594.7330729166667,
+          "low": -3226.438330500193,
+          "high": 36.97218466685945,
+          "n": 12
+        },
+        "relative_mean_reduction": 0.11555414563527422
+      }
+    },
+    {
+      "process": "P2",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 0.6878219315845633,
+            "low": 0.5703313179898988,
+            "high": 0.8053125451792278,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.25288368114099996,
+            "low": 0.13519828605898834,
+            "high": 0.3705690762230116,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3802083333333333,
+            "low": 0.35306614998105335,
+            "high": 0.4073505166856133,
+            "n": 12
+          },
+          "policies": {
+            "capacity_complex_q16": 5,
+            "rework_q16": 3,
+            "capacity_complex_q32": 2,
+            "none": 1,
+            "rework_q32": 1
+          },
+          "action_agreement": {
+            "mean": 0.3333333333333333,
+            "low": 0.020498924786929718,
+            "high": 0.6461677418797369,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.6579310572559139,
+            "low": 0.5346512460422924,
+            "high": 0.7812108684695355,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.22299280681235056,
+            "low": 0.0978359740429125,
+            "high": 0.34814963958178863,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3697916666666667,
+            "low": 0.3398586715524457,
+            "high": 0.39972466178088767,
+            "n": 12
+          },
+          "policies": {
+            "capacity_complex_q16": 4,
+            "rework_q16": 2,
+            "capacity_complex_q8": 1,
+            "none": 1,
+            "capacity_complex_q32": 1,
+            "rework_q32": 1,
+            "rework_q8": 2
+          },
+          "action_agreement": {
+            "mean": 0.4166666666666667,
+            "low": 0.08949661097265937,
+            "high": 0.743836722360674,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.5610075876221999,
+            "low": 0.4396650140797387,
+            "high": 0.6823501611646612,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.12606933717863647,
+            "low": 0.004726764239323514,
+            "high": 0.24741191011794944,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.34548611111111116,
+            "low": 0.3225881488009727,
+            "high": 0.3683840734212496,
+            "n": 12
+          },
+          "policies": {
+            "rework_q8": 8,
+            "capacity_complex_q8": 1,
+            "capacity_complex_q16": 2,
+            "capacity_simple_q16": 1
+          },
+          "action_agreement": {
+            "mean": 0.6666666666666666,
+            "low": 0.35383225812026303,
+            "high": 0.9795010752130702,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.8975881407286908,
+            "low": 0.8473558767307591,
+            "high": 0.9478204047266224,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.4626498902851273,
+            "low": 0.41172869932546724,
+            "high": 0.5135710812447875,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.37847222222222215,
+            "low": 0.3626751278366268,
+            "high": 0.3942693166078175,
+            "n": 12
+          },
+          "policies": {
+            "capacity_simple_q8": 9,
+            "capacity_complex_q32": 1,
+            "capacity_complex_q16": 1,
+            "capacity_complex_q8": 1
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.6481390214819657,
+            "low": 0.48298451355237304,
+            "high": 0.8132935294115583,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.2132007710384023,
+            "low": 0.04570936658407357,
+            "high": 0.38069217549273104,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.34027777777777785,
+            "low": 0.32303440180782445,
+            "high": 0.35752115374773125,
+            "n": 12
+          },
+          "policies": {
+            "rework_q8": 7,
+            "capacity_simple_q8": 5
+          },
+          "action_agreement": {
+            "mean": 0.5833333333333334,
+            "low": 0.25616327763932606,
+            "high": 0.9105033890273406,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.43493825044356343,
+            "low": 0.4260252943180881,
+            "high": 0.44385120656903876,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3246527777777778,
+            "low": 0.3178367349508193,
+            "high": 0.33146882060473626,
+            "n": 12
+          },
+          "policies": {
+            "rework_q8": 12
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P2",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": -2452.315104166667,
+          "low": -6812.47366758049,
+          "high": 1907.8434592471558,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": -0.09692346963371408,
+          "low": -0.26725088329338476,
+          "high": 0.07340394402595658,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": -2452.315104166667,
+          "low": -8807.615592816805,
+          "high": 3902.9853844834706,
+          "n": 12
+        },
+        "relative_mean_reduction": 0.1452860625011475
+      }
+    },
+    {
+      "process": "P3",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 0.6591397711715544,
+            "low": 0.6301606835687864,
+            "high": 0.6881188587743224,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.13753851756281274,
+            "low": 0.10893606469076024,
+            "high": 0.16614097043486525,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.6493055555555557,
+            "low": 0.6307281542664915,
+            "high": 0.6678829568446198,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q40": 3,
+            "capacity_B_q20": 5,
+            "capacity_B_q10": 2,
+            "rework_local_q10": 1,
+            "rework_global_q40": 1
+          },
+          "action_agreement": {
+            "mean": 0.08333333333333333,
+            "low": -0.10008209667430325,
+            "high": 0.2667487633409699,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.6591397711715544,
+            "low": 0.6301606835687864,
+            "high": 0.6881188587743224,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.13753851756281274,
+            "low": 0.10893606469076024,
+            "high": 0.16614097043486525,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.6493055555555557,
+            "low": 0.6307281542664915,
+            "high": 0.6678829568446198,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q40": 3,
+            "capacity_B_q20": 5,
+            "capacity_B_q10": 2,
+            "rework_local_q10": 1,
+            "rework_global_q40": 1
+          },
+          "action_agreement": {
+            "mean": 0.08333333333333333,
+            "low": -0.10008209667430325,
+            "high": 0.2667487633409699,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.6133970750125363,
+            "low": 0.5849207617307718,
+            "high": 0.6418733882943007,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.09179582140379462,
+            "low": 0.06302503208210292,
+            "high": 0.12056661072548633,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.642361111111111,
+            "low": 0.6276067566639802,
+            "high": 0.6571154655582419,
+            "n": 12
+          },
+          "policies": {
+            "rework_global_q10": 7,
+            "capacity_B_q10": 2,
+            "rework_local_q10": 2,
+            "rework_global_q40": 1
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290328,
+            "high": 0.4139839820362366,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.6133970750125363,
+            "low": 0.5849207617307718,
+            "high": 0.6418733882943007,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.09179582140379462,
+            "low": 0.06302503208210292,
+            "high": 0.12056661072548633,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.642361111111111,
+            "low": 0.6276067566639802,
+            "high": 0.6571154655582419,
+            "n": 12
+          },
+          "policies": {
+            "rework_global_q10": 7,
+            "capacity_B_q10": 2,
+            "rework_local_q10": 2,
+            "rework_global_q40": 1
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290328,
+            "high": 0.4139839820362366,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.6346789029223231,
+            "low": 0.623936392023732,
+            "high": 0.6454214138209142,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.11307764931358143,
+            "low": 0.10252828818851521,
+            "high": 0.12362701043864764,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.6354166666666666,
+            "low": 0.6210266735049951,
+            "high": 0.6498066598283382,
+            "n": 12
+          },
+          "policies": {
+            "rework_global_q10": 8,
+            "capacity_B_q10": 4
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.5216012536087417,
+            "low": 0.5147105979099205,
+            "high": 0.5284919093075628,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.6180555555555557,
+            "low": 0.6017620967770971,
+            "high": 0.6343490143340142,
+            "n": 12
+          },
+          "policies": {
+            "rework_local_q10": 12
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P3",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": -4998.079861111111,
+          "low": -9754.043594037583,
+          "high": -242.11612818464073,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": -0.04574269615901811,
+          "low": -0.0895317410444425,
+          "high": -0.001953651273593711,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": -4998.079861111111,
+          "low": -11930.299916017684,
+          "high": 1934.1401937954606,
+          "n": 12
+        },
+        "relative_mean_reduction": 0.0697003587703251
+      }
+    },
+    {
+      "process": "P4",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 0.5181377518052707,
+            "low": 0.5099754884040313,
+            "high": 0.52630001520651,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.005405408627809656,
+            "low": 0.000955885265621419,
+            "high": 0.009854931989997893,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.421875,
+            "low": 0.40304917925776645,
+            "high": 0.44070082074223355,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q10": 7,
+            "capacity_shared_q20": 5
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.5268340572154885,
+            "low": 0.5035162932339019,
+            "high": 0.5501518211970751,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.01410171403802749,
+            "low": -0.0065083141944899375,
+            "high": 0.03471174227054492,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.421875,
+            "low": 0.40304917925776645,
+            "high": 0.44070082074223355,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q10": 7,
+            "capacity_shared_q20": 4,
+            "rework_Y_q10": 1
+          },
+          "action_agreement": {
+            "mean": 0.9166666666666666,
+            "low": 0.73325123665903,
+            "high": 1.1000820966743032,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.6146191178213619,
+            "low": 0.5848407514019187,
+            "high": 0.6443974842408051,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.10188677464390078,
+            "low": 0.07107068672520012,
+            "high": 0.13270286256260144,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4947916666666667,
+            "low": 0.4613404378755019,
+            "high": 0.5282428954578315,
+            "n": 12
+          },
+          "policies": {
+            "rework_X_q10": 9,
+            "rework_Y_q20": 1,
+            "capacity_shared_q10": 2
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290334,
+            "high": 0.41398398203623665,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.6146191178213619,
+            "low": 0.5848407514019187,
+            "high": 0.6443974842408051,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.10188677464390078,
+            "low": 0.07107068672520012,
+            "high": 0.13270286256260144,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4947916666666667,
+            "low": 0.4613404378755019,
+            "high": 0.5282428954578315,
+            "n": 12
+          },
+          "policies": {
+            "rework_X_q10": 9,
+            "rework_Y_q20": 1,
+            "capacity_shared_q10": 2
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290334,
+            "high": 0.41398398203623665,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.6230263755701445,
+            "low": 0.6004948465199533,
+            "high": 0.6455579046203357,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.11029403239268358,
+            "low": 0.08722255410945107,
+            "high": 0.1333655106759161,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4982638888888889,
+            "low": 0.4671139659320296,
+            "high": 0.5294138118457482,
+            "n": 12
+          },
+          "policies": {
+            "rework_X_q10": 11,
+            "capacity_shared_q10": 1
+          },
+          "action_agreement": {
+            "mean": 0.08333333333333333,
+            "low": -0.10008209667430325,
+            "high": 0.2667487633409699,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.5127323431774611,
+            "low": 0.5070646962150004,
+            "high": 0.5183999901399218,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4131944444444444,
+            "low": 0.3964193019144017,
+            "high": 0.4299695869744871,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q10": 12
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P4",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": 5524.178819444445,
+          "low": 3315.0513844037273,
+          "high": 7733.306254485164,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": 0.08778506060587332,
+          "low": 0.053028649510794876,
+          "high": 0.12254147170095177,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": 5524.178819444445,
+          "low": 2304.1884307434834,
+          "high": 8744.169208145408,
+          "n": 12
+        },
+        "relative_mean_reduction": -0.16781689185385118
+      }
+    },
+    {
+      "process": "P5",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 1.030009844160564,
+            "low": 1.0277749699762642,
+            "high": 1.032244718344864,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.6145184235705335,
+            "low": 0.609932110769011,
+            "high": 0.6191047363720561,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.5277777777777777,
+            "low": 0.5023265815490069,
+            "high": 0.5532289740065485,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q20": 6,
+            "capacity_B_q10": 5,
+            "capacity_B_q40": 1
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.8282591144678942,
+            "low": 0.6397114136844736,
+            "high": 1.0168068152513148,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.41276769387786366,
+            "low": 0.2221741551489567,
+            "high": 0.6033612326067707,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4583333333333333,
+            "low": 0.4013295087306314,
+            "high": 0.5153371579360352,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q20": 4,
+            "capacity_B_q10": 4,
+            "rework_q40": 1,
+            "rework_q10": 3
+          },
+          "action_agreement": {
+            "mean": 0.3333333333333333,
+            "low": 0.020498924786929718,
+            "high": 0.6461677418797369,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.5707155534654111,
+            "low": 0.3942553384998584,
+            "high": 0.7471757684309639,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.1552241328753806,
+            "low": -0.02320112991369566,
+            "high": 0.33364939566445684,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3819444444444444,
+            "low": 0.3277090046238269,
+            "high": 0.43617988426506193,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q10": 3,
+            "rework_q10": 9
+          },
+          "action_agreement": {
+            "mean": 0.75,
+            "low": 0.46264324690347836,
+            "high": 1.0373567530965215,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.5707155534654111,
+            "low": 0.3942553384998584,
+            "high": 0.7471757684309639,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.1552241328753806,
+            "low": -0.02320112991369566,
+            "high": 0.33364939566445684,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3819444444444444,
+            "low": 0.3277090046238269,
+            "high": 0.43617988426506193,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q10": 3,
+            "rework_q10": 9
+          },
+          "action_agreement": {
+            "mean": 0.75,
+            "low": 0.46264324690347836,
+            "high": 1.0373567530965215,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.46702050235544207,
+            "low": 0.35410048804072114,
+            "high": 0.579940516670163,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.051529081765411516,
+            "low": -0.061885662513407894,
+            "high": 0.1649438260442309,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3489583333333333,
+            "low": 0.31849784396786485,
+            "high": 0.3794188226988018,
+            "n": 12
+          },
+          "policies": {
+            "capacity_B_q10": 1,
+            "rework_q10": 11
+          },
+          "action_agreement": {
+            "mean": 0.9166666666666666,
+            "low": 0.73325123665903,
+            "high": 1.1000820966743032,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.41549142059003047,
+            "low": 0.41081269983254937,
+            "high": 0.42017014134751157,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3350694444444445,
+            "low": 0.3312482896526187,
+            "high": 0.33889059923627024,
+            "n": 12
+          },
+          "policies": {
+            "rework_q20": 1,
+            "rework_q10": 11
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P5",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": -15713.684895833336,
+          "low": -27879.377968180183,
+          "high": -3547.991823486491,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": -0.25754356100248305,
+          "low": -0.4566355606628797,
+          "high": -0.05845156134208643,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": -15713.684895833336,
+          "low": -33446.21319795036,
+          "high": 2018.843406283686,
+          "n": 12
+        },
+        "relative_mean_reduction": 0.31024857279159224
+      }
+    },
+    {
+      "process": "P6",
+      "methods": {
+        "discovered_static": {
+          "normalized_cost": {
+            "mean": 0.573279505585786,
+            "low": 0.5645227598261726,
+            "high": 0.5820362513453994,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.2226057565970515,
+            "low": 0.2138295442873117,
+            "high": 0.2313819689067913,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.5086805555555555,
+            "low": 0.48020193865025135,
+            "high": 0.5371591724608595,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q20": 8,
+            "capacity_shared_q10": 4
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "discovered_predictive": {
+          "normalized_cost": {
+            "mean": 0.5366383182210114,
+            "low": 0.480459495348986,
+            "high": 0.5928171410930367,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.18596456923227692,
+            "low": 0.13009146689365916,
+            "high": 0.24183767157089467,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.48263888888888884,
+            "low": 0.4351357017199706,
+            "high": 0.530142076057807,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q20": 6,
+            "rework_q10": 2,
+            "capacity_shared_q10": 4
+          },
+          "action_agreement": {
+            "mean": 0.16666666666666666,
+            "low": -0.08065064870290328,
+            "high": 0.4139839820362366,
+            "n": 12
+          }
+        },
+        "discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.40435887042538377,
+            "low": 0.3402821077879562,
+            "high": 0.46843563306281133,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.05368512143664916,
+            "low": -0.008347343395175955,
+            "high": 0.11571758626847427,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.3819444444444444,
+            "low": 0.3493575268875274,
+            "high": 0.4145313620013614,
+            "n": 12
+          },
+          "policies": {
+            "rework_q10": 9,
+            "capacity_shared_q10": 2,
+            "capacity_shared_q20": 1
+          },
+          "action_agreement": {
+            "mean": 0.75,
+            "low": 0.46264324690347836,
+            "high": 1.0373567530965215,
+            "n": 12
+          }
+        },
+        "legacy_discovered_retained": {
+          "normalized_cost": {
+            "mean": 0.5672620232187636,
+            "low": 0.560886434317047,
+            "high": 0.5736376121204803,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.21658827423002894,
+            "low": 0.20970832125523586,
+            "high": 0.223468227204822,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4930555555555555,
+            "low": 0.46248631722094946,
+            "high": 0.5236247938901616,
+            "n": 12
+          },
+          "policies": {
+            "capacity_shared_q10": 11,
+            "capacity_shared_q20": 1
+          },
+          "action_agreement": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          }
+        },
+        "heuristic": {
+          "normalized_cost": {
+            "mean": 0.5744379082809606,
+            "low": 0.3642345094543757,
+            "high": 0.7846413071075455,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.22376415929222604,
+            "low": 0.01374110178687124,
+            "high": 0.4337872167975808,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.4513888888888889,
+            "low": 0.3597970396483351,
+            "high": 0.5429807381294427,
+            "n": 12
+          },
+          "policies": {
+            "rework_q10": 8,
+            "capacity_parallel_q10": 4
+          },
+          "action_agreement": {
+            "mean": 0.6666666666666666,
+            "low": 0.35383225812026303,
+            "high": 0.9795010752130702,
+            "n": 12
+          }
+        },
+        "oracle": {
+          "normalized_cost": {
+            "mean": 0.3506737489887346,
+            "low": 0.34428742672852464,
+            "high": 0.35706007124894457,
+            "n": 12
+          },
+          "normalized_regret": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "n": 12
+          },
+          "crisis": {
+            "mean": 0.35763888888888884,
+            "low": 0.3481382514551052,
+            "high": 0.3671395263226725,
+            "n": 12
+          },
+          "policies": {
+            "rework_q10": 12
+          },
+          "action_agreement": {
+            "mean": 1.0,
+            "low": 1.0,
+            "high": 1.0,
+            "n": 12
+          }
+        }
+      },
+      "retained_vs_predictive": {
+        "process": "P6",
+        "world": "routing",
+        "variant": "main",
+        "structure": "discovered",
+        "baseline": "predictive",
+        "primary": false,
+        "secondary_family": true,
+        "difference": {
+          "mean": -10152.614583333334,
+          "low": -15866.48302919833,
+          "high": -4438.746137468338,
+          "n": 12
+        },
+        "normalized_difference": {
+          "mean": -0.1322794477956278,
+          "low": -0.20663427682540608,
+          "high": -0.057924618765849534,
+          "n": 12
+        },
+        "family_adjusted_difference": {
+          "mean": -10152.614583333334,
+          "low": -18481.061908803204,
+          "high": -1824.1672578634625,
+          "n": 12
+        },
+        "relative_mean_reduction": 0.24872217354689974
+      }
+    }
+  ],
+  "cross_process_means": [
+    {
+      "world": "fixed",
+      "methods": {
+        "discovered_static": 0.8284310342367738,
+        "discovered_predictive": 0.8314204153397586,
+        "discovered_retained": 0.8811963371395786,
+        "legacy_discovered_retained": 0.8751224266731618,
+        "heuristic": 0.9463453094955102,
+        "oracle": 0.8259059548166439
+      }
+    },
+    {
+      "world": "service",
+      "methods": {
+        "discovered_static": 0.5263411227188923,
+        "discovered_predictive": 0.5255187761524986,
+        "discovered_retained": 0.6350683755171943,
+        "legacy_discovered_retained": 0.6087005122970816,
+        "heuristic": 0.6767767601970822,
+        "oracle": 0.5192145091373752
+      }
+    },
+    {
+      "world": "routing",
+      "methods": {
+        "discovered_static": 0.6754579705620156,
+        "discovered_predictive": 0.6272207075503436,
+        "discovered_retained": 0.5424478960197519,
+        "legacy_discovered_retained": 0.6382694006887001,
+        "heuristic": 0.5743721238304947,
+        "oracle": 0.44401451973789674
+      }
+    },
+    {
+      "world": "combined",
+      "methods": {
+        "discovered_static": 0.8404670291816971,
+        "discovered_predictive": 0.8065287228622174,
+        "discovered_retained": 0.7520027412256993,
+        "legacy_discovered_retained": 0.8256404140758238,
+        "heuristic": 0.7718495866649879,
+        "oracle": 0.7177655903485688
+      }
+    }
+  ],
+  "aggregates": [
+    {
+      "world": "fixed",
+      "structure": "known",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.04977592179981997,
+      "low": 0.02745071925122499,
+      "high": 0.07210112434841495,
+      "df": 51.43947990936258,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "fixed",
+      "structure": "discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.04977592179981997,
+      "low": 0.02745071925122499,
+      "high": 0.07210112434841495,
+      "df": 51.43947990936258,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "fixed",
+      "structure": "legacy_discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.0574195947875156,
+      "low": 0.03757675442552535,
+      "high": 0.07726243514950584,
+      "df": 38.49196378685952,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "service",
+      "structure": "known",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.10954959936469565,
+      "low": 0.07103246954198253,
+      "high": 0.14806672918740876,
+      "df": 45.558722276160736,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "service",
+      "structure": "discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.10954959936469565,
+      "low": 0.07103246954198253,
+      "high": 0.14806672918740876,
+      "df": 45.558722276160736,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "service",
+      "structure": "legacy_discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": 0.0876304775761188,
+      "low": 0.05937098303944123,
+      "high": 0.11588997211279638,
+      "df": 24.221651503232863,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "routing",
+      "structure": "known",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.08477281153059191,
+      "low": -0.1284428261079335,
+      "high": -0.041102796953250295,
+      "df": 28.21736498208389,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "routing",
+      "structure": "discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.08477281153059191,
+      "low": -0.1284428261079335,
+      "high": -0.041102796953250295,
+      "df": 28.21736498208389,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "routing",
+      "structure": "legacy_discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.017114072732585753,
+      "low": -0.051847391802370205,
+      "high": 0.0176192463371987,
+      "df": 14.780844868461223,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "combined",
+      "structure": "known",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.05452598163651806,
+      "low": -0.07049723010909557,
+      "high": -0.03855473316394055,
+      "df": 37.36708724507126,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "combined",
+      "structure": "discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.05452598163651806,
+      "low": -0.07049723010909557,
+      "high": -0.03855473316394055,
+      "df": 37.36708724507126,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    },
+    {
+      "world": "combined",
+      "structure": "legacy_discovered",
+      "processes": 6,
+      "complete_six": true,
+      "mean": -0.00029170940919001506,
+      "low": -0.007194099927772057,
+      "high": 0.006610681109392026,
+      "df": 21.520396998522045,
+      "weighting": "equal designed-process weights, independent-fit variance"
+    }
+  ],
+  "discovery": [
+    {
+      "process": "P1",
+      "n": 48,
+      "fitness": 0.9999740617305778,
+      "precision": 0.9986065817825097,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "process": "P2",
+      "n": 48,
+      "fitness": 0.9999529432114237,
+      "precision": 1.0,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "process": "P3",
+      "n": 48,
+      "fitness": 0.9999746072586526,
+      "precision": 0.9964673846734593,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "process": "P4",
+      "n": 48,
+      "fitness": 0.9999500024342005,
+      "precision": 1.0,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "process": "P5",
+      "n": 48,
+      "fitness": 0.9999894092606448,
+      "precision": 1.0,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "process": "P6",
+      "n": 48,
+      "fitness": 0.999959742813758,
+      "precision": 0.9995403730611484,
+      "equivalent": 48,
+      "added": 0,
+      "missing": 0,
+      "language_unresolved": 0,
+      "same_policy": 48,
+      "paired_fits": 48,
+      "normalized_cost_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "exact_planning_equivalence": 288,
+  "selected_language_equivalence": 288,
+  "standard_im_equivalence": 144,
+  "strong_comparisons": [
+    {
+      "process": "P3",
+      "world": "combined",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -3704.7777777777787,
+        "low": -6447.6532589768185,
+        "high": -961.902296578739,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.01860668677521199,
+        "low": -0.03239999981276551,
+        "high": -0.004813373737658465,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.020866709574436815
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": 237.670138888889,
+        "low": -149.58463543343137,
+        "high": 624.9249132112094,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": 0.016581647512748748,
+        "low": -0.010271415636384042,
+        "high": 0.04343471066188154,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": -0.018219712446414738
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -2315.7465277777787,
+        "low": -6044.919509998386,
+        "high": 1413.4264544428288,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.021281827909786794,
+        "low": -0.055621026194010006,
+        "high": 0.013057370374436422,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.03354901871126115
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": 10046.906250000002,
+        "low": -2727.5148613509664,
+        "high": 22821.32736135097,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": 0.137132523981824,
+        "low": -0.03861566041494907,
+        "high": 0.31288070837859705,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": -0.23095820016794044
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -55.64236111111192,
+        "low": -83.4027117811552,
+        "high": -27.88201044106863,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.0003564211819807224,
+        "low": -0.0005333382791276671,
+        "high": -0.00017950408483377768,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.0003490039177732607
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -2379.7656250000005,
+        "low": -3813.630614519824,
+        "high": -945.9006354801768,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.10628197458681969,
+        "low": -0.16960478865394998,
+        "high": -0.0429591605196894,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.10356373499448934
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": 6354.544270833333,
+        "low": -3084.2603030709224,
+        "high": 15793.34884473759,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": 0.10369505110996907,
+        "low": -0.05018475852361551,
+        "high": 0.2575748607435536,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": -0.22233873388956238
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -23940.45138888889,
+        "low": -51472.688758522054,
+        "high": 3591.785980744269,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.15852391934456864,
+        "low": -0.34076574897764256,
+        "high": 0.023717910288505284,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.3113995841516971
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -10016.381944444445,
+        "low": -25364.21095034508,
+        "high": 5331.447061456191,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.05826360083113535,
+        "low": -0.1476361077473622,
+        "high": 0.031108906085091502,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.08868846513281803
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -2898.114583333334,
+        "low": -4523.629903870099,
+        "high": -1272.599262796569,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.1803242017495095,
+        "low": -0.28198103822776693,
+        "high": -0.07866736527125208,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.1728688216975529
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -12657.875,
+        "low": -24849.811583008024,
+        "high": -465.9384169919758,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.1700790378555769,
+        "low": -0.3343357147731615,
+        "high": -0.005822360937992349,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.2921653243079596
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "structure": "discovered",
+      "baseline": "heuristic",
+      "primary": false,
+      "secondary_family": false,
+      "difference": {
+        "mean": -12255.19097222222,
+        "low": -21614.97779007131,
+        "high": -2895.4041543731328,
+        "n": 12
+      },
+      "normalized_difference": {
+        "mean": -0.20673119614296995,
+        "low": -0.3647510277304211,
+        "high": -0.04871136455551875,
+        "n": 12
+      },
+      "family_adjusted_difference": null,
+      "relative_mean_reduction": 0.23596859042680862
+    }
+  ],
+  "p6_service": {
+    "discovered_static": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "discovered_static",
+      "n": 12,
+      "cost": {
+        "mean": 29373.73263888889,
+        "low": 28495.43497272332,
+        "high": 30252.03030505446,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.4955075792641215,
+        "low": 0.489319432309982,
+        "high": 0.501695726218261,
+        "n": 12
+      },
+      "regret": {
+        "mean": 168.84027777777797,
+        "low": -82.69246256030095,
+        "high": 420.3730181158569,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.002765488894710113,
+        "low": -0.0013594544119602315,
+        "high": 0.006890432201380458,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3663194444444444,
+        "low": 0.35197564720667895,
+        "high": 0.3806632416822099,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.41623065408753207,
+        "low": 0.38866489896867296,
+        "high": 0.4437964092063912,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.71875,
+        "low": 0.6931947084646897,
+        "high": 0.7443052915353103,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.15625,
+        "low": 0.07958412539406899,
+        "high": 0.232915874605931,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.23822833226857995,
+        "low": 0.15485338720630853,
+        "high": 0.32160327733085137,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 27738.885416666668,
+        "low": 26840.33642342696,
+        "high": 28637.434409906375,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1634.847222222222,
+        "low": 1578.0442536806718,
+        "high": 1691.6501907637721,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.2204861111111107,
+        "low": 3.082987273885788,
+        "high": 3.3579849483364335,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 35.89605238882966,
+        "low": 34.836196896670266,
+        "high": 36.95590788098905,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 99.05072101029191,
+        "low": 96.61019936828234,
+        "high": 101.49124265230148,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.8333333333333334,
+        "low": 0.5860160179637635,
+        "high": 1.0806506487029033,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.022222222222222223,
+        "low": 0.005193673890576497,
+        "high": 0.03925077055386795,
+        "n": 12
+      },
+      "lead": {
+        "mean": 52.231620868180016,
+        "low": 44.858748536160995,
+        "high": 59.60449320019904,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 10,
+        "capacity_shared_q20": 2
+      }
+    },
+    "discovered_predictive": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "discovered_predictive",
+      "n": 12,
+      "cost": {
+        "mean": 29373.73263888889,
+        "low": 28495.43497272332,
+        "high": 30252.03030505446,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.4955075792641215,
+        "low": 0.489319432309982,
+        "high": 0.501695726218261,
+        "n": 12
+      },
+      "regret": {
+        "mean": 168.84027777777797,
+        "low": -82.69246256030095,
+        "high": 420.3730181158569,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.002765488894710113,
+        "low": -0.0013594544119602315,
+        "high": 0.006890432201380458,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3663194444444444,
+        "low": 0.35197564720667895,
+        "high": 0.3806632416822099,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.41623065408753207,
+        "low": 0.38866489896867296,
+        "high": 0.4437964092063912,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.71875,
+        "low": 0.6931947084646897,
+        "high": 0.7443052915353103,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.15625,
+        "low": 0.07958412539406899,
+        "high": 0.232915874605931,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.23822833226857995,
+        "low": 0.15485338720630853,
+        "high": 0.32160327733085137,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 27738.885416666668,
+        "low": 26840.33642342696,
+        "high": 28637.434409906375,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1634.847222222222,
+        "low": 1578.0442536806718,
+        "high": 1691.6501907637721,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.2204861111111107,
+        "low": 3.082987273885788,
+        "high": 3.3579849483364335,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 35.89605238882966,
+        "low": 34.836196896670266,
+        "high": 36.95590788098905,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 99.05072101029191,
+        "low": 96.61019936828234,
+        "high": 101.49124265230148,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.8333333333333334,
+        "low": 0.5860160179637635,
+        "high": 1.0806506487029033,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.022222222222222223,
+        "low": 0.005193673890576497,
+        "high": 0.03925077055386795,
+        "n": 12
+      },
+      "lead": {
+        "mean": 52.231620868180016,
+        "low": 44.858748536160995,
+        "high": 59.60449320019904,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 10,
+        "capacity_shared_q20": 2
+      }
+    },
+    "discovered_retained": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 39680.496527777774,
+        "low": 31563.987929870542,
+        "high": 47797.005125685006,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6711808922662187,
+        "low": 0.5312019714962362,
+        "high": 0.8111598130362012,
+        "n": 12
+      },
+      "regret": {
+        "mean": 10475.604166666666,
+        "low": 2239.2412823294944,
+        "high": 18711.967051003838,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.17843880189680728,
+        "low": 0.038310210988758475,
+        "high": 0.3185673928048561,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.4635416666666666,
+        "low": 0.3865389114893966,
+        "high": 0.5405444218439366,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.25928123154671173,
+        "low": 0.1308847762744251,
+        "high": 0.3876776868189984,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.7309027777777778,
+        "low": 0.7087113501066999,
+        "high": 0.7530942054488556,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.19270833333333334,
+        "low": 0.12613405032009967,
+        "high": 0.259282616346567,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.27118040198535553,
+        "low": 0.1958680426669119,
+        "high": 0.34649276130379913,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 38548.145833333336,
+        "low": 30038.007931044092,
+        "high": 47058.28373562258,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1132.3506944444446,
+        "low": 733.3690359645936,
+        "high": 1531.3323529242955,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 6.548611111111112,
+        "low": 3.867497838430535,
+        "high": 9.229724383791687,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 49.74508694463295,
+        "low": 38.828195936334936,
+        "high": 60.66197795293097,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 123.04500103516334,
+        "low": 104.1934202502733,
+        "high": 141.89658182005337,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.5833333333333334,
+        "low": 0.25616327763932606,
+        "high": 0.9105033890273406,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.5833333333333334,
+        "low": 0.25616327763932606,
+        "high": 0.9105033890273406,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.1777777777777778,
+        "low": 0.08277587443334779,
+        "high": 0.27277968112220785,
+        "n": 12
+      },
+      "lead": {
+        "mean": 55.24918359219435,
+        "low": 50.473645519235994,
+        "high": 60.024721665152704,
+        "n": 12
+      },
+      "policies": {
+        "rework_q10": 5,
+        "capacity_shared_q10": 7
+      }
+    },
+    "legacy_discovered_retained": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "legacy_discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 29204.892361111113,
+        "low": 28439.26983823313,
+        "high": 29970.514883989097,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.49274209036941136,
+        "low": 0.48784946247338745,
+        "high": 0.49763471826543526,
+        "n": 12
+      },
+      "regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3645833333333333,
+        "low": 0.35134646484727833,
+        "high": 0.3778202018193883,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.4189188261305428,
+        "low": 0.3919763553001806,
+        "high": 0.44586129696090504,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.7309027777777778,
+        "low": 0.7087113501066999,
+        "high": 0.7530942054488556,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.19270833333333334,
+        "low": 0.12613405032009967,
+        "high": 0.259282616346567,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.27118040198535553,
+        "low": 0.1958680426669119,
+        "high": 0.34649276130379913,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 27543.114583333332,
+        "low": 26782.89016767399,
+        "high": 28303.338998992673,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1661.777777777778,
+        "low": 1616.4689051070484,
+        "high": 1707.0866504485077,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.2204861111111107,
+        "low": 3.082987273885788,
+        "high": 3.3579849483364335,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 35.636651899016655,
+        "low": 34.766953751031856,
+        "high": 36.506350047001455,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 98.45494180447069,
+        "low": 96.4171280007001,
+        "high": 100.49275560824128,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.3111111111111111,
+        "low": 0.20983060787002328,
+        "high": 0.41239161435219895,
+        "n": 12
+      },
+      "lead": {
+        "mean": 55.24918359219435,
+        "low": 50.473645519235994,
+        "high": 60.024721665152704,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 12
+      }
+    },
+    "heuristic": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "heuristic",
+      "n": 12,
+      "cost": {
+        "mean": 51935.6875,
+        "low": 43215.324161525095,
+        "high": 60656.050838474905,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.8779120884091883,
+        "low": 0.7299198410221093,
+        "high": 1.0259043357962674,
+        "n": 12
+      },
+      "regret": {
+        "mean": 22730.795138888887,
+        "low": 13825.321196741064,
+        "high": 31636.26908103671,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.3851699980397772,
+        "low": 0.23512615944542234,
+        "high": 0.535213836634132,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.5555555555555556,
+        "low": 0.4806056451746464,
+        "high": 0.6305054659364648,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.11369972122660295,
+        "low": -0.008369846140282564,
+        "high": 0.23576928859348845,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.7309027777777778,
+        "low": 0.7087113501066999,
+        "high": 0.7530942054488556,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.19270833333333334,
+        "low": 0.12613405032009967,
+        "high": 0.259282616346567,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.27118040198535553,
+        "low": 0.1958680426669119,
+        "high": 0.34649276130379913,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 50480.49305555556,
+        "low": 41760.508919232525,
+        "high": 59200.4771918786,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1455.1944444444446,
+        "low": 1143.1984610604713,
+        "high": 1767.1904278284178,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 11.697916666666666,
+        "low": 8.053658137732155,
+        "high": 15.342175195601177,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 65.16205233335451,
+        "low": 53.99170470345348,
+        "high": 76.33239996325554,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 147.17688799520013,
+        "low": 129.21655024027422,
+        "high": 165.13722575012605,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.25,
+        "low": -0.037356753096521644,
+        "high": 0.5373567530965216,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.25,
+        "low": -0.037356753096521644,
+        "high": 0.5373567530965216,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "n": 0
+      },
+      "lead": {
+        "mean": 55.24918359219435,
+        "low": 50.473645519235994,
+        "high": 60.024721665152704,
+        "n": 12
+      },
+      "policies": {
+        "rework_q10": 2,
+        "capacity_shared_q10": 3,
+        "capacity_parallel_q10": 7
+      }
+    },
+    "oracle": {
+      "process": "P6",
+      "world": "service",
+      "variant": "main",
+      "method": "oracle",
+      "n": 12,
+      "cost": {
+        "mean": 29204.892361111113,
+        "low": 28439.26983823313,
+        "high": 29970.514883989097,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.49274209036941136,
+        "low": 0.48784946247338745,
+        "high": 0.49763471826543526,
+        "n": 12
+      },
+      "regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3645833333333333,
+        "low": 0.35134646484727833,
+        "high": 0.3778202018193883,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.4189188261305428,
+        "low": 0.3919763553001806,
+        "high": 0.44586129696090504,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.7309027777777778,
+        "low": 0.7087113501066999,
+        "high": 0.7530942054488556,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.19270833333333334,
+        "low": 0.12613405032009967,
+        "high": 0.259282616346567,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.27118040198535553,
+        "low": 0.1958680426669119,
+        "high": 0.34649276130379913,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 27543.114583333332,
+        "low": 26782.89016767399,
+        "high": 28303.338998992673,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1661.777777777778,
+        "low": 1616.4689051070484,
+        "high": 1707.0866504485077,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.2204861111111107,
+        "low": 3.082987273885788,
+        "high": 3.3579849483364335,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 35.636651899016655,
+        "low": 34.766953751031856,
+        "high": 36.506350047001455,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 98.45494180447069,
+        "low": 96.4171280007001,
+        "high": 100.49275560824128,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "lead": {
+        "mean": 55.24918359219435,
+        "low": 50.473645519235994,
+        "high": 60.024721665152704,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 12
+      }
+    }
+  },
+  "p4_routing_ablations": {
+    "00": {
+      "process": "P4",
+      "world": "routing",
+      "variant": "main",
+      "method": "discovered_00",
+      "n": 12,
+      "cost": {
+        "mean": 32397.3671875,
+        "low": 31244.337198839647,
+        "high": 33550.39717616035,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.5181377518052707,
+        "low": 0.5099754884040313,
+        "high": 0.52630001520651,
+        "n": 12
+      },
+      "regret": {
+        "mean": 335.769097222222,
+        "low": 58.91543692581598,
+        "high": 612.6227575186281,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.005405408627809656,
+        "low": 0.000955885265621419,
+        "high": 0.009854931989997893,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.421875,
+        "low": 0.40304917925776645,
+        "high": 0.44070082074223355,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.3188078642397098,
+        "low": 0.29051642455856774,
+        "high": 0.34709930392085186,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.7552083333333334,
+        "low": 0.7040588088604383,
+        "high": 0.8063578578062285,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.265625,
+        "low": 0.11217642658131463,
+        "high": 0.41907357341868534,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.3527976395236457,
+        "low": 0.21135961484247837,
+        "high": 0.494235664204813,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 30907.861979166668,
+        "low": 29726.461682913996,
+        "high": 32089.26227541934,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1489.5052083333333,
+        "low": 1389.7564482071407,
+        "high": 1589.2539684595258,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.836805555555556,
+        "low": 3.6288994892478734,
+        "high": 4.044711621863239,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 32.90084016360018,
+        "low": 31.816177566661707,
+        "high": 33.98550276053865,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 115.65876098706724,
+        "low": 112.23969466231037,
+        "high": 119.07782731182411,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.5833333333333334,
+        "low": 0.25616327763932606,
+        "high": 0.9105033890273406,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.2111111111111111,
+        "low": 0.16428260319908536,
+        "high": 0.25793961902313683,
+        "n": 12
+      },
+      "lead": {
+        "mean": 43.29982488687705,
+        "low": 32.76807773350338,
+        "high": 53.83157204025071,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 7,
+        "capacity_shared_q20": 5
+      }
+    },
+    "10": {
+      "process": "P4",
+      "world": "routing",
+      "variant": "main",
+      "method": "discovered_10",
+      "n": 12,
+      "cost": {
+        "mean": 32158.109375,
+        "low": 31035.33655512015,
+        "high": 33280.88219487985,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.5142865917668163,
+        "low": 0.5081236995207858,
+        "high": 0.5204494840128469,
+        "n": 12
+      },
+      "regret": {
+        "mean": 96.51128472222202,
+        "low": -115.90862073276757,
+        "high": 308.9311901772116,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0015542485893552482,
+        "low": -0.001866629490909017,
+        "high": 0.004975126669619513,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.4131944444444444,
+        "low": 0.3964193019144017,
+        "high": 0.4299695869744871,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.3329337491392553,
+        "low": 0.3095227278927757,
+        "high": 0.35634477038573487,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.8142361111111112,
+        "low": 0.7801558969763187,
+        "high": 0.8483163252459036,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.4427083333333333,
+        "low": 0.34046769092895607,
+        "high": 0.5449489757377106,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.5080455939685815,
+        "low": 0.414086569732962,
+        "high": 0.602004618204201,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 30567.60243055555,
+        "low": 29429.82467136521,
+        "high": 31705.38018974589,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1590.5069444444446,
+        "low": 1519.7026411429576,
+        "high": 1661.3112477459315,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 3.8159722222222228,
+        "low": 3.6131857429891903,
+        "high": 4.018758701455255,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 32.533834911811105,
+        "low": 31.515704631721196,
+        "high": 33.55196519190101,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 114.35574148674272,
+        "low": 111.0992963970411,
+        "high": 117.61218657644433,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.9166666666666666,
+        "low": 0.73325123665903,
+        "high": 1.1000820966743032,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.18703703703703703,
+        "low": 0.1402246574216536,
+        "high": 0.23384941665242046,
+        "n": 12
+      },
+      "lead": {
+        "mean": 53.99480329652976,
+        "low": 46.41875630612991,
+        "high": 61.57085028692961,
+        "n": 12
+      },
+      "policies": {
+        "capacity_shared_q10": 11,
+        "capacity_shared_q20": 1
+      }
+    },
+    "01": {
+      "process": "P4",
+      "world": "routing",
+      "variant": "main",
+      "method": "discovered_01",
+      "n": 12,
+      "cost": {
+        "mean": 38466.27604166667,
+        "low": 36187.91821022557,
+        "high": 40744.63387310777,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6149943688464129,
+        "low": 0.5865510252327278,
+        "high": 0.643437712460098,
+        "n": 12
+      },
+      "regret": {
+        "mean": 6404.6779513888905,
+        "low": 4528.245825498545,
+        "high": 8281.110077279236,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.10226202566895187,
+        "low": 0.07276645090993118,
+        "high": 0.13175760042797258,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.4947916666666667,
+        "low": 0.46230674284211115,
+        "high": 0.5272765904912222,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.20038623468070538,
+        "low": 0.14495158214454562,
+        "high": 0.25582088721686513,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.8177083333333334,
+        "low": 0.7828578476083629,
+        "high": 0.8525588190583039,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.453125,
+        "low": 0.34857354282508857,
+        "high": 0.5576764571749114,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.5132539273019149,
+        "low": 0.40049839853378794,
+        "high": 0.6260094560700419,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 37883.605034722226,
+        "low": 35406.432850920755,
+        "high": 40360.7772185237,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 582.6710069444445,
+        "low": 320.8839654693642,
+        "high": 844.4580484195246,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 6.815972222222222,
+        "low": 5.623867682565849,
+        "high": 8.008076761878595,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 40.227833319162066,
+        "low": 37.74892137108475,
+        "high": 42.706745267239384,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 127.04761838739644,
+        "low": 122.12351762054254,
+        "high": 131.97171915425034,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290334,
+        "high": 0.41398398203623665,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4222222222222223,
+        "low": 0.3430348950456211,
+        "high": 0.5014095493988234,
+        "n": 12
+      },
+      "lead": {
+        "mean": 56.0158102409742,
+        "low": 47.891532598808894,
+        "high": 64.1400878831395,
+        "n": 12
+      },
+      "policies": {
+        "rework_X_q10": 9,
+        "rework_Y_q10": 1,
+        "capacity_shared_q10": 1,
+        "capacity_shared_q20": 1
+      }
+    },
+    "11": {
+      "process": "P4",
+      "world": "routing",
+      "variant": "main",
+      "method": "discovered_11",
+      "n": 12,
+      "cost": {
+        "mean": 38442.073784722226,
+        "low": 36104.78073094388,
+        "high": 40779.36683850057,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6146191178213619,
+        "low": 0.5848407514019187,
+        "high": 0.6443974842408051,
+        "n": 12
+      },
+      "regret": {
+        "mean": 6380.475694444444,
+        "low": 4425.794858601044,
+        "high": 8335.156530287844,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.10188677464390078,
+        "low": 0.07107068672520012,
+        "high": 0.13270286256260144,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.4947916666666667,
+        "low": 0.4613404378755019,
+        "high": 0.5282428954578315,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.20011683812898126,
+        "low": 0.14200032744310295,
+        "high": 0.2582333488148596,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.8125,
+        "low": 0.7795888265207919,
+        "high": 0.8454111734792081,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.4375,
+        "low": 0.33876647956237554,
+        "high": 0.5362335204376244,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.5058526115124412,
+        "low": 0.4234245382813811,
+        "high": 0.5882806847435014,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 37849.8203125,
+        "low": 35287.858846489326,
+        "high": 40411.781778510674,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 592.2534722222223,
+        "low": 302.5333119911807,
+        "high": 881.9736324532639,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 6.822916666666667,
+        "low": 5.6317389022242885,
+        "high": 8.014094431109045,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 40.19255202468481,
+        "low": 37.61775877843832,
+        "high": 42.767345270931294,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 126.8583000273544,
+        "low": 121.5880390513587,
+        "high": 132.12856100335011,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290334,
+        "high": 0.41398398203623665,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290334,
+        "high": 0.41398398203623665,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4222222222222223,
+        "low": 0.33539332199100286,
+        "high": 0.5090511224534418,
+        "n": 12
+      },
+      "lead": {
+        "mean": 54.856058085801784,
+        "low": 46.49471100057485,
+        "high": 63.217405171028716,
+        "n": 12
+      },
+      "policies": {
+        "rework_X_q10": 9,
+        "rework_Y_q20": 1,
+        "capacity_shared_q10": 2
+      }
+    }
+  },
+  "p5_combined_queues": [
+    {
+      "process": "P5",
+      "world": "combined",
+      "policy": "none",
+      "n_fits": 12,
+      "trajectories": 24,
+      "pool_queues": {
+        "early": {
+          "mean": 137.95368857394456,
+          "low": 133.03559850616963,
+          "high": 142.8717786417195,
+          "n": 12
+        },
+        "entry": {
+          "mean": 0.11765340235496972,
+          "low": 0.09501439422935602,
+          "high": 0.14029241048058344,
+          "n": 12
+        },
+        "finish": {
+          "mean": 0.03508027984819427,
+          "low": 0.03311989014740523,
+          "high": 0.03704066954898331,
+          "n": 12
+        },
+        "late": {
+          "mean": 1.277911878099667,
+          "low": 0.3759783342626536,
+          "high": 2.1798454219366805,
+          "n": 12
+        },
+        "middle": {
+          "mean": 0.030759084850048277,
+          "low": 0.02876900124748386,
+          "high": 0.0327491684526127,
+          "n": 12
+        }
+      },
+      "bottlenecks": {
+        "early": 24
+      },
+      "early_to_late": 0
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "policy": "capacity_B_q10",
+      "n_fits": 12,
+      "trajectories": 24,
+      "pool_queues": {
+        "early": {
+          "mean": 37.29134317713952,
+          "low": 34.201011798743586,
+          "high": 40.38167455553545,
+          "n": 12
+        },
+        "entry": {
+          "mean": 0.11765340235496972,
+          "low": 0.09501439422935602,
+          "high": 0.14029241048058344,
+          "n": 12
+        },
+        "finish": {
+          "mean": 0.02429488134648974,
+          "low": 0.022990703764092995,
+          "high": 0.025599058928886486,
+          "n": 12
+        },
+        "late": {
+          "mean": 116.12588953574296,
+          "low": 110.33286380792593,
+          "high": 121.91891526355998,
+          "n": 12
+        },
+        "middle": {
+          "mean": 0.05902250368622345,
+          "low": 0.056268705623753884,
+          "high": 0.061776301748693016,
+          "n": 12
+        }
+      },
+      "bottlenecks": {
+        "late": 24
+      },
+      "early_to_late": 24
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "policy": "capacity_D_q10",
+      "n_fits": 12,
+      "trajectories": 24,
+      "pool_queues": {
+        "early": {
+          "mean": 137.95368857394456,
+          "low": 133.03559850616963,
+          "high": 142.8717786417195,
+          "n": 12
+        },
+        "entry": {
+          "mean": 0.11765340235496972,
+          "low": 0.09501439422935602,
+          "high": 0.14029241048058344,
+          "n": 12
+        },
+        "finish": {
+          "mean": 0.05799351694252842,
+          "low": 0.05467460713114404,
+          "high": 0.061312426753912797,
+          "n": 12
+        },
+        "late": {
+          "mean": 0.04602289460678332,
+          "low": 0.04055287650114436,
+          "high": 0.05149291271242228,
+          "n": 12
+        },
+        "middle": {
+          "mean": 0.03416175338484575,
+          "low": 0.03163207298850907,
+          "high": 0.03669143378118243,
+          "n": 12
+        }
+      },
+      "bottlenecks": {
+        "early": 24
+      },
+      "early_to_late": 0
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "policy": "rework_q10",
+      "n_fits": 12,
+      "trajectories": 24,
+      "pool_queues": {
+        "early": {
+          "mean": 137.95368857394456,
+          "low": 133.03559850616963,
+          "high": 142.8717786417195,
+          "n": 12
+        },
+        "entry": {
+          "mean": 0.11765340235496972,
+          "low": 0.09501439422935602,
+          "high": 0.14029241048058344,
+          "n": 12
+        },
+        "finish": {
+          "mean": 0.01432836184971445,
+          "low": 0.013194128282502085,
+          "high": 0.015462595416926813,
+          "n": 12
+        },
+        "late": {
+          "mean": 0.03560548271342063,
+          "low": 0.031371183832613905,
+          "high": 0.03983978159422735,
+          "n": 12
+        },
+        "middle": {
+          "mean": 0.008685087953915597,
+          "low": 0.007899952872691978,
+          "high": 0.009470223035139216,
+          "n": 12
+        }
+      },
+      "bottlenecks": {
+        "early": 24
+      },
+      "early_to_late": 0
+    }
+  ],
+  "routing_selector": [
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 4,
+      "action_agreement": 0.25,
+      "cost": 13486.517795138889,
+      "normalized_cost": 0.5422050280777381,
+      "regret": 2828.7018229166665,
+      "crisis": 0.3767361111111111
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.08333333333333333,
+      "cost": 14180.629774305555,
+      "normalized_cost": 0.5697410837035236,
+      "regret": 3522.8138020833335,
+      "crisis": 0.38715277777777773
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 2,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 1,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 13800.743055555555,
+      "normalized_cost": 0.5545219269701996,
+      "regret": 3142.9270833333335,
+      "crisis": 0.38020833333333326
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 9,
+      "action_agreement": 0.5833333333333334,
+      "cost": 15798.826822916664,
+      "normalized_cost": 0.6168381152128816,
+      "regret": 4574.28732638889,
+      "crisis": 0.359375
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 7,
+      "action_agreement": 0.5,
+      "cost": 16598.44314236111,
+      "normalized_cost": 0.6489970766205444,
+      "regret": 5373.903645833335,
+      "crisis": 0.3680555555555556
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.4166666666666667,
+      "cost": 17324.547309027777,
+      "normalized_cost": 0.6766553834866538,
+      "regret": 6100.007812500001,
+      "crisis": 0.37152777777777785
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 3,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16879.21788194444,
+      "normalized_cost": 0.6579310572559139,
+      "regret": 5654.678385416667,
+      "crisis": 0.3697916666666667
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16927.677083333332,
+      "normalized_cost": 0.6597485559762318,
+      "regret": 5703.137586805556,
+      "crisis": 0.37152777777777773
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 3,
+      "return_retained": 3,
+      "action_agreement": 0.3333333333333333,
+      "cost": 17976.847656249996,
+      "normalized_cost": 0.6971882461361968,
+      "regret": 6752.308159722223,
+      "crisis": 0.37152777777777785
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 3,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16879.21788194444,
+      "normalized_cost": 0.6579310572559139,
+      "regret": 5654.678385416667,
+      "crisis": 0.3697916666666667
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 3,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16879.21788194444,
+      "normalized_cost": 0.6579310572559139,
+      "regret": 5654.678385416667,
+      "crisis": 0.3697916666666667
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 3,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16879.21788194444,
+      "normalized_cost": 0.6579310572559139,
+      "regret": 5654.678385416667,
+      "crisis": 0.3697916666666667
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 3,
+      "action_agreement": 0.4166666666666667,
+      "cost": 16879.21788194444,
+      "normalized_cost": 0.6579310572559139,
+      "regret": 5654.678385416667,
+      "crisis": 0.3697916666666667
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.25,
+      "cost": 70284.37847222222,
+      "normalized_cost": 0.6461099616787777,
+      "regret": 13541.444444444445,
+      "crisis": 0.6423611111111113
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 69921.20486111111,
+      "normalized_cost": 0.6424339877602888,
+      "regret": 13178.270833333334,
+      "crisis": 0.6458333333333335
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 2,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71510.77083333333,
+      "normalized_cost": 0.6573378603994028,
+      "regret": 14767.836805555555,
+      "crisis": 0.6475694444444445
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.08333333333333333,
+      "cost": 71708.09375,
+      "normalized_cost": 0.6591397711715544,
+      "regret": 14965.15972222222,
+      "crisis": 0.6493055555555557
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 7,
+      "action_agreement": 0.5,
+      "cost": 35970.882378472226,
+      "normalized_cost": 0.5756346243232356,
+      "regret": 3909.284288194444,
+      "crisis": 0.4618055555555555
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 7,
+      "action_agreement": 0.5,
+      "cost": 35970.882378472226,
+      "normalized_cost": 0.5756346243232356,
+      "regret": 3909.284288194444,
+      "crisis": 0.4618055555555555
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.5833333333333334,
+      "cost": 35367.32986111111,
+      "normalized_cost": 0.5662878779348047,
+      "regret": 3305.7317708333335,
+      "crisis": 0.4461805555555555
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 1,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 1,
+      "action_agreement": 0.9166666666666666,
+      "cost": 32917.894965277774,
+      "normalized_cost": 0.5268340572154885,
+      "regret": 856.2968749999997,
+      "crisis": 0.421875
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 8,
+      "action_agreement": 0.5,
+      "cost": 44355.55121527778,
+      "normalized_cost": 0.7263130586948953,
+      "regret": 19054.982638888887,
+      "crisis": 0.4288194444444444
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 7,
+      "action_agreement": 0.4166666666666667,
+      "cost": 47473.98437500001,
+      "normalized_cost": 0.7767980323804,
+      "regret": 22173.41579861111,
+      "crisis": 0.4444444444444444
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 7,
+      "action_agreement": 0.4166666666666667,
+      "cost": 47473.98437500001,
+      "normalized_cost": 0.7767980323804,
+      "regret": 22173.41579861111,
+      "crisis": 0.4444444444444444
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50648.6935763889,
+      "normalized_cost": 0.8282591144678942,
+      "regret": 25348.124999999996,
+      "crisis": 0.4583333333333333
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 56565.52517361112,
+      "normalized_cost": 0.928379093624935,
+      "regret": 31264.956597222223,
+      "crisis": 0.486111111111111
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 3,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50518.5373263889,
+      "normalized_cost": 0.8260014110374317,
+      "regret": 25217.968749999996,
+      "crisis": 0.45659722222222215
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50648.6935763889,
+      "normalized_cost": 0.8282591144678942,
+      "regret": 25348.124999999996,
+      "crisis": 0.4583333333333333
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50648.6935763889,
+      "normalized_cost": 0.8282591144678942,
+      "regret": 25348.124999999996,
+      "crisis": 0.4583333333333333
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50648.6935763889,
+      "normalized_cost": 0.8282591144678942,
+      "regret": 25348.124999999996,
+      "crisis": 0.4583333333333333
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 6,
+      "action_agreement": 0.3333333333333333,
+      "cost": 50648.6935763889,
+      "normalized_cost": 0.8282591144678942,
+      "regret": 25348.124999999996,
+      "crisis": 0.4583333333333333
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 5,
+      "action_agreement": 0.3333333333333333,
+      "cost": 37832.25347222222,
+      "normalized_cost": 0.49857838391240134,
+      "regret": 11188.36111111111,
+      "crisis": 0.45312499999999994
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.001,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 4,
+      "action_agreement": 0.3333333333333333,
+      "cost": 37832.25347222222,
+      "normalized_cost": 0.49857838391240134,
+      "regret": 11188.36111111111,
+      "crisis": 0.45312499999999994
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.0025,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 4,
+      "action_agreement": 0.3333333333333333,
+      "cost": 37832.25347222222,
+      "normalized_cost": 0.49857838391240134,
+      "regret": 11188.36111111111,
+      "crisis": 0.45312499999999994
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "return",
+      "delta_duration": 0.01,
+      "delta_return": 0.01,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 0,
+      "action_agreement": 0.0,
+      "cost": 43561.62499999999,
+      "normalized_cost": 0.573279505585786,
+      "regret": 16917.732638888887,
+      "crisis": 0.5086805555555555
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 1,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.0025,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.005,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.01,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "axis": "duration",
+      "delta_duration": 0.02,
+      "delta_return": 0.005,
+      "n": 12,
+      "duration_retained": 0,
+      "return_retained": 2,
+      "action_agreement": 0.16666666666666666,
+      "cost": 40819.09722222222,
+      "normalized_cost": 0.5366383182210114,
+      "regret": 14175.20486111111,
+      "crisis": 0.48263888888888884
+    }
+  ],
+  "robustness": [
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "oracle",
+      "n": 12,
+      "cost": {
+        "mean": 51853.50564236112,
+        "low": 50658.8918150753,
+        "high": 53048.11946964693,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6304212334842768,
+        "low": 0.6224505681419299,
+        "high": 0.6383918988266237,
+        "n": 12
+      },
+      "regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.654513888888889,
+        "low": 0.6440175623138147,
+        "high": 0.6650102154639632,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.03299539512774807,
+        "low": 0.01369902191481557,
+        "high": 0.052291768340680576,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.9149305555555557,
+        "low": 0.8975720945976929,
+        "high": 0.9322890165134184,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.7447916666666666,
+        "low": 0.6927162837930783,
+        "high": 0.796867049540255,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.736904761904762,
+        "low": 0.6843759412918226,
+        "high": 0.7894335825177013,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 51405.0134548611,
+        "low": 50215.58928147674,
+        "high": 52594.43762824546,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 448.4921875,
+        "low": 438.6599743724602,
+        "high": 458.3244006275398,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 29.46701388888889,
+        "low": 27.947151617371812,
+        "high": 30.986876160405966,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 95.60788687777085,
+        "low": 94.16968182600478,
+        "high": 97.04609192953693,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 331.50209490824136,
+        "low": 326.7882400157794,
+        "high": 336.2159498007033,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "lead": {
+        "mean": 81.39777833481878,
+        "low": 73.51177366780293,
+        "high": 89.28378300183464,
+        "n": 12
+      },
+      "policies": {
+        "rework_q8": 12
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "heuristic",
+      "n": 12,
+      "cost": {
+        "mean": 65265.66059027778,
+        "low": 54641.95424561159,
+        "high": 75889.36693494397,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.7928575740181033,
+        "low": 0.6661614636075794,
+        "high": 0.9195536844286272,
+        "n": 12
+      },
+      "regret": {
+        "mean": 13412.154947916666,
+        "low": 2873.5884247757476,
+        "high": 23950.721471057586,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.16243634053382636,
+        "low": 0.034825983846825864,
+        "high": 0.2900466972208269,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6666666666666666,
+        "low": 0.6553782272925389,
+        "high": 0.6779551060407943,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.015160799168152111,
+        "low": -0.0022725500279153193,
+        "high": 0.03259414836421954,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.9149305555555557,
+        "low": 0.8975720945976929,
+        "high": 0.9322890165134184,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.7447916666666666,
+        "low": 0.6927162837930783,
+        "high": 0.796867049540255,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.736904761904762,
+        "low": 0.6843759412918226,
+        "high": 0.7894335825177013,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 64249.87673611112,
+        "low": 54072.44509471011,
+        "high": 74427.30837751213,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1015.7838541666666,
+        "low": 566.6374945061758,
+        "high": 1464.9302138271573,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 55.46527777777777,
+        "low": 34.8069654329733,
+        "high": 76.12359012258224,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 101.63481740491375,
+        "low": 96.62007641574597,
+        "high": 106.64955839408152,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 374.98802507906163,
+        "low": 341.8440306228231,
+        "high": 408.1320195353002,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.5833333333333334,
+        "low": 0.25616327763932606,
+        "high": 0.9105033890273406,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.5833333333333334,
+        "low": 0.25616327763932606,
+        "high": 0.9105033890273406,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "n": 0
+      },
+      "lead": {
+        "mean": 81.39777833481878,
+        "low": 73.51177366780293,
+        "high": 89.28378300183464,
+        "n": 12
+      },
+      "policies": {
+        "rework_q8": 7,
+        "capacity_simple_q8": 5
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "discovered_static",
+      "n": 12,
+      "cost": {
+        "mean": 56223.16449652778,
+        "low": 50757.26171647927,
+        "high": 61689.067276576294,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6834285393324201,
+        "low": 0.6191592580315561,
+        "high": 0.747697820633284,
+        "n": 12
+      },
+      "regret": {
+        "mean": 4369.658854166667,
+        "low": -973.9393185898807,
+        "high": 9713.257026923215,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.053007305848143026,
+        "low": -0.01147027932799196,
+        "high": 0.117484891024278,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6579861111111112,
+        "low": 0.6474897845360369,
+        "high": 0.6684824376861854,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.027791703802733214,
+        "low": 0.007101843007001122,
+        "high": 0.04848156459846531,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6493055555555556,
+        "low": 0.5182875040470019,
+        "high": 0.7803236070641093,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.11458333333333333,
+        "low": 0.05885112946614066,
+        "high": 0.170315537200526,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.09136904761904761,
+        "low": 0.044095342474347925,
+        "high": 0.1386427527637473,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 55320.15234374999,
+        "low": 49644.31825776185,
+        "high": 60995.986429738135,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 903.0121527777777,
+        "low": 546.6426254111403,
+        "high": 1259.381680144415,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 37.880208333333336,
+        "low": 26.689849753449057,
+        "high": 49.07056691321762,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 96.31660853295494,
+        "low": 91.92341492127802,
+        "high": 100.70980214463187,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 348.40795635500757,
+        "low": 331.58487314585784,
+        "high": 365.2310395641573,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.3333333333333333,
+        "low": 0.020498924786929718,
+        "high": 0.6461677418797369,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.32222222222222224,
+        "low": 0.27349706121998796,
+        "high": 0.37094738322445653,
+        "n": 12
+      },
+      "lead": {
+        "mean": 26.94715706530546,
+        "low": 16.829786363305587,
+        "high": 37.064527767305336,
+        "n": 11
+      },
+      "policies": {
+        "capacity_complex_q16": 5,
+        "rework_q16": 3,
+        "capacity_complex_q32": 2,
+        "none": 1,
+        "rework_q32": 1
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 55017.773003472226,
+        "low": 48846.02753899703,
+        "high": 61189.518467947426,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6681866682213172,
+        "low": 0.5984681602945744,
+        "high": 0.7379051761480601,
+        "n": 12
+      },
+      "regret": {
+        "mean": 3164.2673611111113,
+        "low": -2678.400936696469,
+        "high": 9006.935658918692,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.03776543473704037,
+        "low": -0.03168696708267795,
+        "high": 0.10721783655675868,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6579861111111113,
+        "low": 0.647489784536037,
+        "high": 0.6684824376861855,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.027865975935828877,
+        "low": 0.008666613930366444,
+        "high": 0.04706533794129131,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.8715277777777778,
+        "low": 0.8189324524606101,
+        "high": 0.9241231030949455,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.6145833333333334,
+        "low": 0.45679735738183014,
+        "high": 0.7723693092848366,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.6035714285714285,
+        "low": 0.44351230555719,
+        "high": 0.7636305515856671,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 54227.9001736111,
+        "low": 48188.931027401784,
+        "high": 60266.86931982042,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 789.872829861111,
+        "low": 464.182993778462,
+        "high": 1115.5626659437598,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 35.81944444444445,
+        "low": 24.04604953839121,
+        "high": 47.59283935049769,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 95.85355358323233,
+        "low": 92.12000837749034,
+        "high": 99.58709878897432,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 341.7530210588597,
+        "low": 321.3332136092946,
+        "high": 362.1728285084248,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.6666666666666666,
+        "low": 0.35383225812026303,
+        "high": 0.9795010752130702,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.6666666666666666,
+        "low": 0.35383225812026303,
+        "high": 0.9795010752130702,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.32407407407407407,
+        "low": 0.19757787023383266,
+        "high": 0.4505702779143155,
+        "n": 12
+      },
+      "lead": {
+        "mean": 68.55836861259655,
+        "low": 53.880318646842845,
+        "high": 83.23641857835025,
+        "n": 12
+      },
+      "policies": {
+        "rework_q8": 8,
+        "capacity_complex_q8": 1,
+        "capacity_complex_q16": 2,
+        "capacity_simple_q16": 1
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "discovered_predictive",
+      "n": 12,
+      "cost": {
+        "mean": 55828.86154513888,
+        "low": 50298.56471318792,
+        "high": 61359.15837708984,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6786352005896434,
+        "low": 0.6135634355464931,
+        "high": 0.7437069656327938,
+        "n": 12
+      },
+      "regret": {
+        "mean": 3975.355902777778,
+        "low": -1432.3633780139303,
+        "high": 9383.075183569486,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.048213967105366434,
+        "low": -0.01704489452332389,
+        "high": 0.11347282873405676,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6579861111111112,
+        "low": 0.6474897845360369,
+        "high": 0.6684824376861854,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.027791703802733214,
+        "low": 0.007101843007001122,
+        "high": 0.04848156459846531,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6979166666666666,
+        "low": 0.5448448460180582,
+        "high": 0.8509884873152751,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.2604166666666667,
+        "low": 0.06526210848375924,
+        "high": 0.45557122484957413,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.24067460317460318,
+        "low": 0.04327109455250608,
+        "high": 0.4380781117967003,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 54961.5724826389,
+        "low": 49226.77643447096,
+        "high": 60696.36853080684,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 867.2890624999999,
+        "low": 493.1787650217064,
+        "high": 1241.3993599782934,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 37.31076388888889,
+        "low": 26.03315750145234,
+        "high": 48.58837027632545,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 96.09809617794099,
+        "low": 91.69322451074089,
+        "high": 100.50296784514109,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 346.241923976271,
+        "low": 328.9494116541364,
+        "high": 363.5344362984056,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.4166666666666667,
+        "low": 0.08949661097265937,
+        "high": 0.743836722360674,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290331,
+        "high": 0.41398398203623665,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.3148148148148148,
+        "low": 0.27634323242399284,
+        "high": 0.3532863972056368,
+        "n": 12
+      },
+      "lead": {
+        "mean": 40.380395701669094,
+        "low": 24.03809046501107,
+        "high": 56.72270093832712,
+        "n": 11
+      },
+      "policies": {
+        "capacity_complex_q16": 4,
+        "rework_q16": 2,
+        "capacity_complex_q8": 1,
+        "none": 1,
+        "capacity_complex_q32": 1,
+        "rework_q32": 1,
+        "rework_q8": 2
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "variant": "mix65",
+      "method": "legacy_discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 76411.4652777778,
+        "low": 67938.09773709654,
+        "high": 84884.83281845905,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.9290966091502676,
+        "low": 0.8269550797089102,
+        "high": 1.031238138591625,
+        "n": 12
+      },
+      "regret": {
+        "mean": 24557.959635416668,
+        "low": 16018.13940272508,
+        "high": 33097.77986810826,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.29867537566599084,
+        "low": 0.19483246058989273,
+        "high": 0.40251829074208895,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6701388888888888,
+        "low": 0.6565068032349719,
+        "high": 0.6837709745428058,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.010258838383838384,
+        "low": -0.004966453534730313,
+        "high": 0.02548413030240708,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.8819444444444445,
+        "low": 0.8307300834333236,
+        "high": 0.9331588054555655,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.6458333333333334,
+        "low": 0.4921902502999704,
+        "high": 0.7994764163666963,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.6341269841269842,
+        "low": 0.47464248978405466,
+        "high": 0.7936114784699138,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 74692.32118055555,
+        "low": 66298.94599822133,
+        "high": 83085.69636288976,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1719.1440972222224,
+        "low": 1609.0552705357184,
+        "high": 1829.2329239087264,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 77.40972222222221,
+        "low": 61.02788204958936,
+        "high": 93.79156239485508,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 105.46604792853715,
+        "low": 100.0784078822857,
+        "high": 110.8536879747886,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 408.2096399918716,
+        "low": 381.2811999594255,
+        "high": 435.1380800243177,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.7759259259259258,
+        "low": 0.7082231681084549,
+        "high": 0.8436286837433967,
+        "n": 12
+      },
+      "lead": {
+        "mean": 71.78769310754606,
+        "low": 55.787101536609406,
+        "high": 87.78828467848271,
+        "n": 12
+      },
+      "policies": {
+        "capacity_simple_q8": 9,
+        "capacity_complex_q32": 1,
+        "capacity_complex_q16": 1,
+        "capacity_complex_q8": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "oracle",
+      "n": 12,
+      "cost": {
+        "mean": 73988.49305555556,
+        "low": 72484.54072050916,
+        "high": 75492.44539060196,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6802242557145961,
+        "low": 0.6743918010990235,
+        "high": 0.6860567103301687,
+        "n": 12
+      },
+      "regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6527777777777778,
+        "low": 0.6462603942663944,
+        "high": 0.6592951612891612,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.020833333333333332,
+        "low": 0.011057258066258221,
+        "high": 0.030609408600408443,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6805555555555555,
+        "low": 0.6719338675705787,
+        "high": 0.6891772435405322,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 73600.38888888888,
+        "low": 72095.42682849872,
+        "high": 75105.35094927903,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 388.1041666666666,
+        "low": 384.240592128227,
+        "high": 391.96774120510617,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 27.510416666666668,
+        "low": 26.104127871380193,
+        "high": 28.916705461953143,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 107.85530170104154,
+        "low": 106.38037833661802,
+        "high": 109.33022506546506,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 328.6742781009273,
+        "low": 325.22349622404164,
+        "high": 332.125059977813,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "lead": {
+        "mean": 36.635416666666664,
+        "low": 35.795954014858076,
+        "high": 37.47487931847525,
+        "n": 12
+      },
+      "policies": {
+        "rework_local_q10": 12
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "heuristic",
+      "n": 12,
+      "cost": {
+        "mean": 78730.94097222223,
+        "low": 74853.00682344983,
+        "high": 82608.87512099463,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.7238405742307794,
+        "low": 0.6906767131263377,
+        "high": 0.7570044353352211,
+        "n": 12
+      },
+      "regret": {
+        "mean": 4742.447916666668,
+        "low": 1177.5615025149095,
+        "high": 8307.334330818427,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.04361631851618316,
+        "low": 0.010813781392906736,
+        "high": 0.07641885563945958,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6510416666666666,
+        "low": 0.6395782022911893,
+        "high": 0.6625051310421439,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.0234375,
+        "low": 0.006242303436784072,
+        "high": 0.04063269656321593,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6805555555555555,
+        "low": 0.6719338675705787,
+        "high": 0.6891772435405322,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 77952.94097222222,
+        "low": 73729.1209999484,
+        "high": 82176.76094449604,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 778.0,
+        "low": 411.0395243021369,
+        "high": 1144.960475697863,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 30.869791666666668,
+        "low": 23.739631594723637,
+        "high": 37.9999517386097,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 112.9650969556692,
+        "low": 107.59565090928032,
+        "high": 118.33454300205807,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 348.09010119522145,
+        "low": 338.283545649733,
+        "high": 357.8966567407099,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "n": 0
+      },
+      "lead": {
+        "mean": 36.635416666666664,
+        "low": 35.795954014858076,
+        "high": 37.47487931847525,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 8,
+        "capacity_B_q10": 4
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "discovered_static",
+      "n": 12,
+      "cost": {
+        "mean": 74231.23958333333,
+        "low": 72057.71266108337,
+        "high": 76404.76650558329,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6826570258567809,
+        "low": 0.6633018026366936,
+        "high": 0.7020122490768682,
+        "n": 12
+      },
+      "regret": {
+        "mean": 242.7465277777798,
+        "low": -1946.5315801076833,
+        "high": 2432.024635663243,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.00243277014218463,
+        "low": -0.01792621614382539,
+        "high": 0.02279175642819465,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.654513888888889,
+        "low": 0.6413272553790696,
+        "high": 0.6677005223987083,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.018229166666666668,
+        "low": -0.0015507835980622768,
+        "high": 0.03800911693139561,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.670138888888889,
+        "low": 0.6624965793052374,
+        "high": 0.6777811984725405,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 72909.50347222222,
+        "low": 70589.33330530568,
+        "high": 75229.67363913875,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1321.736111111111,
+        "low": 1044.0199279475596,
+        "high": 1599.4522942746626,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 20.505208333333336,
+        "low": 16.201143392611307,
+        "high": 24.809273274055364,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 106.97080604704404,
+        "low": 103.76592981891243,
+        "high": 110.17568227517565,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 340.370674687506,
+        "low": 333.20029215841197,
+        "high": 347.5410572166,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4703703703703703,
+        "low": 0.39841761681107607,
+        "high": 0.5423231239296646,
+        "n": 12
+      },
+      "lead": {
+        "mean": 21.229166666666668,
+        "low": 13.286624413112357,
+        "high": 29.17170892022098,
+        "n": 12
+      },
+      "policies": {
+        "capacity_B_q40": 3,
+        "capacity_B_q20": 5,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 1,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 79370.73263888889,
+        "low": 75717.102839233,
+        "high": 83024.36243854478,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.7297293249883984,
+        "low": 0.6987126162100852,
+        "high": 0.7607460337667116,
+        "n": 12
+      },
+      "regret": {
+        "mean": 5382.239583333335,
+        "low": 2115.38257741979,
+        "high": 8649.09658924688,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.04950506927380225,
+        "low": 0.01939236867884535,
+        "high": 0.07961776986875915,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6562499999999999,
+        "low": 0.649337270885261,
+        "high": 0.6631627291147387,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.015625,
+        "low": 0.005255906327891651,
+        "high": 0.02599409367210835,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6770833333333334,
+        "low": 0.6701706042185944,
+        "high": 0.6839960624480723,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 78791.35416666667,
+        "low": 74920.81441557404,
+        "high": 82661.8939177593,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 579.3784722222222,
+        "low": 291.1258009685469,
+        "high": 867.6311434758975,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 32.47222222222222,
+        "low": 26.097260772690422,
+        "high": 38.84718367175402,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 114.27937625357139,
+        "low": 109.57180089871534,
+        "high": 118.98695160842743,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 348.31520605540703,
+        "low": 337.97488598930704,
+        "high": 358.655526121507,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.44814814814814813,
+        "low": 0.3662973760030345,
+        "high": 0.5299989202932618,
+        "n": 12
+      },
+      "lead": {
+        "mean": 33.979166666666664,
+        "low": 28.221182818836624,
+        "high": 39.737150514496705,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 7,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 2,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "discovered_predictive",
+      "n": 12,
+      "cost": {
+        "mean": 74231.23958333333,
+        "low": 72057.71266108337,
+        "high": 76404.76650558329,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6826570258567809,
+        "low": 0.6633018026366936,
+        "high": 0.7020122490768682,
+        "n": 12
+      },
+      "regret": {
+        "mean": 242.7465277777798,
+        "low": -1946.5315801076833,
+        "high": 2432.024635663243,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.00243277014218463,
+        "low": -0.01792621614382539,
+        "high": 0.02279175642819465,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.654513888888889,
+        "low": 0.6413272553790696,
+        "high": 0.6677005223987083,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.018229166666666668,
+        "low": -0.0015507835980622768,
+        "high": 0.03800911693139561,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.670138888888889,
+        "low": 0.6624965793052374,
+        "high": 0.6777811984725405,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 72909.50347222222,
+        "low": 70589.33330530568,
+        "high": 75229.67363913875,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1321.736111111111,
+        "low": 1044.0199279475596,
+        "high": 1599.4522942746626,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 20.505208333333336,
+        "low": 16.201143392611307,
+        "high": 24.809273274055364,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 106.97080604704404,
+        "low": 103.76592981891243,
+        "high": 110.17568227517565,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 340.370674687506,
+        "low": 333.20029215841197,
+        "high": 347.5410572166,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4703703703703703,
+        "low": 0.39841761681107607,
+        "high": 0.5423231239296646,
+        "n": 12
+      },
+      "lead": {
+        "mean": 21.229166666666668,
+        "low": 13.286624413112357,
+        "high": 29.17170892022098,
+        "n": 12
+      },
+      "policies": {
+        "capacity_B_q40": 3,
+        "capacity_B_q20": 5,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 1,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy30",
+      "method": "legacy_discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 79370.73263888889,
+        "low": 75717.102839233,
+        "high": 83024.36243854478,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.7297293249883984,
+        "low": 0.6987126162100852,
+        "high": 0.7607460337667116,
+        "n": 12
+      },
+      "regret": {
+        "mean": 5382.239583333335,
+        "low": 2115.38257741979,
+        "high": 8649.09658924688,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.04950506927380225,
+        "low": 0.01939236867884535,
+        "high": 0.07961776986875915,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6562499999999999,
+        "low": 0.649337270885261,
+        "high": 0.6631627291147387,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.015625,
+        "low": 0.005255906327891651,
+        "high": 0.02599409367210835,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6770833333333334,
+        "low": 0.6701706042185944,
+        "high": 0.6839960624480723,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 78791.35416666667,
+        "low": 74920.81441557404,
+        "high": 82661.8939177593,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 579.3784722222222,
+        "low": 291.1258009685469,
+        "high": 867.6311434758975,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 32.47222222222222,
+        "low": 26.097260772690422,
+        "high": 38.84718367175402,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 114.27937625357139,
+        "low": 109.57180089871534,
+        "high": 118.98695160842743,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 348.31520605540703,
+        "low": 337.97488598930704,
+        "high": 358.655526121507,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.44814814814814813,
+        "low": 0.3662973760030345,
+        "high": 0.5299989202932618,
+        "n": 12
+      },
+      "lead": {
+        "mean": 33.979166666666664,
+        "low": 28.221182818836624,
+        "high": 39.737150514496705,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 7,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 2,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "oracle",
+      "n": 12,
+      "cost": {
+        "mean": 43676.121527777774,
+        "low": 42455.09789885624,
+        "high": 44897.145156699306,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.40146062519541004,
+        "low": 0.3950821097298199,
+        "high": 0.4078391406610002,
+        "n": 12
+      },
+      "regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.5538194444444444,
+        "low": 0.5374042395736606,
+        "high": 0.5702346493152283,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.16927083333333334,
+        "low": 0.14464802602715754,
+        "high": 0.19389364063950915,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6805555555555555,
+        "low": 0.6719338675705787,
+        "high": 0.6891772435405322,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 43288.01736111112,
+        "low": 42065.97616069395,
+        "high": 44510.05856152828,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 388.1041666666666,
+        "low": 384.240592128227,
+        "high": 391.96774120510617,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 2.4739583333333335,
+        "low": 2.121290567679509,
+        "high": 2.826626098987158,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 65.11051655178291,
+        "low": 63.64730835171052,
+        "high": 66.5737247518553,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 212.57091630145115,
+        "low": 209.48287279959453,
+        "high": 215.65895980330777,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "lead": {
+        "mean": 36.635416666666664,
+        "low": 35.795954014858076,
+        "high": 37.47487931847525,
+        "n": 12
+      },
+      "policies": {
+        "rework_local_q10": 12
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "heuristic",
+      "n": 12,
+      "cost": {
+        "mean": 60887.5173611111,
+        "low": 56005.69078891603,
+        "high": 65769.34393330617,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.5599034415221437,
+        "low": 0.5154244554818818,
+        "high": 0.6043824275624056,
+        "n": 12
+      },
+      "regret": {
+        "mean": 17211.395833333332,
+        "low": 12226.518707588333,
+        "high": 22196.27295907833,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.15844281632673354,
+        "low": 0.11237927098496592,
+        "high": 0.20450636166850117,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6180555555555555,
+        "low": 0.5938884506870835,
+        "high": 0.6422226604240274,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.07291666666666667,
+        "low": 0.036666009363958786,
+        "high": 0.10916732396937456,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6805555555555555,
+        "low": 0.6719338675705787,
+        "high": 0.6891772435405322,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.041666666666666664,
+        "low": 0.01580160271173657,
+        "high": 0.06753173062159676,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 60109.51736111112,
+        "low": 55582.4572191927,
+        "high": 64636.57750302953,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 778.0,
+        "low": 411.0395243021369,
+        "high": 1144.960475697863,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 10.980902777777777,
+        "low": 7.982576305342462,
+        "high": 13.979229250213091,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 89.49791437267824,
+        "low": 83.59267359416802,
+        "high": 95.40315515118846,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 286.4144214883816,
+        "low": 266.20381842908915,
+        "high": 306.62502454767406,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "n": 0
+      },
+      "lead": {
+        "mean": 36.635416666666664,
+        "low": 35.795954014858076,
+        "high": 37.47487931847525,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 8,
+        "capacity_B_q10": 4
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "discovered_static",
+      "n": 12,
+      "cost": {
+        "mean": 69546.32291666667,
+        "low": 63151.22245781249,
+        "high": 75941.42337552086,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6389880359967236,
+        "low": 0.5828968307066675,
+        "high": 0.6950792412867797,
+        "n": 12
+      },
+      "regret": {
+        "mean": 25870.201388888887,
+        "low": 19957.870328607776,
+        "high": 31782.532449169998,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.23752741080131368,
+        "low": 0.1834326629163143,
+        "high": 0.2916221586863131,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6458333333333334,
+        "low": 0.6212307501022792,
+        "high": 0.6704359165643875,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.03125,
+        "low": -0.005653874846581183,
+        "high": 0.06815387484658118,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.670138888888889,
+        "low": 0.6624965793052374,
+        "high": 0.6777811984725405,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 68224.58680555555,
+        "low": 62084.385959901956,
+        "high": 74364.78765120915,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1321.736111111111,
+        "low": 1044.0199279475596,
+        "high": 1599.4522942746626,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 15.758680555555555,
+        "low": 11.759499142634795,
+        "high": 19.757861968476316,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 100.46884909243089,
+        "low": 92.05916058364613,
+        "high": 108.87853760121564,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 323.7494530099842,
+        "low": 298.40536978351383,
+        "high": 349.0935362364546,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4703703703703703,
+        "low": 0.39841761681107607,
+        "high": 0.5423231239296646,
+        "n": 12
+      },
+      "lead": {
+        "mean": 21.229166666666668,
+        "low": 13.286624413112357,
+        "high": 29.17170892022098,
+        "n": 12
+      },
+      "policies": {
+        "capacity_B_q40": 3,
+        "capacity_B_q20": 5,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 1,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 56352.659722222226,
+        "low": 51094.0713598374,
+        "high": 61611.248084607054,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.5182454544157754,
+        "low": 0.46989248470524064,
+        "high": 0.5665984241263102,
+        "n": 12
+      },
+      "regret": {
+        "mean": 12676.538194444445,
+        "low": 7299.959737730496,
+        "high": 18053.116651158394,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.11678482922036533,
+        "low": 0.06703191668808944,
+        "high": 0.16653774175264122,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6093749999999999,
+        "low": 0.5768900761754444,
+        "high": 0.6418599238245554,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.0859375,
+        "low": 0.03721011426316673,
+        "high": 0.13466488573683327,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6770833333333334,
+        "low": 0.6701706042185944,
+        "high": 0.6839960624480723,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 55773.28125,
+        "low": 50738.57001222205,
+        "high": 60807.99248777795,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 579.3784722222222,
+        "low": 291.1258009685469,
+        "high": 867.6311434758975,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 8.289930555555555,
+        "low": 5.777089604452146,
+        "high": 10.802771506658964,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 83.53412525017276,
+        "low": 76.35644173144615,
+        "high": 90.71180876889937,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 266.7417736525263,
+        "low": 243.85138073856362,
+        "high": 289.63216656648905,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.44814814814814813,
+        "low": 0.3662973760030345,
+        "high": 0.5299989202932618,
+        "n": 12
+      },
+      "lead": {
+        "mean": 33.979166666666664,
+        "low": 28.221182818836624,
+        "high": 39.737150514496705,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 7,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 2,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "discovered_predictive",
+      "n": 12,
+      "cost": {
+        "mean": 69546.32291666667,
+        "low": 63151.22245781249,
+        "high": 75941.42337552086,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.6389880359967236,
+        "low": 0.5828968307066675,
+        "high": 0.6950792412867797,
+        "n": 12
+      },
+      "regret": {
+        "mean": 25870.201388888887,
+        "low": 19957.870328607776,
+        "high": 31782.532449169998,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.23752741080131368,
+        "low": 0.1834326629163143,
+        "high": 0.2916221586863131,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6458333333333334,
+        "low": 0.6212307501022792,
+        "high": 0.6704359165643875,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.03125,
+        "low": -0.005653874846581183,
+        "high": 0.06815387484658118,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.670138888888889,
+        "low": 0.6624965793052374,
+        "high": 0.6777811984725405,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.010416666666666666,
+        "low": -0.012510262084287906,
+        "high": 0.03334359541762124,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 68224.58680555555,
+        "low": 62084.385959901956,
+        "high": 74364.78765120915,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 1321.736111111111,
+        "low": 1044.0199279475596,
+        "high": 1599.4522942746626,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 15.758680555555555,
+        "low": 11.759499142634795,
+        "high": 19.757861968476316,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 100.46884909243089,
+        "low": 92.05916058364613,
+        "high": 108.87853760121564,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 323.7494530099842,
+        "low": 298.40536978351383,
+        "high": 349.0935362364546,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.08333333333333333,
+        "low": -0.10008209667430325,
+        "high": 0.2667487633409699,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.4703703703703703,
+        "low": 0.39841761681107607,
+        "high": 0.5423231239296646,
+        "n": 12
+      },
+      "lead": {
+        "mean": 21.229166666666668,
+        "low": 13.286624413112357,
+        "high": 29.17170892022098,
+        "n": 12
+      },
+      "policies": {
+        "capacity_B_q40": 3,
+        "capacity_B_q20": 5,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 1,
+        "rework_global_q40": 1
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "variant": "efficacy70",
+      "method": "legacy_discovered_retained",
+      "n": 12,
+      "cost": {
+        "mean": 56352.659722222226,
+        "low": 51094.0713598374,
+        "high": 61611.248084607054,
+        "n": 12
+      },
+      "normalized_cost": {
+        "mean": 0.5182454544157754,
+        "low": 0.46989248470524064,
+        "high": 0.5665984241263102,
+        "n": 12
+      },
+      "regret": {
+        "mean": 12676.538194444445,
+        "low": 7299.959737730496,
+        "high": 18053.116651158394,
+        "n": 12
+      },
+      "normalized_regret": {
+        "mean": 0.11678482922036533,
+        "low": 0.06703191668808944,
+        "high": 0.16653774175264122,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.6093749999999999,
+        "low": 0.5768900761754444,
+        "high": 0.6418599238245554,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.0859375,
+        "low": 0.03721011426316673,
+        "high": 0.13466488573683327,
+        "n": 12
+      },
+      "activation": {
+        "mean": 0.6770833333333334,
+        "low": 0.6701706042185944,
+        "high": 0.6839960624480723,
+        "n": 12
+      },
+      "calm_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "wip_area": {
+        "mean": 55773.28125,
+        "low": 50738.57001222205,
+        "high": 60807.99248777795,
+        "n": 12
+      },
+      "action_cost": {
+        "mean": 579.3784722222222,
+        "low": 291.1258009685469,
+        "high": 867.6311434758975,
+        "n": 12
+      },
+      "residual_wip": {
+        "mean": 8.289930555555555,
+        "low": 5.777089604452146,
+        "high": 10.802771506658964,
+        "n": 12
+      },
+      "cycle_mean": {
+        "mean": 83.53412525017276,
+        "low": 76.35644173144615,
+        "high": 90.71180876889937,
+        "n": 12
+      },
+      "cycle_p95": {
+        "mean": 266.7417736525263,
+        "low": 243.85138073856362,
+        "high": 289.63216656648905,
+        "n": 12
+      },
+      "action_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "policy_agreement": {
+        "mean": 0.16666666666666666,
+        "low": -0.08065064870290328,
+        "high": 0.4139839820362366,
+        "n": 12
+      },
+      "ranking_error": {
+        "mean": 0.44814814814814813,
+        "low": 0.3662973760030345,
+        "high": 0.5299989202932618,
+        "n": 12
+      },
+      "lead": {
+        "mean": 33.979166666666664,
+        "low": 28.221182818836624,
+        "high": 39.737150514496705,
+        "n": 12
+      },
+      "policies": {
+        "rework_global_q10": 7,
+        "capacity_B_q10": 2,
+        "rework_local_q10": 2,
+        "rework_global_q40": 1
+      }
+    }
+  ],
+  "routing_triggers": [
+    {
+      "process": "P1",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "6": 9,
+        "12": 3
+      },
+      "training_max_wip_range": [
+        5.0,
+        9.0
+      ],
+      "threshold_to_training_max_range": [
+        0.6666666666666666,
+        2.0
+      ],
+      "above_training_range": 6,
+      "activation": {
+        "mean": 0.7048611111111112,
+        "low": 0.6817037551759021,
+        "high": 0.7280184670463202,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.34209329318024967,
+        "low": 0.25788040858905736,
+        "high": 0.426306177771442,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 5.9007754629629625,
+        "low": 4.894320756274217,
+        "high": 6.907230169651708,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3645833333333333,
+        "low": 0.34462800325718596,
+        "high": 0.3845386634094807,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.3288624762583096,
+        "low": 0.2865595745539175,
+        "high": 0.3711653779627017,
+        "n": 12
+      }
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "8": 9,
+        "16": 3
+      },
+      "training_max_wip_range": [
+        6.0,
+        13.0
+      ],
+      "threshold_to_training_max_range": [
+        0.6153846153846154,
+        2.6666666666666665
+      ],
+      "above_training_range": 6,
+      "activation": {
+        "mean": 0.704861111111111,
+        "low": 0.6831229257646226,
+        "high": 0.7265992964575995,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.49039280217441134,
+        "low": 0.46034357880244026,
+        "high": 0.5204420255463824,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 5.0421978241057195,
+        "low": 4.44413479217468,
+        "high": 5.640260856036759,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.34548611111111116,
+        "low": 0.3225881488009727,
+        "high": 0.3683840734212496,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.17900337966127436,
+        "low": 0.11707103888562428,
+        "high": 0.24093572043692443,
+        "n": 12
+      }
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "10": 11,
+        "40": 1
+      },
+      "training_max_wip_range": [
+        7.0,
+        11.0
+      ],
+      "threshold_to_training_max_range": [
+        0.9090909090909091,
+        5.0
+      ],
+      "above_training_range": 7,
+      "activation": {
+        "mean": 0.6770833333333334,
+        "low": 0.6701706042185944,
+        "high": 0.6839960624480723,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.03125,
+        "low": 0.010511812655783302,
+        "high": 0.0519881873442167,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 4.247395833333333,
+        "low": 3.527647852354578,
+        "high": 4.967143814312088,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.642361111111111,
+        "low": 0.6276067566639802,
+        "high": 0.6571154655582419,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.036458333333333336,
+        "low": 0.014326801662637154,
+        "high": 0.05858986500402952,
+        "n": 12
+      }
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "10": 11,
+        "20": 1
+      },
+      "training_max_wip_range": [
+        10.0,
+        21.0
+      ],
+      "threshold_to_training_max_range": [
+        0.47619047619047616,
+        1.4285714285714286
+      ],
+      "above_training_range": 1,
+      "activation": {
+        "mean": 0.8125,
+        "low": 0.7795888265207919,
+        "high": 0.8454111734792081,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.5058526115124412,
+        "low": 0.4234245382813811,
+        "high": 0.5882806847435014,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 7.8365797265431105,
+        "low": 6.6421015715106915,
+        "high": 9.03105788157553,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.4947916666666667,
+        "low": 0.4613404378755019,
+        "high": 0.5282428954578315,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.20011683812898126,
+        "low": 0.14200032744310295,
+        "high": 0.2582333488148596,
+        "n": 12
+      }
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "10": 12
+      },
+      "training_max_wip_range": [
+        11.0,
+        18.0
+      ],
+      "threshold_to_training_max_range": [
+        0.5555555555555556,
+        0.9090909090909091
+      ],
+      "above_training_range": 0,
+      "activation": {
+        "mean": 0.8680555555555555,
+        "low": 0.8432380985222582,
+        "high": 0.8928730125888528,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.7196060121546392,
+        "low": 0.6655837191130525,
+        "high": 0.7736283051962258,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 9.729752855701133,
+        "low": 8.954170246737494,
+        "high": 10.505335464664771,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3819444444444444,
+        "low": 0.3277090046238269,
+        "high": 0.43617988426506193,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.2735736230563817,
+        "low": 0.16974499633367662,
+        "high": 0.3774022497790868,
+        "n": 12
+      }
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "structure": "discovered",
+      "threshold_counts": {
+        "10": 11,
+        "20": 1
+      },
+      "training_max_wip_range": [
+        10.0,
+        16.0
+      ],
+      "threshold_to_training_max_range": [
+        0.625,
+        2.0
+      ],
+      "above_training_range": 1,
+      "activation": {
+        "mean": 0.762152777777778,
+        "low": 0.7285431990895905,
+        "high": 0.7957623564659655,
+        "n": 12
+      },
+      "nonsevere_activation": {
+        "mean": 0.31988698257080606,
+        "low": 0.2295978835368947,
+        "high": 0.4101760816047174,
+        "n": 12
+      },
+      "lead_T": {
+        "mean": 6.300546034946237,
+        "low": 5.341454246360672,
+        "high": 7.2596378235318015,
+        "n": 12
+      },
+      "crisis": {
+        "mean": 0.3819444444444444,
+        "low": 0.3493575268875274,
+        "high": 0.4145313620013614,
+        "n": 12
+      },
+      "prevented_fraction": {
+        "mean": 0.4124831989247311,
+        "low": 0.3591920876020784,
+        "high": 0.46577431024738386,
+        "n": 12
+      }
+    }
+  ]
+}

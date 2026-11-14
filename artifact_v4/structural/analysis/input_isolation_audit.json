@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "process": "P1",
+      "pilot_prepared_sha256": "b7e005b14867d9a4bcf20e6b507d76d25241e9194f65124d7007af0635193282",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 3
+    },
+    {
+      "process": "P2",
+      "pilot_prepared_sha256": "5f128901431d0c37b38382b9a2acc25fdede44fa11196e0ca58fff033d92f3ab",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 4
+    },
+    {
+      "process": "P3",
+      "pilot_prepared_sha256": "4199f18c1677988e5933c8939cbed5da6c9cdf62a2f0f10eea7bb3d7ad9fb3d6",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 4
+    },
+    {
+      "process": "P4",
+      "pilot_prepared_sha256": "9cff1788170f6ee6ac9f353ee5f5ee2d658dc57adb725c1b4a477ee31b14509f",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 4
+    },
+    {
+      "process": "P5",
+      "pilot_prepared_sha256": "d2a71c4effd071f95554af32d074ef46d63cc16e032ebf34c93f8302b257eb9d",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 4
+    },
+    {
+      "process": "P6",
+      "pilot_prepared_sha256": "1c60ac7f15098e5a60fd36db20b31dfa8c50ff36cf289201c985b5ccf81fbcff",
+      "fitted_parameters_exact": true,
+      "fitting_without_control_flow_exact": true,
+      "selected_executable_structure_exact": true,
+      "fitted_execution_exact": true,
+      "policy_types_checked": 4
+    }
+  ],
+  "scope": "Excluded technical pilot only. Perturbing truth control flow and generative duration/return coefficients, and removing topology from fitting, does not change fitted parameters, selected structure, or fitted execution. Engineering resource maps, candidate return sites, observation mappings and normal-regime scales are held fixed. This audit establishes absence of dependence on the perturbed fields, not absence of all possible information leakage."
+}

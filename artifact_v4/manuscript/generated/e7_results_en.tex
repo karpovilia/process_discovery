@@ -1,0 +1,40 @@
+All 48 production tasks pass coverage, completion-hash and raw-path audits. None of the 528 calibration/validation episodes meets the severe-event criterion. Maximum calibration WIP is 16, 61, 19 and 111 for fixed, service, routing and combined feedback, respectively. The last value includes a brief excursion above 100, so ``pre-crisis'' means absence of the defined sustained event, not uniformly low load. No episode is removed.
+
+Table~\ref{tab:e7cost} reports all mechanisms and comparators. In the primary routing setting, load planning chooses rework-at-20 in 9 of 12 fits and capacity-at-20 in the other 3. Mean realized cost falls from 92,832.6 with static planning to 57,351.8, a 38.2\% reduction. The capacity-at-20 comparison gives a 38.1\% reduction. Both adjusted intervals in Table~\ref{tab:e7contrast} exclude zero, satisfying the frozen primary criterion. Rework-at-20 alone costs 45,313.5: load planning is numerically worse, and its paired interval includes zero. This is no evidence of equivalence or superiority over that heuristic. The predictive selector retains return load terms in only 2 of 12 fits and chooses rework in only 1; its mean cost is 88,834.8.
+
+\begin{table}[t]
+\caption{E7 mean realized cost in thousands of case-time-equivalent units, over 12 independent fits per mechanism and all test conditions. ``Selected'' uses validation-based component selection.}\label{tab:e7cost}
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}\toprule
+Mechanism & \shortstack{No\\action} & \shortstack{Static\\planning} & \shortstack{Load\\planning} & \shortstack{Selected\\planning} & \shortstack{Capacity\\at 20} & \shortstack{Rework\\at 20}\\\midrule
+\input{generated/e7_costs_en.tex}
+\end{tabular}
+\end{table}
+\begin{table}[t]
+\caption{Routing: load planning minus comparator cost, in thousands. Primary intervals are 97.5\%; the rework comparison is descriptive at 95\%. Negative differences favor load planning.}\label{tab:e7contrast}
+\centering\small
+\begin{tabular}{lrrr}\toprule
+Comparator & Difference & Paired interval & Level\\\midrule
+\input{generated/e7_contrasts_en.tex}
+\end{tabular}
+\end{table}
+
+The response is activated before the matched no-action crisis in all 289 at-risk routing trajectories, with mean lead time 108.0 units. It prevents the defined event in 93 of these trajectories; 196 still experience one. Neither an activation nor a crisis occurs in the 192 no-shock routing trajectories. Figure~\ref{fig:e7} illustrates faster recovery and the variation caused by learned policy choices. These are conditional, descriptive warning measurements, not a calibrated crisis-classification score.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\textwidth]{generated/e7_response_en.pdf}
+\caption{Routing responses under two held-out pulse scenarios. Lines average eight trajectories within each of 12 fits, then average fits. The load-planning band is one standard deviation across fit means, not a confidence interval. Gray regions mark pulses; the horizontal line marks WIP 100. The rework heuristic shows the limit of learned action selection.}\label{fig:e7}
+\end{figure}
+
+Benefits vary by mechanism. For service feedback, every planner chooses capacity-at-20 and all costs coincide. With combined feedback, load planning lowers cost by 6.7\% against static/capacity planning, but severe-event incidence rises from 69.3\% to 71.0\%: minimizing backlog cost is not identical to preventing the defined event. Without feedback, load planning raises cost by 10.9\% against static planning, with descriptive paired difference 1,959.3 and interval $[219.5,3699.1]$. Across mechanisms, no-shock activation rates are 0.0\%, 14.1\%, 0.0\% and 28.6\%; matching no-action crisis rates are 0.0\%, 2.1\%, 0.0\% and 19.3\%. Baseline instability therefore explains some, but not all, no-shock activations.
+
+The equal-weight cross-mechanism analysis favors load planning at default costs: normalized differences are $-0.0536$ against static planning, $-0.0503$ against capacity-at-20, and $-0.1137$ against rework-at-20. These are differences of within-world cost ratios, not percentage reductions in pooled raw cost. Table~\ref{tab:e7sensitivity} gives descriptive intervals and all prespecified cost multipliers. At twice the action cost, the static and capacity intervals include zero; the advantage over rework remains marginal. Thus, adaptation across mechanisms is supported for the stated decision problem, not independently of its cost assumptions.
+
+\begin{table}[t]
+\caption{Cross-mechanism normalized cost differences, load planning minus comparator, with descriptive 95\% intervals. Policies are reselected from planning costs at each multiplier.}\label{tab:e7sensitivity}
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}\toprule
+Cost multiplier & Static planning & Capacity at 20 & Rework at 20\\\midrule
+\input{generated/e7_sensitivity_en.tex}
+\end{tabular}
+\end{table}

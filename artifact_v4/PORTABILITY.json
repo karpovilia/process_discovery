@@ -1,0 +1,92 @@
+{
+  "source_freeze_sha256": "b9d2d6fc6ba718874e578c4550dbc11ba135105ec7cec42bc223742768e02869",
+  "export_freeze_sha256": "eb81c90ca5b297bafe6289f594dbe228edef565d4bf0d3335988162769238493",
+  "changes": [
+    {
+      "file": "structural/operational_report.py",
+      "original_sha256": "c4fce55641c20412c278c5717707f6f79684d0170b6458d2cd52960781c6c81e",
+      "artifact_sha256": "019460399a36b1f6622023e4911618b1788d496d9b4cce650fd7f7a0426bfafa",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "structural/render_results.py",
+      "original_sha256": "6c25c9ab5e17f8595620e858eac8c1eb9642f1e4958ea57ff2df1f058c8065ca",
+      "artifact_sha256": "a0d28d28767d25b03ad59016481c48353dbe421c4b543224d5483844346aff80",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "structural/report_diagnostics.py",
+      "original_sha256": "d06c2143be28cb90827fa989c49a83cfe8e5e4cb86c85934dc838b05fa2aa782",
+      "artifact_sha256": "43169f8cf485bf385c71258f277165b187a12aae1be864cf5a1ae93cce45bbad",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "selector/selector_sensitivity.py",
+      "original_sha256": "37e19eb93ff0f6387ce8855f0b007d948a419b1e52de585a7da7734eeeac1b4c",
+      "artifact_sha256": "141a3243c63cf99ca0d00aa69366b66c8601cddac4c5eb1da8984717543878cd",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P3_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P1_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P5_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P4_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P2_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/pilot_alignment_metric_mismatch/P6_routing_s00/discovery.json",
+      "original_sha256": "55eefb8d93078a496833edb6a79d0b055def76e7be254ca747d4b21213148d07",
+      "artifact_sha256": "5762ca298431b8da7571a5de7a37b308f9ff8bfec1fbcecffce1930adb44d799",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/semantic_audit/INPUT_SNAPSHOT.json",
+      "original_sha256": "5f339cab6d7ffcc592d578efaf0296ffd5f5169c2a9b48ddeaca0210c008e07e",
+      "artifact_sha256": "1be90e15d02a976a9f9636a24c98529451d04f0c264d7715275847a40ed957fa",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/semantic_audit/runtime_regression_corrected.json",
+      "original_sha256": "024d4b99e3408531751ccc675465d1d19b230585392f915cb7a18c2fdadf52ed",
+      "artifact_sha256": "82d2579ab94f99579ccfb59c01dd1bc9d2c0e23499191f4a65369ccf351d0235",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/semantic_audit/runtime_regression_original.json",
+      "original_sha256": "478c31aeaf17d75eb36278d3e0acf3f2328868d3a5903fa94c2b2c88e85f0beb",
+      "artifact_sha256": "3b27121cbbf6715d8842ff90ed36f2a18a6e10f342ef137f97abc72219817ad5",
+      "reason": "Portable paths or non-numerical metadata only"
+    },
+    {
+      "file": "development/semantic_audit/generator_invariance.py",
+      "original_sha256": "6eeda9dd986662a4ae1ce6b8ce43807ff985140c1c72b36c61a275fb2c293ac9",
+      "artifact_sha256": "3b93a90f864e0b3dcce9e04cf42136fe8f0f01b1773516ebb2e82360dcc2c3d9",
+      "reason": "Portable paths or non-numerical metadata only"
+    }
+  ],
+  "numeric_results_copied_byte_for_byte": true,
+  "scope": "Version4 export, distinct from the original execution freeze"
+}

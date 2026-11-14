@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "checks": {
+    "label_parity": true,
+    "ref_parity": true,
+    "cite_parity": true,
+    "displayed_formula_parity": true,
+    "numeric_token_parity": true,
+    "bibliography_complete": true,
+    "bibliography_all_used": true,
+    "en_pdf_matches_current_sources": true,
+    "en_compiled_references": true,
+    "en_no_overfull_boxes": true,
+    "en_no_identity_tokens": true,
+    "en_anonymous_pdf_author": true,
+    "ru_pdf_matches_current_sources": true,
+    "ru_compiled_references": true,
+    "ru_no_overfull_boxes": true,
+    "ru_no_identity_tokens": true,
+    "ru_anonymous_pdf_author": true,
+    "english_page_limit": true,
+    "evidence_summary_matches": true,
+    "independent_raw_audit_passed": true,
+    "structural_complete": true,
+    "structural_checksums": true,
+    "structural_primary_precrisis_audit": true,
+    "structural_precrisis_disclosure": true,
+    "structural_raw_arithmetic": true,
+    "structural_independent_decision_audit": true,
+    "structural_input_isolation_audit": true,
+    "structural_input_provenance": true,
+    "structural_tables_figures_provenance": true,
+    "russian_page_limit": true
+  },
+  "compiled": {
+    "en": {
+      "pages": 14,
+      "body_end_page": 12,
+      "overfull_boxes": [],
+      "missing_or_unresolved": [],
+      "identity_tokens": [],
+      "sha256": "61589697586f931e47da89335c5a0051b17ee48894080ab16128ca4fe7455eea"
+    },
+    "ru": {
+      "pages": 16,
+      "body_end_page": 14,
+      "overfull_boxes": [],
+      "missing_or_unresolved": [],
+      "identity_tokens": [],
+      "sha256": "ed723ee4bde58e0e045d4d6568150f6980669ce052ba872943d5a426fbc002f5"
+    }
+  },
+  "source_input_sha256": {
+    "en": {
+      "generated/e7_costs_en.tex": "639bc6a6001e4cc89550adbee27bfa9512442af3c06fe7bc504b622d311924bc",
+      "generated/structural_matrix_en.pdf": "186d3f4b7444bb69af63b344b8946db4ee5cbaca5fafa4e6acac3b75c08f852c",
+      "generated/structural_primary_en.tex": "82b21ed6d3955fd86b036faf4dd3748ed3ce44f896acdc5ec0631f3d051d7691",
+      "llncs.cls": "04ec99046ad9867f6cd54ffd1ef8c47c767b327d1baec77536db0528cd492fa2",
+      "paper_en.tex": "19152f8bf442b911f30ffd54759a4e2ca371f5d717fd2048cd3e6ed27e1556e7",
+      "references.bib": "3d74b15f1c7327b4d8b7c0a7ae672a5acbb2d47359aac90fda547d5673703658",
+      "sections/design_en.tex": "5b48b730361a483c681bc7639d825d8c346732af4eb29e08ea997476038faa01",
+      "sections/engineering_en.tex": "39fa454de177972d52190459bd62543482c1a434e9b2360644ac6fc82c5bd79e",
+      "sections/method_en.tex": "a1221e3009bac30d42fead4818ad7f34c66fe51c171b56a95740bda0412a77ca",
+      "sections/opening_en.tex": "0e2eeeadc7156859c8ac720210f655d29221061caf0a5f09c69b9d7c98f59b74",
+      "sections/results_en.tex": "4b1e410cee8ee4f1755475b59d25913236c64be8306baadeaaa47f54ac20161b",
+      "sections/structural_design_en.tex": "d87136802b5bbe0f52b94153e03c6a4bc833838d11352624965d1f30614dcff1",
+      "sections/structural_results_en.tex": "a2650edcb4160c9e0f7a4118b2e3296236726b5c9cf1549e41cba74274b25c63",
+      "splncs04.bst": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174"
+    },
+    "ru": {
+      "generated/e7_costs_ru.tex": "81bc082a1f0f57d40519ee6f197e766e9c5694135f7df417e0458a7bb16ea352",
+      "generated/structural_matrix_ru.pdf": "cb275dc785cfa3ae52d124c2772df05f5b1f00d523004129b9d743db2f5620d3",
+      "generated/structural_primary_ru.tex": "069dd3ce5f00aa6dc3f40ae062ed6cd460478c623c1304a525e44a54efc0c693",
+      "llncs.cls": "04ec99046ad9867f6cd54ffd1ef8c47c767b327d1baec77536db0528cd492fa2",
+      "paper_ru.tex": "059f76400cf6448c15ba0e87e3cf10cae00829aa8680f38169a36794107a4c9f",
+      "references.bib": "3d74b15f1c7327b4d8b7c0a7ae672a5acbb2d47359aac90fda547d5673703658",
+      "russian_hyphenation.tex": "e58f453536ecc56c6e3bd0f5a31061679b9777932fcc08e7261485ffb476c862",
+      "sections/design_ru.tex": "20ef76d9ba5336591814403c58405035a0e185ff02381be370f8189f3e0fd227",
+      "sections/engineering_ru.tex": "6a26e3cc476ed0b194ceda0f8593e7b35d971881a2af7fa3fe732f0c58dd6976",
+      "sections/method_ru.tex": "07ea123b94f18ed46020a7a6e16093acc53409e47a2e9180f743e96909674286",
+      "sections/opening_ru.tex": "5579f2005d1b875d632ce71e352692fd137229bf83ec80d79a23441f97fe2008",
+      "sections/results_ru.tex": "d03a678a9fb6395667a88e870172b4b5a16e2d3c58a1cabccca6bd940d7584fc",
+      "sections/structural_design_ru.tex": "d6cd4a2b8ab7b056a9eb347a93685cec3554d63c0ebabae4ed5c1c29a70b40ec",
+      "sections/structural_results_ru.tex": "9b7bce3dde7743a3d2293c08ea9f9cb3a5386c40f3befd045572b752a0dd3fd6",
+      "splncs04.bst": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174"
+    }
+  },
+  "cited_sources": 23,
+  "scope": "Automated artifact consistency checks; not independent peer review or author approval."
+}

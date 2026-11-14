@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "checks": {
+    "label_parity": true,
+    "ref_parity": true,
+    "cite_parity": true,
+    "numeric_parity": true,
+    "en_pdf_matches_current_sources": true,
+    "en_resolved": true,
+    "en_layout": true,
+    "en_anonymity": true,
+    "en_anonymous_author": true,
+    "ru_pdf_matches_current_sources": true,
+    "ru_resolved": true,
+    "ru_layout": true,
+    "ru_anonymity": true,
+    "ru_anonymous_author": true
+  },
+  "compiled": {
+    "en": {
+      "pages": 25,
+      "missing": [],
+      "overfull": [],
+      "sha256": "fbdc65e3a905f17448a7e3b7cd497e93b53bea9c9a69d07ba78e448beb487571"
+    },
+    "ru": {
+      "pages": 27,
+      "missing": [],
+      "overfull": [],
+      "sha256": "e3acc9b0dbebcebfdfe8c08edd14271516293a034a934512fe2aa242db6d83f2"
+    }
+  },
+  "source_input_sha256": {
+    "en": {
+      "generated/diagnostic_supplement_en.tex": "ddf119e9da3f685588c17504954111d713deea52f5fd15e4176e772917f3b5c9",
+      "generated/e5_en.tex": "4a4cd191de35fbd7c6c329e93bb56944dd935d97127d7c0ef798cb3d95ee58d1",
+      "generated/e7_contrasts_en.tex": "b73cf34f69425701ea97cb244ed58bbeb1d457d4d78b6034ebd4b8775b1f12d4",
+      "generated/e7_costs_en.tex": "639bc6a6001e4cc89550adbee27bfa9512442af3c06fe7bc504b622d311924bc",
+      "generated/e7_response_en.pdf": "1629163b9d98a3a7eb586c47be25016e08e6e10bbef20df1c9ea0d60dfb4792a",
+      "generated/e7_results_en.tex": "9e52a89c2c639a867d5b2ef6bb18392ad1cab7a91b141ddc0241f067cd136d68",
+      "generated/e7_sensitivity_en.tex": "f6056109fc21336cd2ced91b9ff1d5fd096242156c417ce7d0b1b101ffe88962",
+      "generated/operational_supplement_en.tex": "1d975642b51af888f430d79aadbf9e86affbc72a4c47aeec18cd77aa7a2adb68",
+      "generated/real_en.tex": "2ebc3d800fbef6cd6fdf7a404b95404b47ee8e88f82969a9c67ff00c596171ac",
+      "generated/structural_supplement_en.tex": "32ddd92f312b75b90dfec47225245ba1355549a8b1aec53ec2996d33e11a3bfc",
+      "generated/structure_en.tex": "034c657c0f3ddc40e570be5ec24f0923bde0d7c74adda169c143e7633ffe60b7",
+      "generated/workflow_en.pdf": "7720a333c5a1dedf3f2163e8b3e75067c4d30320f69cb8c48c82f27d6ae03876",
+      "llncs.cls": "04ec99046ad9867f6cd54ffd1ef8c47c767b327d1baec77536db0528cd492fa2",
+      "references.bib": "3d74b15f1c7327b4d8b7c0a7ae672a5acbb2d47359aac90fda547d5673703658",
+      "sections/execution_audit_en.tex": "40d96baa799f8a71a6f4bf239556c248831294ab6148d0a6484214011f9b2ce9",
+      "sections/selector_reference_en.tex": "3db555eaf1e2f347cacd54007596562f684bda674afe319aefa03dade3aceabb",
+      "splncs04.bst": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174",
+      "supplement_en.tex": "4291afa6c0f04bf980a30bcb9760e266af923aa8e0175b2b38c701ee8072b432"
+    },
+    "ru": {
+      "generated/diagnostic_supplement_ru.tex": "c92eaee03055a6a7ff5ea3462c435ab6101c7ce40bec111b8df149c874bd2537",
+      "generated/e5_ru.tex": "ebfe030eb375a511f9d36fa2227ed1ba93828751cdf0454380a0e6b8c8d465c2",
+      "generated/e7_contrasts_ru.tex": "17a245a83a5a671b9f0627e50b5395c15562c78dc2161c31db2eedc85195e192",
+      "generated/e7_costs_ru.tex": "81bc082a1f0f57d40519ee6f197e766e9c5694135f7df417e0458a7bb16ea352",
+      "generated/e7_response_ru.pdf": "2b5cfe9262c9bb771ddf7727e508455a81e47e7053a5e1e5552086213e88a20f",
+      "generated/e7_results_ru.tex": "bf48989e0a9347cd44a1d0c5a4e69a7ea41cbb5e656505546119b3daee9949df",
+      "generated/e7_sensitivity_ru.tex": "f6056109fc21336cd2ced91b9ff1d5fd096242156c417ce7d0b1b101ffe88962",
+      "generated/operational_supplement_ru.tex": "13cc53f94a224810083b92c96c1a0ad9e4976f08d031fcf33d07d367b9cc36f2",
+      "generated/real_ru.tex": "fe03d40209f8cc18903a24b506bbadd68ee0557a7254af771c94ac98fb30862b",
+      "generated/structural_supplement_ru.tex": "6cc4e76fbb2b067eca33faedf8d9078736f2f2d6b0ad3ca9b38e78491fa2cec2",
+      "generated/structure_ru.tex": "c7e2219766d98761f4015b04e22d03e6ad83a3bcdadaa69f3bac5f8c4a63f151",
+      "generated/workflow_ru.pdf": "5df4a1a2e444042e1ff145bcb320db5f0581425360a0b053026dee6c13b0f464",
+      "llncs.cls": "04ec99046ad9867f6cd54ffd1ef8c47c767b327d1baec77536db0528cd492fa2",
+      "references.bib": "3d74b15f1c7327b4d8b7c0a7ae672a5acbb2d47359aac90fda547d5673703658",
+      "russian_hyphenation.tex": "e58f453536ecc56c6e3bd0f5a31061679b9777932fcc08e7261485ffb476c862",
+      "sections/execution_audit_ru.tex": "e3e83cee1678aa7c7901cb3882f65788721921a5b17aaa63f3efc097b21ed3ba",
+      "sections/selector_reference_ru.tex": "5b312d888de5805c6c5ea558dad131f5c91dba5418291abe2a1363794eaf2f72",
+      "splncs04.bst": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174",
+      "supplement_ru.tex": "fbe5ca54205607543294ef95b41298f3f828aacb3fc9d7516755e074aec6b440"
+    }
+  }
+}

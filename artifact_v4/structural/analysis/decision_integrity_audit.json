@@ -1,0 +1,5894 @@
+{
+  "status": "passed",
+  "freeze_sha256": "b9d2d6fc6ba718874e578c4550dbc11ba135105ec7cec42bc223742768e02869",
+  "primary_checks": [
+    {
+      "hypothesis": "H1_retention",
+      "mean": -0.0847728115305919,
+      "low": -0.13526141102849915,
+      "high": -0.03428421203268463,
+      "df": 28.217364982083897,
+      "matches_frozen_analyzer": true
+    },
+    {
+      "hypothesis": "H2_structure",
+      "mean": -0.09582150466894829,
+      "low": -0.12054856711878426,
+      "high": -0.07109444221911232,
+      "df": 21.966363034746994,
+      "matches_frozen_analyzer": true
+    }
+  ],
+  "all_fit_checks": [
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4978902953586498,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a6ea7b415759f3e70a4d14dc9060c1da9b12dbcf5e408f1dd31f9d99b3ddcc22"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4970597338285361,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "09e5de4498e90b6dbf5be4e2d376cd9033018876f9c83f326ca1967b7dcedc89"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9954622802041974,
+      "standard_im_precision": 0.49464487034949267,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "960031ebdd44f99ae92b90f22d04e7f414d4b6df7624749f5347884fe926a388"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9989088925259137,
+      "standard_im_precision": 0.4964750542299349,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "238277319e6a2bb8873607d3465053bbefac687deb75e6c4161209b5ae7fe1b1"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9988839285714286,
+      "standard_im_precision": 0.4955703211517165,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5bd799158eae7e8fe4b5cb36f44975078376c43b05f1b5da359d953938511fd9"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9983108108108109,
+      "standard_im_precision": 0.4958053691275168,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f143adfd1b6a052d3e9b76d9123d5216b109c937821a1f980dc15a068c16793b"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994015559545183,
+      "standard_im_precision": 0.4968759297828027,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "18f3b5c2e6a320a11bf29c25469604e6a6cf7687ec89532eccb084deb313cbbb"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9982837528604119,
+      "standard_im_precision": 0.49531649162645475,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0da6bd7b1f658ae7130f7b95ba496661403502f6c1828d79c0a8654e5e99daba"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9982089552238806,
+      "standard_im_precision": 0.49687964338781576,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5d69aa88a7096e3b88b0ea7b70fe603dad7f97c5ca41cbde87699d84552d7fee"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9966120835686053,
+      "standard_im_precision": 0.49495232753785756,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b390a26b5e885ef0b6a30a55c4e59a75faab0f6a58328d30a4ba4095b1860708"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994242947610823,
+      "standard_im_precision": 0.4957167332952599,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9b091543fc83f1373170b4aca015400696f523d9e0a0f6fd4aa42d77dccf6335"
+    },
+    {
+      "process": "P1",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9955282280603689,
+      "standard_im_precision": 0.4928057553956835,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4061c302e063226aca0964e779986436fa9a23fe67c2b7b03e30c64ead2a5024"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.998814463544754,
+      "standard_im_precision": 0.49602590521047984,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "baaaa45b145135d1daf565eae22de4bdb20d934650ba291a395a6271e7ca47ac"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49736147757255933,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "14854922ad6d72af2613fde19bd011c55d3ffe1c7ef26f1d4f4a35753d215a18"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49760047990401923,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4a20a62c75c52a18aaa5ae9d03bc3eb63f45be7e71eff630d7e66b0d57a776fa"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49826489300173515,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ba7514f5dbfd128b800c68eb31ad4e6de142afef0520e8c73effafea2e46d80e"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9982698961937716,
+      "standard_im_precision": 0.4975567691865479,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b1fb1e3f033abc98b12e1e4637bb291cf0028bb77d8d66c925be7eeb26c804ee"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9987063389391979,
+      "standard_im_precision": 0.49630343940855026,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1f8bb6cee1c54d82923851f36d6b17e798d2f8337433a393d07631ff02b75386"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9988207547169812,
+      "standard_im_precision": 0.49590163934426235,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c6174000ef9f3c78982e080ec1e63a29bcdc1ce5270f025faa714296f21c64e4"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9956304619225967,
+      "standard_im_precision": 0.49503414028553694,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "04ca8a7e7b20cfa92f156c09b8087054e1af67655f61db6fe87143b52f2a52e6"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9947460595446584,
+      "standard_im_precision": 0.49491722335172816,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d5263350e5c8d505fdc030b775f30e4d84b90301cf31b8efb5742766f6fbe870"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4980921631934253,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c455170125033057ae266a517fa15c3c29db7dfdf8842a49f7048b78021d27fb"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49680046538685285,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5df8260033b8594320bb123ad3e726e0c3ca05c77055f182c5f250915e0a5b76"
+    },
+    {
+      "process": "P1",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.998186215235792,
+      "standard_im_precision": 0.49520095980803835,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ff6ba5723b619f8e81e3ef8838c01d4811fa83eb4502d0c24908657ab4dcfadb"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994029850746269,
+      "standard_im_precision": 0.49526627218934915,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "305b2b8274c844259b14b960b5dc1639b804a84340c3a17b5dff07632130f7ec"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4967177242888403,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5e57b7e1edd7617f72bc06479bfa2bac1f5da01c138c9630e1ec417297054076"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9961894393032118,
+      "standard_im_precision": 0.4956663055254604,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5c7ef1833a495cea8c1083d8b03dcf364bacb0b051284642ee80f4a1f26d8b97"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49678800856531047,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "166db76cc0d2244778c7472dae3aa5fe1823a6720151c3b78b7033342d66802e"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994138335287222,
+      "standard_im_precision": 0.49693966773535414,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e062309aebbf228af7fda222865935a851f983945d533650f9315b48297bcd6d"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4960549758208196,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d8b0e5ac01400c7347837cc0b1a247f0e565180c05de2b779c7619cb0d3de2f5"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4978662873399715,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9ae79c3619e4483ef4588d256d6fd63609aeb44ae61a3ec242acd2c1a7b873ad"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9913633559531153,
+      "standard_im_precision": 0.4935503685503686,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c3c9961506f1bd6658d2c181558debdf93feff4e25eb7b4f9ed1f69825c7f4da"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994100294985251,
+      "standard_im_precision": 0.49677419354838714,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5f412a426267ba9292e1d7a1b9771a2b3e3c80fd628006c1b30279ddcd2ae121"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9972421400992829,
+      "standard_im_precision": 0.496976360637713,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0bb77fa1c5a4f8739ea7f898e35c0a98df3d86e5de0203747b3da53b2df03bb4"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49791418355184747,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b9b5cad46da077c1f4f32c12d3cc4600a0a3189050422cd8291f2f4434dd3152"
+    },
+    {
+      "process": "P1",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994015559545183,
+      "standard_im_precision": 0.4968759297828027,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "bb1e3ba8b94bba2079d3dbb79b34f1da760e1ef3662be54b664c5c1cdf420ac8"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994011976047904,
+      "standard_im_precision": 0.4967261904761905,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "be4f4e13a4a7f1a50e6dc57947058112c7ed4b037f998d63f8651989fb14c34d"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994040524433849,
+      "standard_im_precision": 0.49571386343482116,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "724a49087d80c0d2302a0c2dd71715ac0d23196a7149a1bea938fdbe1c6e5fd6"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49698189134808857,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "626ed685e0e38659e06c2c08fbbbcaf7eb725d9fa934f1a967ac80307b699783"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.49618096357226793,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cff70389bffc72a5d29aa2d3fb2d581867cb567114655428c8d168dc20136e04"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4975262832405689,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "78d35afed0fc1eb92f8f67997d7cc77a390f49c4fe4f31b68d5a6289608b4d69"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9993769470404984,
+      "standard_im_precision": 0.49582689335394126,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "13ececd8a953101abd6060a8389a6f789e25993417bd54eef2b260c4c8d66c37"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9942528735632183,
+      "standard_im_precision": 0.49570200573065903,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "db67a5685d7c3340b1a0a436b8af404be7dfc47faafeb7448bc60725020c92b7"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994033412887828,
+      "standard_im_precision": 0.49688519727083946,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a3bb5ea303d6c8035169b33ccd8824dc7ab7816786e77e7e62304eaaeb43d7cc"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4980694980694981,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f20bff8a3c7e9505c5dfa127f9cfb4136751a2ee3db372cc553cab038da17370"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4983277591973244,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "580ae56226abaad3326437c39d836269495d267c9e6d81576088421563564fa1"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9987029831387808,
+      "standard_im_precision": 0.4964539007092199,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "37ceac1e787c686d9f2c8db70d6d8480d9864bbaf1200e36bd36475e018440d2"
+    },
+    {
+      "process": "P1",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 16,
+        "added": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9979522184300341,
+      "standard_im_precision": 0.4964346349745331,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "45a8842ce3b5770107da7b88ef4401cb8616ce97eabf93a2206a0e558fc0ead2"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6416083916083917,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3797accb5dd035dd9e59b02069ca13f53b735820a1f81caff481e80e48f3a9bb"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6440628637951106,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3f84add72410d9def46189a780ef56096f145d133771abac1f547fb298e3bd78"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6417525773195876,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "22cace113d8f32616fb4bf25283c79b8e485aa7c5a6c3f96bcb2c203016b9a19"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6420550252667041,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cbe3354dc41e85da802096877dc09bc8a0c9a0c07968bfa6776537bee7391bae"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6415094339622642,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "6ea43b81ee21833402a676d8321c9773a06bf706b1aa71348e733d4da56ce2e4"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6446578631452581,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8a495693a678fb5f6cbc2327d883b87da27a52d8989255a19ee4711e291570dc"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6454819277108435,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "7a7e797cb3c8dbfe6ea9132782b210d89770f66e5f1336cf7037d1735d5e9c09"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6410332541567696,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f4d7976ce4339cba8504cddb446bb8929f63f10d389b3c76d81bbc7b87593d44"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6401255707762556,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "31d6fba558d6929e8701aa9f4098a8f9513ff0f63817f8392633f9dd13ea003a"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6416510318949343,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a9e873aaf7fb13f615d8070cd9494b17cd0739a1e09bdf32a2e603a14349a40e"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6423785594639866,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4aafa10c4aeaf88a707c056f766d9c4db906fc70ce2b506aa2fadcbce20e09f5"
+    },
+    {
+      "process": "P2",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6435956346927054,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4acc4ff81a915ecae203356fa92fb36c888d511f426712e3fa1e1314e3081c5e"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6435820895522388,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "17f3d7d32c734c972a31761053e754bdcf45e84fffbd55795b9502f784923ba3"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.641888072357264,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0e627b33be0fca8ba787b6514513b931b9fa04b481478f2227d753f17fbf79c2"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6445682451253483,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "62c84fe98ef2550098cf5354b8e1195a8f4a41fae00e1b2d0e777b133500e125"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6395348837209303,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "019f08e0baf100e4db553ba900c2777e80ebaffa7739fbd12777845faab85b2d"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6412237330037083,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d1941cd623bd0e1aef5fd657c24966189d16d374536240b0b3e78086f11214bc"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6409632034632035,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3b420c8e801a2858556a74286980cbdc7bf86fb034a367c14d35d20b0160359b"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6442873969375736,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b41c75885f0d992650ff61585f992f25ab86665cd9507cf41a5a71f72d3614c1"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6428175263449806,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2c6aef07c4dd65530b7afc5e40d5941366935f12d98e25ae956b0a8ab60f4559"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6435045317220545,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ccfd14d639abd0b9bcbb52fc2a05811b04531d4d00bf141c8452cf5f215805a9"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.645224171539961,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "98ce7f2fb82325113498862c6f290ac753d6df352212ea990d75326eaf5d0263"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6436046511627906,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "645bfd9f19c75c5b8e1bba5f4bd6d882b20a984307b51162b93c35d977c25b8b"
+    },
+    {
+      "process": "P2",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6443009545199326,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3eb8d1461859ca8761cf932c143c33c7335f613557412b1af59cfc9a3087aea3"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6403508771929824,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c4ea7c61a2a4a2c6b85e469f3592a6a85ad6e90e1bfbba92d1e4be764aba7e9a"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6430332922318126,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ad396f366d9bf2bfc93c457442341e1e56eb5721f4815a1b24f5e3494692ec94"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.639218009478673,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "720db8cc61af9d9e3308a2494a54dc9f8f60fe0b0c69af8e96d1ddd4ce48c408"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6384747706422018,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5f69d9cc0f6fab8958bb46e31151bb37d8c946b14e849b42c0d42ebedd72f2d0"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6434920634920636,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "25b4b819b736bd6e535b4930806aa7c283489f83c150a15cd07bd2aeee2702ea"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6419376693766938,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "534217dc2d0e4e281e0bfc590f0ee8bb6ac18c0e47320b213bd2af8964a5cf40"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6432160804020101,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9db754908d40bbea87f0c12de2f15caff0aec675d69fe801a9192eb008a9182f"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6434226552984166,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cd07f1bc52f77bae09eff55946a88dc4f063780a98baab70377a9b8b6161d0b2"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6402857142857143,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2eddabd327c4b155a0de5f5130fa269c84681a50e11fd672c5fa1d57a9d4870f"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6429391504018369,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "43169ba9d91a63307f919c333fc3953c11332395241ea624ec2fb0036cd30051"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6423188405797102,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "19920fa3f3ca46781afc065c231a466512a0f4be99d76cb111e3e2a3d77d0b11"
+    },
+    {
+      "process": "P2",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6400544959128065,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b703c941742083cd2f1cc9b0782e09f050d7d6467c5caa1e7159959e25d89437"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6435464414957781,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e9365f77425ad47d866b9ff54fd9241d88612528bb5bb862dc115fedc6e31ec4"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6439169139465875,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5054b93f33667e44527c324a0c471aa0f962dcbfebc834d7f642a8d2fad7e67d"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6410714285714285,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f0c90cab44d9c378ca5419bfa4591e4fc521600a36e83831293e35f4af79a8bf"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6425465838509317,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c38bc01fb1ba49761e478d77a6bad7b467d079021f1e495b06c0900d873e9c51"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.646050214329455,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "32d538ca5377983b081e4f619192244e565870983fdc20e934ca5b7078c1b8ef"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6423423423423423,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cf5e67be4717a33d3e1cc44c7166f2d5b6e02320863e2cb7cadc5d2c761408a5"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6410658307210031,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "fc9e56f673234584392bd564dff0b35487186cddde96d941759e9eba19383e6e"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6460258780036969,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3f7dbb21357b85f21b7da096f211c683830ec5a43ae71e0ac72b748a262d2d45"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.643170426065163,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1f8fe63ec3095bd405b89755dc1f1dabd0406b05aa9edefba27047d66058554c"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6443076923076922,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2fc1a41093ebefe41486d925e431a9ed655e3ec1fb99e627d14320419601e55a"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6403812824956672,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e9a8ece3ddba6f468020bb75a7fff2e584e5f23a7cb6a00232accc3a3fa77d6e"
+    },
+    {
+      "process": "P2",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 17,
+        "added": [
+          "A",
+          "D",
+          "B"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.6417525773195876,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9aa4d6aee15d8307dd64c1af8da7f60ca02e0ac2d688d7866a83277f888ac2ac"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9896907216494846,
+      "standard_im_precision": 0.9896907216494846,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "24f99b089eaa021415db1bceb2214f64b3dbd167c0a9af6519d76d2b934fe5c6"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9988378849506101,
+      "standard_im_precision": 0.9988378849506101,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d000e14d87b40cd36583730336c8dd3906325e5e5e3df3f6a5e2b61a3b5a100b"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9984774665042631,
+      "standard_im_precision": 0.9984774665042631,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f67765d282c9e10eb4c99061011f81bd6c384a68559618832cc2398b840f500c"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9976442873969376,
+      "standard_im_precision": 0.9976442873969376,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8b7e4f3a410f5c549339bde05d7b872b17ed4dab13ddf46124a3b4a7a130e49f"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9982451009066978,
+      "standard_im_precision": 0.9982451009066978,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "db49122d265c11ffe694cc298ff0ea37cfe5cd1fa5c4325fa550941ca6b380b5"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9980678995307756,
+      "standard_im_precision": 0.9980678995307756,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9bb90dc8b1d464c26841125a6b9f11d34f7a9ec7c4792cc265b163b8062cf95a"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9991431019708654,
+      "standard_im_precision": 0.9991431019708654,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "59d9afd8df3aaab99fdc8956069a18619f2dbe706450bd2c5b174beb2a4c7776"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9942446043165467,
+      "standard_im_precision": 0.9942446043165467,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "33c12be54dea56c2e82651fc2993aca0b51384e0ded92035a1eb117591638205"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.989297078391669,
+      "standard_im_precision": 0.989297078391669,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f8653ba7433491f2418d5a4bc79d358b557d937355953e2fff593b220e0ca4dc"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9984746796827334,
+      "standard_im_precision": 0.9984746796827334,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "560e8c673ca7d82a849a8eb649e4181da86d6361865edc5c905631f9ba66dd7f"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9979762937265105,
+      "standard_im_precision": 0.9979762937265105,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "71c1412c9eb1a535f1178795578c979d6aba05e381ca2de79c43a09b0c190fe8"
+    },
+    {
+      "process": "P3",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.996583850931677,
+      "standard_im_precision": 0.996583850931677,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "70a809c20803b3aaa364382a88ffb2ab4fd2b09f5139cf7757df4fdd7f880e15"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9985405720957384,
+      "standard_im_precision": 0.9985405720957384,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "6d1b7c30bdecd4c521d84c48f836a51375ddc5f3cf4cd5248501b90db6ef6104"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9953372707491451,
+      "standard_im_precision": 0.9953372707491451,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f5625718cfacdbdce97552981d793eceada3989bb84c4bc901c64a9fe0d79d71"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9981718464351006,
+      "standard_im_precision": 0.9981718464351006,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "7abadd047c3cff45e051835bf5e309f83d7484863a1ddd858bbaa9f229a1b8eb"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9970469798657718,
+      "standard_im_precision": 0.9970469798657718,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5d2e15d732e5831c4bde913ea10f850524dce80c6dd4a89433c86e34734a404a"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9988465974625144,
+      "standard_im_precision": 0.9988465974625144,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4440a607c424288487dd9c105c1ad50a9038162057e4b823653971024131aa2e"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9985935302390999,
+      "standard_im_precision": 0.9985935302390999,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "caacc90614f5f54e403bee7c1237acba8360fe28a55a2955212ad22f7075da04"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9985158800831108,
+      "standard_im_precision": 0.9985158800831108,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f3de016feaa1e2850f67423b3c9b5e03baf503bdf37c1866e914530957fbd756"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9983084296588667,
+      "standard_im_precision": 0.9983084296588667,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "fecd2ca1efab4fa28f94b7183c77a3774f35319741da5254ce728a3ef4803427"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.998234255444379,
+      "standard_im_precision": 0.998234255444379,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a973a47fb41bafc825b80473b3b2b415becd51a5c015ba26ab3197f637e8fafb"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9938882421420256,
+      "standard_im_precision": 0.9938882421420256,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "73f45079ef8a4e6db7b4e02b43a98a4efe15957312856dd219a9bdf3913b1586"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9982925441092771,
+      "standard_im_precision": 0.9982925441092771,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "af8f7d8ba8f2210f82d5a8720232bbd5e617b43808785072a4ca667548440bfd"
+    },
+    {
+      "process": "P3",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9969427459699833,
+      "standard_im_precision": 0.9969427459699833,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "6b474bec4a14843035f72fa9c0ed93592c3172417eb000b6f758bd8153bf6678"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9921757448089076,
+      "standard_im_precision": 0.9921757448089076,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8f4ef2d88aa946a1fbe5d33360ced4313a5e10edaf472f5c312d96d68353bc68"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9979568009340338,
+      "standard_im_precision": 0.9979568009340338,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e535c43d9677bea3a1d9005b71a7a113780bb62b3b3df52183d052fc01ee60cd"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9989229940764675,
+      "standard_im_precision": 0.9989229940764675,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ad6e5a44b0d1fcc9d96c70e6326e91c63068ed842e97aaf166d6c0cf4cb3f6a0"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9978606356968215,
+      "standard_im_precision": 0.9978606356968215,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "84c4802b91d154f74cbc0abc65edd40893c967872336550e0b2eb938164100ac"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9987658130206726,
+      "standard_im_precision": 0.9987658130206726,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "21fc28183ddb51bb9d9f421a423887242e22781f631fb2e5b1625f10d1ff3676"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9930454940596929,
+      "standard_im_precision": 0.9930454940596929,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "935fde5b97807c9bfbb8cf1a817a8afdfa5676bff8cc63b02b74fbbed92ee139"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9991411394217006,
+      "standard_im_precision": 0.9991411394217006,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f5e70f25df5afa0235896176d4ff8f5b5dd7c9dd6cd8e925fabe8e50b39a5576"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.997934493951018,
+      "standard_im_precision": 0.997934493951018,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "7c4db150563be4c52fef4817577e5fa3cfab1ca5356deee712df714dfb077f2d"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9979073243647235,
+      "standard_im_precision": 0.9979073243647235,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "dd4be2b6e8c23fd7363e14090e7a998ddccb020503d99a09e079d1a37d59554f"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9981012658227848,
+      "standard_im_precision": 0.9981012658227848,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "71fb3d80271d8fc8ce806532019d8ef145217322d39cdbd6cc81dea6ab39cc1c"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9917777147717607,
+      "standard_im_precision": 0.9917777147717607,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "54e109aa68c64c18161ed09bba1581d6e4e660892f6945b7698728977ef2e85a"
+    },
+    {
+      "process": "P3",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9974874371859297,
+      "standard_im_precision": 0.9974874371859297,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "026753591cca46cd5636a33ca7f8886182f15a684d355e12a103c8831eeedc32"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9933142311365807,
+      "standard_im_precision": 0.9933142311365807,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f407246a49db9d3c3d4885c5f709134a7d64980b17177b270b82690ca175ff3c"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.99772579597141,
+      "standard_im_precision": 0.99772579597141,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2895411e65db8592c28faab14d18713ab873c5a953fb082b60e8d5ee43bea8c0"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9944547134935305,
+      "standard_im_precision": 0.9944547134935305,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5aff5dea7cf2d8541085c77b553796f27d62ab3662f7768257ed2cb0da9c0626"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.997986770204199,
+      "standard_im_precision": 0.997986770204199,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "715b2a89606e80fd9c4d1877cbbf1064e279656e31dd81f257294c13297c6b8c"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9873807325330871,
+      "standard_im_precision": 0.9873807325330871,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "726be3fe97409664c52bd4d3e7599db67f9831fb66476bcae333866f1626742c"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.998003992015968,
+      "standard_im_precision": 0.998003992015968,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d6fbe57114fb05f10e55cb90f55c8c502e4895cecc96eff1d684e604dcbeb8fc"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9939463822427212,
+      "standard_im_precision": 0.9939463822427212,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3355ff0c430b164edd5dee0f4cd7cea27f6f5443616d6fb69566966cfaeeb7ea"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9990950226244344,
+      "standard_im_precision": 0.9990950226244344,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e0eb5970ee2bc74d8dd3540f0bd2045753d7743cbb9c68acf9120daf06083296"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9979472140762463,
+      "standard_im_precision": 0.9979472140762463,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "aae6a5ced2d278d7db1e8dbf70c1bb9f32de80c8d06f1c6eae441ed97556dfc3"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9955383700178465,
+      "standard_im_precision": 0.9955383700178465,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8c69c4135e4cadef770dd9cd833065c4b436963fa49da01264ce3215bdd1401d"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9963287207003672,
+      "standard_im_precision": 0.9963287207003672,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3c37505df05209083a58050424076f86fd9b7d2658555832b91dd02893d86c38"
+    },
+    {
+      "process": "P3",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 5,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 0.9902337969813554,
+      "standard_im_precision": 0.9902337969813554,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9e2a049ac1fcde4896912aed9ee9976a758887453b9d8f4a7accb1c4bcb96071"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9100829a2e74c505602ae6297999034afd62c2fd8d665758fed4257a01e52374"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "60b4d3479cda5384654c51c9396907ed69850627906ad652f116d742142c8d0c"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "aebc055c27e87003509a3ffbb34463ddfd115cb85068bfd0830096637766f8c9"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "16d2a5da900a057860b2a050cf04984f577bb86e176120548290aed20167fdb4"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9eda8bda3ded332ed4fff8a87a8622cfe245c71a03282086729cb9f286228ea6"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "94719548dae9b65bba4b9aa4b4026ae1e97b49219b9c08e4f2a4e2959f2c637a"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "50d0e906d1b78e8b3399bf5a98969d7e46bfa34458d7e55ef1aa2ee0ce01e9e7"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "550519ac945e309f7fc374e2c7a1f606c0d4d98129374da4196d21cefd4b77b3"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9c65c0a0758060f6c97aecc86bb860bd49d32ccccf71b19c62876a19b568c2da"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "eaf28916d40ab852b1c5bee9bd0f696bd53a1215136863aab153c949c0a1d86d"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "675232c8bbadac1b24aede5d8d6a7c1d7413593b1387ad2d7c68fce058c3b223"
+    },
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "61956526199a30e6fbecb69f53d7a462180a5f5c707d4c808102402f114a0166"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "bb507d3afe13fd28364eb23d5c98728a3ec74aa4b993a57ac5948d733b50146e"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "425009b23f5cf53ebb6a83e051c849b93b1b057513f1ae019dd13e58a2f76692"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "326c5728c11b6ada0e7b576c0f8da415bfce658bd7ff75d925bb5365cee0a956"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cc47662e3cdf6e7b95871400606bbc157616779bdd501f8864f23362601d0ef7"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "145420eaf6a0d3194600c5b27cbeafa24316187f1f26dc09284fc11b9cc8bd83"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8a10ac1e0d51f719cdb599df950d258d6512a7e9c5c1fcc3be13f1f95681d24a"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "301b70d5fb13ceb15a8c842f7b1a3c449dd9d4201471bc2780dd6910437d93f3"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4d14b6ccafcf7ba820ae88b5e0fb021f637c015d5f6b7e83dc457430b0fd38a1"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0d3ef44e8be59d0808797590666285b12f4f7bc3c2fe858219dcea4e0a098238"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5fbe328028ed66922e06e3dcc37f0a6b334718117f93bf478a745fe1ac191c20"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "bf7a8f32d5079419999173b918fcf01908ef11597d7b70c27de8856104581d7d"
+    },
+    {
+      "process": "P4",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a762ccbe6aefde7b3fac528ebbcefcf77417c4de47b4d7ad1f3a258ec26a1a49"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d074f8c6e99a6b6c51c24469ee6ee62f1945c6a67675c590dd106371b2863721"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a78ce04fba09bb1a0cb3dad165f41bcdf0b0b9371eddda87393224b2ada2c9f1"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "37b1f7e83bdf14730d9ceacc0d055abcf35d2b5e9d7c9bc76bfaed90c823eac1"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d1c436e0363f0d62fc60e19171165047d6aa5a92555b9ad2bc4d95769580b8e7"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "97f0fac2d1fecd70ef25e0db6f50537590fb2c54edf4de3265a42907103803e1"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f2596544ba4aea4b3fc2c7c011d176c8447705e7d599772d08d02cd4dac21c27"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c3a827c5db65c9009f72289c679b775a5b218b7cd56a9d426a54a88c0ef2e74b"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2f6000308234018c75fa4638bd942ac44731d2f1f250cc3a1f0d4298a99e009b"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d4987a0d49b0b6041a2b6c9aeab2b5b625bb197756f80e5cb2603304444ac989"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3adc20f62a4ec9a3bb942fb308ca618e9ad6599fa8bb4c1a3dc6c2650482ad26"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "6471847930b3a21e361ade3da2d3c994399a41aebb8d5b0d95eb182431b06630"
+    },
+    {
+      "process": "P4",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2cdb3365d60b37bb93e7e96eff51e254bce099bc10c679c42af9d7a18c61dc8f"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2514d53fa1c7b85c52274b179ddff9e12949c87c101438c1c08f3631550b1b92"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "7512fd0f46be5956f51da7a2af7d92655426cce1bccf6ee902e439d6ebc00b56"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "55e27d352abe6165d5b2b2d04c07d592b19a95268aba642c0f2b34423d749af4"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c3290efeb17edb06fa494e15bfbb5c40fab9ef9e83299f6a53960ab0f6e4080c"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "6fcd7fc97e8e7610cd6bfa49c47d4da2769a1fa743261f7a3716491bca3cf97e"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f7bf22845f4372b4d64cfaa0bd0474fe638fc2d20a0189c3d870cdb8cc13aa2b"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "625924d7ab32c91733fd767112155bb339b0305bbc5bb0ebdd3d0d521e4319b4"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "675baf9c5af2c06937be3ca12d4e62a9c916777ab52a0d5601d50c16d1a86712"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e9ad9c587d3a705f570c79223f60be91211aae426177863e5585ce4b9024b34e"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f1ffe6a94dadbbfe92694b980792c2b954f058542c9e796e68a84cfe95a780d4"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d274f551ccdba494228436be3db2acf1ee9fcb46e3eecae472e970a5e364469d"
+    },
+    {
+      "process": "P4",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 7,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3f1e00d5c4b376c4435c556ce658d61896c1f83dfc02c2268eb2a7fa048a1a37"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3ca61a3cfac1ae57d47b0b823f624036123a5966f0a458170a562b0211a33757"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "a781c709dbfdf3dbced403df56e8b1d301e167079da7b3edd01eca63388030b0"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "987fb6962c5b29d8778379768e288a65bf0d561e022ebc420167a3c512a94640"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "92b8248696a93de56f83040687078f32163ca13c657676c040af7d038718d15b"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "04c09c6e7646783797474437898a384b821842ded9612c673d3b893ebfd632fa"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5b9f97e3f7f515ffe900d2490e0bebcefe02986464b3b10f3cfd663b314572f7"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3928bdcf1a1912878d126862762d95d62d538e2596f317de9c68b50f5e6ed1db"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f7be43031b6bb4505a71e98c7423abf21d7c2ae676b37f52d83b757ac8bd5fa0"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8bfef062cf8ba0c8b677ff52a2927a7b87f0cbb5f46feb5b4e1239bf72bdb582"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "89a31f167a4bd4721aec500cc466c667f856fe902ef5ea051bc8421930f304fd"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "099767d7348e65e1807d2e883f88c2a61f6e5a7e1a11029aa40d3a9b300126b6"
+    },
+    {
+      "process": "P5",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cd5913b835cd705fc19df47605f7ed94fbe2f9e19b49a16eca838c194afaab1a"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b5bbea76e952450c322d7d3f944e4fb171adc83501bb6d09449685680b89e664"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b528bf81da69d9f5b944920e9a43911141db3e7d4abd9c0ca9a30a7ae6ef31fb"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "26c6432a146e0e10917316bb185a5ebe1480408b1e9f5c897e6f02cc7282a934"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c69a7e878fd2e25ef005b33c2d463fab91636661f30d53dbf057eb8097686048"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "95e6af0349a21682c39db42646560c63954f8b9447577a5d4c6f12727884c6c7"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "db79e9038f4129426beb0a5b6ef54e8b176f2a4f2c9364a5d19d75d8ac626972"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "7c16881d4e39de3de482538cbdbf54eb1a305ef29a7c9601976b3de7962607b7"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "68d1056e241607d3fe5dad5ed310b7d98c251207483f6221e51084eba8d7306a"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3841dad61e28a0b861e6a257614dc9b79a9b90ba7c76ab7ecef1f20507d09ae4"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2f706890f27b7654622f01bfb10410385db9bdb99f4c2ff7a7b30e40ee3582d6"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "64c39bc7eb9825677273fc4556e0fe948fdaf7f4e64b865813f978c346c17181"
+    },
+    {
+      "process": "P5",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3016ba58705f18554a557128fbd6e6bff4c94065116819e52c5c712016b5b513"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8a2bdac505d0aa353fc1598c145c57d9099223c121746bdcb0b7a23fce47ccf7"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2581c3fe251cff03ef13bea47b45474b76b075cc29674b22d9d19420353e9522"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5a3716c2353717bb837b9d9c01b26181cf386734427a588edc67e73c9afee55b"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d2f4816e317292574c03ffbee16815d6dfe19efb3af1ed678d1686fb72828d0d"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e1a1f94923cb3546776c8a5ac4b62ef62460ef5311cc7633b8d121668b57ba04"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0631cfafdab344e847d343b297aba4a4e7c6524ccf2657025937a52ec837cae7"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f51acaa55eee04f1876fbc9555bf510aecd0ef85cac6160d241b70e74fb344f5"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "38fd50e0f3f898eec155e22c1aa13167a4923867ab20d253baf80fbe5c6ef532"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "905306753210867a6cb672645ffa65f64efa8a50606e41044681ac4af3e36e2d"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "088c4530cb43150327c3d5f30bf3e5e3fbbbb78b1b33ec0786438769ebb0abdd"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f20532b92d4cc57b3792ccc55d74b6515705fc7fa0374a25f24244c86c7e608a"
+    },
+    {
+      "process": "P5",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b514bd3d3d360ee90e38455520bb7bb5318ec50d2d96d2fbed5535700f6b3ea5"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "83254578edfd70230d92afcd8c5dd8406172b97cd00656ba3f382966fea6c393"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "71d0b34d0f5da2187afec397dc247caa4a3cb3ff9ea62464049e095d2e8ed266"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d95a40a95d9ae806a52e554477efa63856c952a8b8ea506c0954c0134e52cec4"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d62fadc99da2a46a232d960ea8be660fd2edbe00bd5fb8705d3c984419a622d9"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "350318f51a809618697782f300fda1b8dba34cfb16f9d79933badf6db07cad33"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "fe97903f663206d055ec29c930378cb70825018c98828662468481c8b440a316"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5bbb728f16d97b4baef82c39fb27c40e2bb78ac8b12da1d9f5254a3e74c7ff9f"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "cfd6fec5acd73b228a4ad2985ede416a49b24b100fcdd0b806088f0311b9400f"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "be9bd1bb7d3230dfc6e38047a13aab0b86d39f5dcdeed64d8b5e1e45bd988828"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "ceb5bff779200fead1bdc9872114171f0c3fda6606a01e5884e135e97b085cb2"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "461f7732c5cfd906089c54db42c6b5d90b6c069d52af623385232aa39853878b"
+    },
+    {
+      "process": "P5",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": true,
+        "states": 6,
+        "added": null,
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 1.0,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1b80ffa8b2c5d4f3458ecc545ff80b3de558353be2a70c663d1e0cec64e362e2"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9996382054992764,
+      "standard_im_precision": 0.4841422814087962,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "26c44771c7f27a1c54a30c44905facbb0dff1b37d5707836152d8c228c71be4c"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998195271611623,
+      "standard_im_precision": 0.4885361552028219,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "31750a5645a76c1e9e56108ece33ea4bbb4a42f70fd98b7344e038e7d327aec4"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998081350729087,
+      "standard_im_precision": 0.48938767843726516,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "54e17adf99648d540e4e9f1cd40105f2de6bdb62976c929bd7b43d55ea1ec756"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998377150275884,
+      "standard_im_precision": 0.48504172571248627,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "90fed5363a29ae94da86eb35378f1c439f3c02f2bd5637a8eeaf6b1515d505eb"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9990960043391792,
+      "standard_im_precision": 0.48431200701139354,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "19d090e7ae2993391bde22aa783f2b1fee4d5f3fff2b0be09c8276b9db0f111c"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998169838945827,
+      "standard_im_precision": 0.4828531023510695,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "4c445b82bb8591df3a27be78bd88ac83d3a2463e3a8bb247272e21ca1652b191"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994854202401372,
+      "standard_im_precision": 0.48966386554621844,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2fceee5cb81e611da5702c8dabd09c25213a5f11d606289ba6a9499efb6cb5a7"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9990749306197965,
+      "standard_im_precision": 0.48798120368696907,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "917f818ce3c2bfa7161456e5bd2de0d8a4fc00f13a830efea15e347d8f1bcc6a"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4818697370682248,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "434ceed9c0fc88575bf4f24938963e6665b47ba29bb90fbfb4a9a9d732a4f280"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994374648415526,
+      "standard_im_precision": 0.4844573713870205,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "fc08d70815701f866dd163f6bff1f23d0fe72b64036708eabfeb33ce31f06b86"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998208527409531,
+      "standard_im_precision": 0.4818684165083751,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1a324d6ea1f49f8621b657868b05a03feda71c539c2ca4c7de38895dcc1e43eb"
+    },
+    {
+      "process": "P6",
+      "world": "combined",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994718309859155,
+      "standard_im_precision": 0.4853796169630643,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e39fb0b6795729879691ee26e38dacfa040c5a86135ad62e5132f1b6e208b7fb"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9996064541519087,
+      "standard_im_precision": 0.4839939024390244,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "482b09e49f837c5767398498fb9e6adb94ddf6201594d2d819eecae97f5b978a"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999458972046889,
+      "standard_im_precision": 0.48292087835482744,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "c6012fa4bdc47458cbe072dbdff0ec3e8b54f574ac353883ca479218bd740fe4"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9996266567108456,
+      "standard_im_precision": 0.48708386392577774,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1cc00380c6f27d748f8f9f3b7db343915ed7efb84e217ed6113f114d3f5cd268"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9988672833679442,
+      "standard_im_precision": 0.4870213549337261,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b9b94a48f5c296263644866d3c7d6b9de554a2c526d6b92488e01033504aed2d"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998118886380737,
+      "standard_im_precision": 0.4886906951084957,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "480740cae04604f137052561ec7e220c8c8a4796c560183e8f73dbc1e3be0125"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4817184643510055,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5a2b788d659cbb77bc9ca8a68036f945064cfe5e3ef2488ac4c4a2b55f54e828"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4878430650211826,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2572a4fa62d57024277210ba8ac88e0eb4df9dc0c53adcf9eaa7b1e3a3186adc"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9990362374710872,
+      "standard_im_precision": 0.48044123099740454,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "108cf98572cbe2dee8ffe7053fc390afc99bc07192853dd93a56a629de61dbad"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9996258885147774,
+      "standard_im_precision": 0.4903652046247018,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "39c900c53aace32aab72dec0e465d8e79c8cbb1dc095be6df86ac6809e71904b"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998153618906942,
+      "standard_im_precision": 0.49031148134733793,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "19a4d0677cf35e92adc46a674e1e5b22f0c816cfe298ae648df19a7a8cdb4c31"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.48699371508379885,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d1dceb4afa6c41a4aa71f97c9e8bd016a521c07e5d4e93afdadc72af9de2649a"
+    },
+    {
+      "process": "P6",
+      "world": "fixed",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9984670413898825,
+      "standard_im_precision": 0.4846230158730159,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "846e66a6cbeffc3dd2668c3ef74bcb3d83354bb7eeafb85784cabef570fe1c84"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4860209235209235,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "0cd88bad4a090fb116049e51439e5107faabc945fdf2f13c94df8b655d9bd678"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998151912770282,
+      "standard_im_precision": 0.4882671480144405,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "46f72b0caf70b9ece6f7ea0693fb9e1d838e37cd95e0f42deceeca4056d130d4"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994637111190562,
+      "standard_im_precision": 0.4832324978392394,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f4a9b7f62d1752f6373c2601e62221c8ff9a0d72af5565c916a567e61e15578b"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994642857142857,
+      "standard_im_precision": 0.4915685930089584,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5e291c83d50c1bf1eeca12ce773f0b77cff65a3ffd39a520b495fd28f84880e6"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.488898916967509,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "d4a87fca74f13d81f2355d6344446d7297e57cf662402ad38934e86de7533889"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999109210760734,
+      "standard_im_precision": 0.48153872574274426,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1dce5945c199992b1dbce14981f85499902039b5e857e640d992f910cf1a4e52"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9993034999129375,
+      "standard_im_precision": 0.4918580733630442,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "653d076605b1fe1d86436e4818c6158a160bea0af20a9e7fdaffa64206efa63c"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999812734082397,
+      "standard_im_precision": 0.4908973887458624,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b5848530f55ec16ec82d3443e7452a1e0063a8941c9607f93d303ce3cf92cef5"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994145199063232,
+      "standard_im_precision": 0.48669454476335294,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "1ccb39193517f2691116c7c247f73037de7257c682f7025265d04efa5e458bf2"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999824837975127,
+      "standard_im_precision": 0.48978891367770727,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "2b6840f94bb1e096f75718f5dfc69ed9e0e317a14e50e9ed266f081e5b722cb6"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994605286818917,
+      "standard_im_precision": 0.4843995119400384,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f1ad451ac7494ef620073c44528681bc9f479f3f4c91cdd2aaa3ca3662dfb90d"
+    },
+    {
+      "process": "P6",
+      "world": "routing",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9986993682645856,
+      "standard_im_precision": 0.48607343100018086,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "9e1b9e037e220a383a9b1640695f875b252e7ab5da9c9c3e143ecf8137931ee2"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 0,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9996128532713898,
+      "standard_im_precision": 0.4928421454476045,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "5e1954a8cb355aec78035b1b7b30a1bc2bd6a8f9baf93578352ccf262aacb34e"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 1,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994447529150472,
+      "standard_im_precision": 0.4932407745706978,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "38ecbbb09b4cb8e1d3ff6a03b9bd16af3167f0286c3df64e31926b2796c2980b"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 2,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999656002751978,
+      "standard_im_precision": 0.4868487183782878,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "81037720ba3c7413541f86aa9b99d5c2f9518d06654ac5121a48ef0964ae1ea9"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 3,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994676131322094,
+      "standard_im_precision": 0.48643979961996886,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b9ce358336a92bb8fd0d2b1a54fe12f102d855ee46ceb13479a332ca8a004784"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 4,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9992280972597453,
+      "standard_im_precision": 0.49145785876993164,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "e32fca8886accc0234330583ef0340a3a641b0f1cee0b40d3b5d1fce39f818d3"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 5,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.999475799405906,
+      "standard_im_precision": 0.48034934497816595,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "b6cf670da3a8bf99dd3efba2616354f81b18c452d648e302b53d96732d3cb507"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 6,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 1.0,
+      "standard_im_precision": 0.4813670241774223,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "bb6af83649df1cd10244fb3d48691de0272c27d7795b243d21fd7528c446acf0"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 7,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9998200791651674,
+      "standard_im_precision": 0.4910745846588901,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "f43717cf33899c614aca4aa92a398422324115bbacde39721420de4b9db1a777"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 8,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9991410410582374,
+      "standard_im_precision": 0.48129758358159547,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "70d7b329664e2bcb820471250b10ba47e3d20d91aac5ae101c926d58e65376ba"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 9,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994371482176361,
+      "standard_im_precision": 0.4913300129127467,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "8e3ec0d7aeeadad9f2624b94725ab2c244d528dcd2b4bb7deeaaf2491936cff2"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 10,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9992300288739172,
+      "standard_im_precision": 0.48145056575774436,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "52736240a71deb1b703901adff28cd05a24616f737025e0cc187e620c7f135a2"
+    },
+    {
+      "process": "P6",
+      "world": "service",
+      "seed": 11,
+      "selected_candidate": "loop_first_guards",
+      "language_equivalent": true,
+      "legacy_language": {
+        "status": "checked",
+        "equivalent": false,
+        "states": 35,
+        "added": [
+          "A",
+          "E",
+          "G",
+          "F"
+        ],
+        "missing": null
+      },
+      "selected_precision": 0.9994337485843715,
+      "standard_im_precision": 0.4878385848535103,
+      "same_all_planning_scores_as_known": true,
+      "prepared_sha256": "3c7e65595f1afb92d5b7aa95e6a7cd3200ce11e7445a5c5805b60f68ea2d4a2d"
+    }
+  ],
+  "precrisis_violations": [
+    {
+      "process": "P4",
+      "world": "combined",
+      "seed": 1,
+      "stage": "train",
+      "episode": 7,
+      "maximum_wip": 100.0,
+      "crisis_onset": 122.5
+    }
+  ],
+  "executable_language_equivalent": 288,
+  "exact_known_discovered_planning_scores": 288,
+  "scope": "All raw candidate-policy mean costs independently recomputed; all preparation checksums and fresh seed assignments verified; both primary intervals recomputed using Python statistics rather than the fit-summary analyzer. No new policy selection."
+}

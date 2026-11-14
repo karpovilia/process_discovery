@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{pm4py}
+Berti, A., van Zelst, S., Schuster, D.: {PM4Py}: A process mining library for
+  {Python}. Software Impacts  \textbf{17},  100556 (2023).
+  \doi{10.1016/j.simpa.2023.100556}
+
+\bibitem{rlpolicies}
+Branchi, S., Buliga, A., Di~Francescomarino, C., Ghidini, C., Graziosi, R.,
+  Meneghello, F., Ronzani, M.: Learning optimal policies from event logs
+  through reinforcement learning: A comparison of deep and {MDP}-based
+  approaches. Information Systems  \textbf{141},  102763 (2026).
+  \doi{10.1016/j.is.2026.102763}
+
+\bibitem{deepsimulator}
+Camargo, M., Dumas, M., Gonz\'{a}lez-Rojas, O.: Learning accurate business
+  process simulation models from event logs via automated process discovery and
+  deep learning. In: Advanced Information Systems Engineering. LNCS, vol.
+  13295, pp. 55--71. Springer (2022). \doi{10.1007/978-3-031-07472-1_4}
+
+\bibitem{validation}
+Chapela-Campa, D., Benchekroun, I., Baron, O., Dumas, M., Krass, D.,
+  Senderovich, A.: Can {I} trust my simulation model? measuring the quality of
+  business process simulation models. In: Business Process Management. pp.
+  20--37. Springer (2023). \doi{10.1007/978-3-031-41620-0_2}
+
+\bibitem{simod}
+Chapela-Campa, D., L\'{o}pez-Pintado, O., Suvorau, I., Dumas, M.: {SIMOD}:
+  Automated discovery of business process simulation models. SoftwareX
+  \textbf{30},  102157 (2025). \doi{10.1016/j.softx.2025.102157}
+
+\bibitem{causal}
+Dasht~Bozorgi, Z., Teinemaa, I., Dumas, M., La~Rosa, M., Polyvyanyy, A.:
+  Prescriptive process monitoring based on causal effect estimation.
+  Information Systems  \textbf{116},  102198 (2023).
+  \doi{10.1016/j.is.2023.102198}
+
+\bibitem{load}
+Delasay, M., Ingolfsson, A., Kolfal, B., Schultz, K.: Load effect on service
+  times. European Journal of Operational Research  \textbf{279},  673--686
+  (2019). \doi{10.1016/j.ejor.2018.12.028}
+
+\bibitem{bpi12}
+van Dongen, B.: {BPI Challenge 2012}. 4TU.ResearchData, version 1 (2012).
+  \doi{10.4121/uuid:3926db30-f712-4394-aebc-75976070e91f}
+
+\bibitem{bpi17}
+van Dongen, B.: {BPI Challenge 2017}. 4TU.ResearchData, version 1 (2017).
+  \doi{10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b}
+
+\bibitem{spo}
+Elmachtoub, A.N., Grigas, P.: Smart {``Predict, then Optimize''}. Management
+  Science  \textbf{68}(1),  9--26 (2022). \doi{10.1287/mnsc.2020.3922}
+
+\bibitem{alarms}
+Fahrenkrog-Petersen, S.A., Tax, N., Teinemaa, I., Dumas, M., de~Leoni, M.,
+  Maggi, F.M., Weidlich, M.: Fire now, fire later: alarm-based systems for
+  prescriptive process monitoring. Knowledge and Information Systems
+  \textbf{64},  559--587 (2022). \doi{10.1007/s10115-021-01633-w}
+
+\bibitem{metastable}
+Huang, L., Magnusson, M., Muralikrishna, A.B., Estyak, S., Isaacs, R., Aghayev,
+  A., Zhu, T., Charapko, A.: Metastable failures in the wild. In: 16th USENIX
+  Symposium on Operating Systems Design and Implementation (OSDI 22). pp.
+  73--90. USENIX Association (2022),
+  \url{https://www.usenix.org/conference/osdi22/presentation/huang-lexiang}
+
+\bibitem{agents}
+Kirchdorfer, L., Bl\"{u}mel, R., Kampik, T., van~der Aa, H., Stuckenschmidt,
+  H.: Discovering multi-agent systems for resource-centric business process
+  simulation. Process Science  \textbf{2}, ~4 (2025).
+  \doi{10.1007/s44311-025-00009-5}
+
+\bibitem{multikpi}
+Le, N.D., Buliga, A., Ronzani, M., Padella, A., de~Leoni, M.: Balancing {KPIs}
+  through multi-objective prescriptive process analytics. In: Advanced
+  Information Systems Engineering. LNCS, vol. 16558, pp. 98--115. Springer
+  (2026). \doi{10.1007/978-3-032-28110-4_6}
+
+\bibitem{inductive}
+Leemans, S.J.J., Fahland, D., van~der Aalst, W.M.P.: Discovering
+  block-structured process models from event logs---a constructive approach.
+  In: Application and Theory of Petri Nets and Concurrency. pp. 311--329.
+  Springer (2013). \doi{10.1007/978-3-642-38697-8_17}
+
+\bibitem{lifecycle}
+Leemans, S.J.J., Fahland, D., van~der Aalst, W.M.P.: Using life cycle
+  information in process discovery. In: Business Process Management Workshops.
+  Lecture Notes in Business Information Processing, vol.~256, pp. 204--217.
+  Springer (2016). \doi{10.1007/978-3-319-42887-1_17}
+
+\bibitem{prosimos}
+L\'{o}pez-Pintado, O., Dumas, M.: Business process simulation with
+  differentiated resources: Does it make a difference? In: Business Process
+  Management. pp. 361--378. Springer (2022). \doi{10.1007/978-3-031-16103-2_24}
+
+\bibitem{dflsurvey}
+Mandi, J., Kotary, J., Berden, S., Mulamba, M., Bucarey, V., Guns, T.,
+  Fioretto, F.: Decision-focused learning: Foundations, state of the art,
+  benchmark and future opportunities. Journal of Artificial Intelligence
+  Research  \textbf{80},  1623--1701 (2024). \doi{10.1613/jair.1.15320}
+
+\bibitem{hybridpolicy}
+Meneghello, F., Middelhuis, J., Genga, L., Bukhsh, Z., Ronzani, M.,
+  Di~Francescomarino, C., Ghidini, C., Dijkman, R.: Optimizing resource
+  allocation policies in real-world business processes using hybrid process
+  simulation and deep reinforcement learning. In: Business Process Management.
+  LNCS, vol. 14940, pp. 167--184. Springer (2024).
+  \doi{10.1007/978-3-031-70396-6_10}
+
+\bibitem{resourcepolicy}
+Middelhuis, J., Lo~Bianco, R., Sherzer, E., Bukhsh, Z., Adan, I., Dijkman, R.:
+  Learning policies for resource allocation in business processes. Information
+  Systems  \textbf{128},  102492 (2025). \doi{10.1016/j.is.2024.102492}
+
+\bibitem{decisionmining}
+Rozinat, A., van~der Aalst, W.M.P.: Decision mining in {ProM}. In: Business
+  Process Management. Lecture Notes in Computer Science, vol.~4102, pp.
+  420--425. Springer (2006). \doi{10.1007/11841760_33}
+
+\bibitem{queue}
+Senderovich, A., Weidlich, M., Gal, A., Mandelbaum, A.: Queue
+  mining---predicting delays in service processes. In: Advanced Information
+  Systems Engineering. pp. 42--57. Springer (2014).
+  \doi{10.1007/978-3-319-07881-6_4}
+
+\bibitem{whitebox}
+Shoush, M., Dumas, M.: White box specification of intervention policies for
+  prescriptive process monitoring. Data \& Knowledge Engineering  \textbf{155},
+   102379 (2025). \doi{10.1016/j.datak.2024.102379}
+
+\end{thebibliography}

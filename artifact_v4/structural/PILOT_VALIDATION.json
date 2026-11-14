@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "time": "2026-11-14T07:45:57.255989+00:00",
+  "technical_pilots": [
+    {
+      "process": "P1",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 0.9962141698215251,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "b7e005b14867d9a4bcf20e6b507d76d25241e9194f65124d7007af0635193282"
+    },
+    {
+      "process": "P2",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 1.0,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "5f128901431d0c37b38382b9a2acc25fdede44fa11196e0ca58fff033d92f3ab"
+    },
+    {
+      "process": "P3",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 0.9875304136253041,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "4199f18c1677988e5933c8939cbed5da6c9cdf62a2f0f10eea7bb3d7ad9fb3d6"
+    },
+    {
+      "process": "P4",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 1.0,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "9cff1788170f6ee6ac9f353ee5f5ee2d658dc57adb725c1b4a477ee31b14509f"
+    },
+    {
+      "process": "P5",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 1.0,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "d2a71c4effd071f95554af32d074ef46d63cc16e032ebf34c93f8302b257eb9d"
+    },
+    {
+      "process": "P6",
+      "selected": "loop_first_guards",
+      "aligned_fitting_traces_percent": 100.0,
+      "precision": 0.99962441314554,
+      "language_equivalent": true,
+      "max_planning_representation_difference": 0.0,
+      "prepared_sha256": "1c60ac7f15098e5a60fd36db20b31dfa8c50ff36cf289201c985b5ccf81fbcff"
+    }
+  ],
+  "scope": "Correctness, trace-language equivalence and exact planning representation invariance. No pilot method-effect sizes used for tuning; all pilots excluded from inference."
+}

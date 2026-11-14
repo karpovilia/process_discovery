@@ -1,0 +1,35 @@
+\section{Results}
+\begin{table}[t]\caption{Primary routing-feedback setting: mean cost in thousands and number of fits choosing rework. The last column is cost above the known-generator planner. All rows use the same independent test scenarios; the selector and oracle are later diagnostics.}\label{tab:primary}\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{.42\textwidth}rrr}\toprule
+Method & Cost & Rework/12 & Excess cost\\\midrule
+No action & 147.8 & 0 & 102.5 \\
+Static planning & 92.8 & 0 & 47.5 \\
+Predictive selection & 88.8 & 1 & 43.5 \\
+Feedback-strength rule & 73.0 & 5 & 27.7 \\
+Retained-load planning & 57.4 & 9 & 12.0 \\
+Capacity at 20 & 92.6 & 0 & 47.3 \\
+Rework at 20 & 45.3 & 12 & 0.0 \\
+Known-generator planner & 45.3 & 12 & 0.0 \\
+\bottomrule\end{tabular}\end{table}
+\subsection{Retaining feedback changes the prepared action}
+Table~\ref{tab:primary} isolates the routing-feedback setting. Retained-load planning reduces mean cost by 38.2\% relative to static planning and 38.1\% relative to capacity at 20. The corresponding paired, multiplicity-adjusted 97.5\% intervals for the difference are $[-51.56,-19.40]$ and $[-51.23,-19.32]$ thousand. Against predictive component selection, the reduction is 35.4\%; its descriptive 95\% difference interval is $[-46.30,-16.66]$ thousand. All comparisons use independent training fits as the units of uncertainty.
+
+The action audit explains this difference. Predictive validation retains the rework-load component in only 2 of 12 fits, and its planner chooses rework reduction in 1. Retained-load planning chooses it in 9. All 12 retained-load fits select threshold 20. Thus the observed benefit concerns the action selected; it does not establish a benefit from optimizing activation time. The same action catalog and simulation search are available to every model.
+
+The fixed rework-at-20 rule is an essential comparator: its mean cost is 45.3 thousand versus 57.4 for retained-load planning. The paired difference is $12.04$ thousand, with descriptive 95\% interval $[-1.87,25.94]$. Superiority over that rule is not established. The feedback-strength selector uses the same fitted load model without simulation-based action comparison and obtains 73.0 thousand, choosing rework in 5 of 12 fits. The retained-load minus selector interval, $[-38.90,7.65]$ thousand, is also inconclusive. These comparisons locate the result in behavioral model choice; they do not establish that simulation search is necessary for this two-action setting.
+
+\subsection{Locating decision error}
+The known-generator planner chooses rework at 20 in every routing fit. Its independent-test mean is therefore 45.3 thousand; here the hindsight best fixed policy coincides with that choice. Retained-load planning has mean excess cost 12.04 thousand relative to this model-knowledge oracle. All excess cost comes from the 3 fits selecting capacity. In those fits, predicted capacity cost is lower than predicted rework cost, while the realized ranking reverses (Table~\ref{tab:choices}). Their calibration maxima are only 12--19 unfinished cases. This is an action-ranking error under extrapolation, rather than evidence for a different optimal trigger. The audit identifies the decision discrepancy without attributing it uniquely to one coefficient or treating correct action choice as accurate recovery of the generating law.
+\begin{table}[t]\caption{The three capacity choices. Differences are capacity minus rework at 20, in thousands; negative predicted differences favor capacity.}\label{tab:choices}\centering\small\setlength{\tabcolsep}{3pt}\begin{tabular}{rrrr}\toprule
+Seed & Calibration max. & Predicted difference & Realized difference\\\midrule
+4 & 19 & -1.41 & 51.66 \\
+5 & 12 & -0.44 & 42.42 \\
+11 & 12 & -4.24 & 50.39 \\
+\bottomrule\end{tabular}\end{table}
+\subsection{Operational checks}
+On the original routing test, the observable trigger precedes the matched no-action severe-event onset in all 289 at-risk trajectories, with mean lead time 108.0. The response prevents the defined event in 93 of those trajectories (32.2\%); the cost reduction is therefore broader than complete crisis prevention. None of 192 calm test trajectories activates the response. Figure~\ref{fig:response} shows trajectories for two held-out pulses.
+
+The additional effect check keeps the chosen responses fixed. Across actual rework reductions of 30\%, 50\% and 70\%, the routing cost reduction against static planning ranges from 17.0--48.7\%. At 30\% and 70\% actual reduction, descriptive paired 95\% intervals for the cost difference are $[-21.84,-9.67]$ and $[-62.63,-27.85]$ thousand, respectively. The supplement reports every mechanism, comparator and effect value. Across the 9 declared horizon/terminal-backlog combinations, the retained-load versus static mean difference remains favorable in 9 cases. Event-definition sensitivity is reported separately from cost, so a favorable cost result is not interpreted as an availability guarantee.
+
+Train-only process discovery recovers the serial visible language $A(BC)^+$ in all 48 logs. The compiler verifies this language exhaustively over reachable automaton states and checks that each transition preserves one-token serial execution. A fresh replay on the prespecified first routing fit reproduces the choices and the cost, trigger, event and count metrics of all 252 planning rollouts and 96 independent-test action rollouts exactly. Completed-cycle means agree within floating-point tolerance. Thus the selected response can be produced through discovered structure in this recovered serial family. Resource capacities and action effects remain supplied inputs; this check does not establish robustness to inaccurate parallel structures.
+\begin{figure}[t]\centering\includegraphics[width=\textwidth]{generated/e7_response_en.pdf}\caption{Routing responses under two held-out pulse scenarios. Each line averages eight trajectories within each of 12 fits, then averages fits. The band is one standard deviation across fit means. Gray regions mark arrival pulses; the horizontal line marks WIP 100.}\label{fig:response}\end{figure}
