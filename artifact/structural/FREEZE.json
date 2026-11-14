@@ -1,0 +1,34 @@
+{
+  "time_utc": "2026-11-13T21:15:12.021661+00:00",
+  "classification": "prospective structural extension v2; P0 unchanged",
+  "files": {
+    "engine.cpp": "218ff2ce0a178aa2eb482022bf16cbc415b005bf5c9094e90d2453dd6ba6f502",
+    "engine.so": "bae54f3d581461f75332ca15fd934db65632852ac0257eb1e8b56bab8bd50936",
+    "native.py": "5bda8d7f494d6c01aace100e956d19008b99983a1134715e44c3f274d40f6432",
+    "learning.py": "c2c9aa18344d37d3ef4cf43e2e957b9474d2a1186ada7f3362da15f583491515",
+    "campaign.py": "dbe7a829729fad0a36569484a4098e8e8d03c4c0024f4217e2a10fd7c31e83ed",
+    "specifications.py": "4081ee540fe1f91f4f2c2fa4c4f34f5c08452054dc7b0f265966fb15c13c9b9a",
+    "PROTOCOL.md": "6f2dd60b0f69039f5dbb315936d5732e910505e1dd88432768a43640d56004f3",
+    "CALIBRATION_PROTOCOL.md": "02e978fa97f99259e982b7fbd72054731061c139354efab73e6ef2d91be24973",
+    "calibration.py": "1bb84ff83b6e14697d6823865a41aeca07719a91d8862627c0ad060c3da8544e",
+    "AMENDMENT.json": "1de0926b9aa25727575422a1888b7cabe80c79cdd56af15fd7e4d59941e092ab",
+    "calibration/P1.json": "e5c06edb8ac768b33933ee77aca71a1c87bcf517f6bd3d72dac3662e12787b66",
+    "calibration/P2.json": "384727380fb33a07e6b94df3e138564af0fdaf87ac622bbcf61b6fdc345937d5",
+    "calibration/P3.json": "e6b7c54a4393d210b96510d31a13b99e09cc2f0d18637ee8d5bb7d892aff2fe6",
+    "calibration/P4.json": "60cb92439ccd56323439a403ccca56d4f42cbea062bfaf4ee1600bbc9d1d1b89",
+    "calibration/P5.json": "cea49cfd35db6c6a1d315f5f4fba9a2f2647117d88bdc8b38008f52345d0bd0f",
+    "calibration/P6.json": "8f93158ee4fd44ca81a10ddaada2ff0dbaa3fad20673ee1630c80dea3f1e7de1"
+  },
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "pm4py": "2.7.19.1",
+    "pandas": "3.1.1"
+  },
+  "python": "3.14.3 (main, Feb 13 2026, 15:31:44) [GCC 15.2.1 20260209]",
+  "pilot": "14ef5184be88f7edf245d7318fdd96e853ea27306802ec4b72538b3b8eb54872",
+  "expected_fits": 288,
+  "independent_fits_per_cell": 12,
+  "export_scope": "Source calculations and numeric inputs unchanged; AMENDMENT path metadata relocated."
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "world": "fixed",
+    "structure": "known",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.05836364088103757,
+    "low": 0.03340030324852256,
+    "high": 0.08332697851355259,
+    "df": 54.098892463743866,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "fixed",
+    "structure": "discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.06990956896451175,
+    "low": 0.048569327741817284,
+    "high": 0.09124981018720622,
+    "df": 34.60908117864593,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "service",
+    "structure": "known",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.06912601779633207,
+    "low": 0.02905091693582605,
+    "high": 0.10920111865683808,
+    "df": 52.11871622333107,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "service",
+    "structure": "discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.07515182980150355,
+    "low": 0.046915766967404876,
+    "high": 0.10338789263560222,
+    "df": 25.858472107131334,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "routing",
+    "structure": "known",
+    "processes": 6,
+    "complete_six": true,
+    "mean": -0.0895872774457293,
+    "low": -0.13464596951577038,
+    "high": -0.04452858537568821,
+    "df": 34.32914695449914,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "routing",
+    "structure": "discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.0005192667919003158,
+    "low": -0.03658021138386407,
+    "high": 0.037618744967664694,
+    "df": 20.507523213988303,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "combined",
+    "structure": "known",
+    "processes": 6,
+    "complete_six": true,
+    "mean": -0.03624585601312547,
+    "low": -0.052172500932428506,
+    "high": -0.02031921109382244,
+    "df": 36.4951548703892,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "combined",
+    "structure": "discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.007545712407456418,
+    "low": 0.001608507081223876,
+    "high": 0.01348291773368896,
+    "df": 25.978071930016714,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  }
+]

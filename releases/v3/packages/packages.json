@@ -1,0 +1,79 @@
+[
+  {
+    "file": "P0_reference_v2.zip",
+    "sha256": "944522ad89ceb2cb4f9980f23f0200ac39340284fa2a9ee5080ba4b260950a8c",
+    "bytes": 134885725,
+    "extract_to": "legacy",
+    "role": "Unmodified original serial study and earlier evidence"
+  },
+  {
+    "file": "development_record.zip",
+    "sha256": "eb23f1ff01ce8f9fbfe5ca977d674bd8a681408152ec320b8ae4e4e93a5aa229",
+    "bytes": 518058769,
+    "extract_to": ".",
+    "files": 7680
+  },
+  {
+    "file": "P4_resource_replays.zip",
+    "sha256": "9af83385e008363d0a8140aa3041c5ab9aa7b79aeb142311d7a1588df317e016",
+    "bytes": 55573199,
+    "extract_to": ".",
+    "files": 192
+  },
+  {
+    "file": "P5_resource_replays.zip",
+    "sha256": "7c8ddb638843ddbe28385247c2556432466ce7361bf2ac938916adad40775d83",
+    "bytes": 81765781,
+    "extract_to": ".",
+    "files": 192
+  },
+  {
+    "file": "P1_independent_results_v2.zip",
+    "sha256": "58244f5b5859f4df751e7c7ce2217abcc253d2d6882adb79015006721da6e643",
+    "bytes": 277310805,
+    "extract_to": ".",
+    "files": 5232
+  },
+  {
+    "file": "P2_independent_results_v2.zip",
+    "sha256": "4ac908c2d7c00379dd5352cf3796c3f22344a4999b7eb184ca8012c93888f979",
+    "bytes": 752489025,
+    "extract_to": ".",
+    "files": 9888
+  },
+  {
+    "file": "P3_independent_results_v2.zip",
+    "sha256": "68433c89ec26f186a220e9c4ab2d7b802f47018bf7b221eba9d4a69b8db8720f",
+    "bytes": 1275232310,
+    "extract_to": ".",
+    "files": 14544
+  },
+  {
+    "file": "P4_independent_results_v2.zip",
+    "sha256": "ec8210c07f25667715962705831f3fe6852d05581bec83d5fed76c7d16dd4c6b",
+    "bytes": 821475581,
+    "extract_to": ".",
+    "files": 5232
+  },
+  {
+    "file": "P5_independent_results_v2.zip",
+    "sha256": "d930d5784861fbac0c8920c9937a4e27c00f00b893839b0a0f839391aa4cec82",
+    "bytes": 686678958,
+    "extract_to": ".",
+    "files": 5232
+  },
+  {
+    "file": "P6_independent_results_v2.zip",
+    "sha256": "8d6f72c278152b8f5485ffc006ed973035bd3b2dcab8ca98774583827ae6859f",
+    "bytes": 636700578,
+    "extract_to": ".",
+    "files": 5232
+  },
+  {
+    "file": "code_paper_analysis_v7.zip",
+    "sha256": "1147531bdce565dfa809030f50d8adc8c6b9d2891f437dcb364f71d2b595a908",
+    "bytes": 16144433,
+    "extract_to": ".",
+    "files": 254
+  }
+]

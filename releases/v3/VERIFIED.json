@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "time": 1794615955.8669534,
+  "packages": [
+    {
+      "file": "P0_reference_v2.zip",
+      "sha256": "944522ad89ceb2cb4f9980f23f0200ac39340284fa2a9ee5080ba4b260950a8c"
+    },
+    {
+      "file": "development_record.zip",
+      "sha256": "eb23f1ff01ce8f9fbfe5ca977d674bd8a681408152ec320b8ae4e4e93a5aa229"
+    },
+    {
+      "file": "P4_resource_replays.zip",
+      "sha256": "9af83385e008363d0a8140aa3041c5ab9aa7b79aeb142311d7a1588df317e016"
+    },
+    {
+      "file": "P5_resource_replays.zip",
+      "sha256": "7c8ddb638843ddbe28385247c2556432466ce7361bf2ac938916adad40775d83"
+    },
+    {
+      "file": "P1_independent_results_v2.zip",
+      "sha256": "58244f5b5859f4df751e7c7ce2217abcc253d2d6882adb79015006721da6e643"
+    },
+    {
+      "file": "P2_independent_results_v2.zip",
+      "sha256": "4ac908c2d7c00379dd5352cf3796c3f22344a4999b7eb184ca8012c93888f979"
+    },
+    {
+      "file": "P3_independent_results_v2.zip",
+      "sha256": "68433c89ec26f186a220e9c4ab2d7b802f47018bf7b221eba9d4a69b8db8720f"
+    },
+    {
+      "file": "P4_independent_results_v2.zip",
+      "sha256": "ec8210c07f25667715962705831f3fe6852d05581bec83d5fed76c7d16dd4c6b"
+    },
+    {
+      "file": "P5_independent_results_v2.zip",
+      "sha256": "d930d5784861fbac0c8920c9937a4e27c00f00b893839b0a0f839391aa4cec82"
+    },
+    {
+      "file": "P6_independent_results_v2.zip",
+      "sha256": "8d6f72c278152b8f5485ffc006ed973035bd3b2dcab8ca98774583827ae6859f"
+    },
+    {
+      "file": "code_paper_analysis_v7.zip",
+      "sha256": "1147531bdce565dfa809030f50d8adc8c6b9d2891f437dcb364f71d2b595a908"
+    }
+  ],
+  "members_verified": 53677,
+  "numeric_outputs_reproduced": [
+    "structural/analysis/summary.json",
+    "structural/analysis/per_fit.json",
+    "structural/analysis/contrasts.json",
+    "structural/analysis/aggregate.json",
+    "structural/analysis/selector_per_fit.json",
+    "structural/analysis/calibration_audits.json",
+    "structural/analysis/model_quality.json",
+    "structural/analysis/selector_summary.json",
+    "structural/analysis/discovery_summary.json",
+    "structural/analysis/hindsight_per_fit.json",
+    "structural/analysis/structural_conformance.json",
+    "structural/analysis/resource_summary.json",
+    "structural/analysis/P4_process_outcomes.json",
+    "structural/analysis/recovery_summary.json",
+    "structural/analysis/trigger_support.json",
+    "structural/analysis/full_summary.csv",
+    "structural/analysis/selector_summary.csv",
+    "selector/selector_results/summary.json",
+    "selector/selector_results/per_seed.json"
+  ],
+  "figures_tables_reproduced": [
+    "manuscript/generated/structural_matrix_ru.pdf",
+    "manuscript/generated/structural_primary_ru.tex",
+    "manuscript/generated/structural_matrix_en.pdf",
+    "manuscript/generated/structural_matrix_en.png",
+    "manuscript/generated/operational_supplement_ru.tex",
+    "manuscript/generated/structural_supplement_ru.tex",
+    "manuscript/generated/operational_supplement_en.tex",
+    "manuscript/generated/structural_primary_en.tex",
+    "manuscript/generated/structural_matrix_ru.png",
+    "manuscript/generated/structural_supplement_en.tex"
+  ],
+  "pdfs": [
+    {
+      "file": "manuscript/supplement_ru.pdf",
+      "sha256": "81e90e299a02b4d57d8aede0f0aef88b5164bfd0962d79ffdc0e74e728235ba7"
+    },
+    {
+      "file": "manuscript/paper_ru.pdf",
+      "sha256": "59f5dd8863f870dc99040547baf98aff8171a0525539f0f6d7a667b7204b17a5"
+    },
+    {
+      "file": "manuscript/paper_en.pdf",
+      "sha256": "6a94f0b952d175b2f21510f9701f84d6fd4f6ca6cabd04d4e52ea193d4849ba4"
+    },
+    {
+      "file": "manuscript/supplement_en.pdf",
+      "sha256": "9c1541384b63148005278d0251dbe52016d5eedc2e432b7198f421a77cbc84d5"
+    }
+  ],
+  "anonymity_scan": "passed",
+  "identity_terms_checked": 9,
+  "scope": "Fresh extraction; original execution freeze linked to every preparation receipt; all package/member hashes checked; numerical analyses, selector diagnostics and manuscript tables/figures regenerated exactly. No new simulation or policy selection using test outcomes."
+}

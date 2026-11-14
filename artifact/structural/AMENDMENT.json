@@ -1,0 +1,8 @@
+{
+  "time": 1794604431.0490003,
+  "previous_freeze_sha256": "78128753a0c2eb771f4e45c58d4ec06f6da7e762a418f48bbfcffe2e713051af",
+  "previous_main_outcomes_inspected": false,
+  "previous_accepted": 56,
+  "reason": "Loss consistency with P0 and trapezoidal cost integration; generator constants unchanged; fresh independent main streams",
+  "preserved_previous_path": "../development/superseded_v1/main_v1"
+}

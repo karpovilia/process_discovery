@@ -1,41 +1,57 @@
 # Preparing Congestion Responses from Pre-Crisis Process Logs
 
-Research artifact for the CAiSE2027 manuscript. The method prepares an intervention and an observable activation rule from pre-crisis process logs and a specified stress library.
+CAiSE2027 research manuscript and reproducibility release, 14 November 2026.
 
-## Checked manuscript revision v7
+- [English manuscript, v7](papers/CAiSE2027_Preparing_Congestion_Responses_v7_EN.pdf): 13 pages before references.
+- [Russian translation, v7](papers/CAiSE2027_Preparing_Congestion_Responses_v7_RU.pdf): 14 pages before references.
+- [English supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_EN.pdf) and [Russian supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_RU.pdf).
+- [Complete package index](releases/v3/packages/packages.json), [fresh-extraction verification](releases/v3/VERIFIED.json).
+- [Frozen structural protocol](artifact/structural/PROTOCOL.md) and [aggregate comparisons](artifact/structural/analysis/aggregate.json).
 
-- [English paper](artifact/manuscript/paper_en.pdf), 13 main-text LNCS pages.
-- [Russian translation](artifact/manuscript/paper_ru.pdf), 14 main-text pages.
-- [English supplement](artifact/manuscript/supplement_en.pdf).
-- [Russian supplement](artifact/manuscript/supplement_ru.pdf).
+The unchanged serial reference P0 is extended by 288 independent training datasets
+across six complex structures and four feedback mechanisms. Known and training-only
+discovered control flow are evaluated separately. All 3168 calibration/validation
+episodes pass the pre-crisis criterion. Independent arithmetic checks cover 20736
+episodes and 200448 policy paths with zero discrepancy.
 
-All 288 structural fits completed; all 3168 calibration/validation episodes pass
-the pre-crisis criterion. Independent arithmetic checks cover 200448 policy paths
-with zero discrepancy. Source/PDF consistency, numeric translation parity, references
-and anonymous PDF metadata passed automated checks; selected pages were also
-visually inspected. The original P0 evidence remains unchanged.
+The structural results are mixed. Under routing feedback with supplied structure,
+mean cost reductions relative to predictive component selection are 8.1%, 29.8%, 34.6%
+and 26.4% for P1, P2, P5, P6. None excludes zero after correction for six primary
+comparisons; P4 instead has a corrected significant increase. The descriptive,
+equal-process no-action-normalized routing difference is -0.090 [-0.135, -0.045].
+With discovered structure it is 0.001 [-0.037, 0.038]. Strong fixed actions, a feedback
+heuristic and a known-generator planner are included; no universal superiority is
+claimed. The paper explains how structural and behavioral errors change decisions.
 
-The new primary results are mixed: no per-structure improvement passes correction
-for six comparisons, and P4 worsens. Secondary routing/combined averages favor
-retention with supplied structure, but the routing aggregate benefit disappears
-with discovered structure. The paper and supplement report strong comparators,
-selector sensitivity and structural failures alongside the supported benefits.
+## Reproduce the evidence
 
-The complete trajectory archive is being packaged and verified in a fresh location.
-It has not yet been uploaded. PDFs use Git LFS; install LFS and run `git lfs pull`
-if a downloaded file is a text pointer. This owner repository is not an anonymous
-review link; a separate anonymous mirror is still required.
+Install Git LFS before cloning, or run `git lfs pull` after cloning. PDF and ZIP
+objects use LFS; a GitHub source ZIP may contain pointers rather than the objects.
+All scientific package hashes and sizes are recorded in packages.json.
 
-## Implementation
+Using the Python dependencies recorded in artifact/structural/FREEZE.json, run:
 
-- `specifications.py`: six process families, resource pools, generating laws and interventions.
-- `engine.cpp` / `native.py`: single-thread workflow execution and paired counter-based randomness.
-- `learning.py`: behavioral calibration and training-only process discovery.
-- `campaign.py`: preparation receipts followed by independent test evaluation.
-- `summarize.py`: paired independent-fit inference; no policy selection from test outcomes.
+```sh
+python artifact/verify_bundle.py releases/v3/packages /path/to/new/verification_directory
+```
 
-Dependencies and exact versions are recorded in `FREEZE.json`. The checked-in shared library is the executed Linux x86-64 build. To rebuild on another environment, use `g++ -std=c++17 -O3 -shared -fPIC engine.cpp -o engine.so`, record the new binary hash and treat this as a separate replication build. Do not silently change a completed experiment's freeze receipt.
+The destination must not exist. The verifier extracts all packages, checks their
+hashes and every member, and regenerates numerical analyses, selector diagnostics,
+tables and figures in the new location. It does not regenerate simulations or tune
+policies from test outcomes. The resulting VERIFIED.json is written beside packages/.
+Resource-heavy work should use the reader's approved compute limits; the supplied
+native engine is single-threaded. Linux x86-64 binary and source are both provided.
 
-The original serial-process experiment P0 remains unchanged. The source study uses synthetic operational data, not private organizational logs. Generative AI assisted implementation, analysis, drafting and translation; the manuscript includes the required usage statement.
+The browsable artifact directory contains source, manuscripts and compact summaries.
+Full fitted parameters, action outcomes and trajectories are in the separate ZIP
+parts. The original execution freeze is preserved as SOURCE_FREEZE.json; metadata
+relocations are documented in PORTABILITY.json. The superseded development campaign
+and technical pilots remain separately labeled and are excluded from inference.
 
-The GitHub repository is the author's source repository. It is not itself an anonymous review link. A separately checked anonymous artifact is being prepared.
+Generative AI assisted implementation, experiment operation, analysis, drafting and
+translation; the manuscripts contain the complete disclosure. No GenAI model is
+part of the evaluated process simulator.
+
+This is the owner's source repository. Its URL and commit history identify the
+owner and must not be used as an anonymous review link. A public anonymous mirror
+still needs to be established and checked; the paper has not been submitted here.
