@@ -1,41 +1,23 @@
 # Preparing Congestion Responses from Pre-Crisis Process Logs
 
-Research artifact for the CAiSE2027 manuscript. The method prepares an intervention and an observable activation rule from pre-crisis process logs and a specified stress library.
+CAiSE 2027 manuscript, version 7, 14 November 2026.
 
-## Checked manuscript revision v7
+- [English paper](papers/CAiSE2027_Preparing_Congestion_Responses_v7_EN.pdf)
+- [Russian translation](papers/CAiSE2027_Preparing_Congestion_Responses_v7_RU.pdf)
+- [English supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_EN.pdf)
+- [Russian supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v7_Supplement_RU.pdf)
+- [Submission fields in HTML](submission/CAiSE2027_Preparing_Congestion_Responses_v7_Submission_Fields.html) and [plain text](submission/submission_fields_en.txt)
+- [Manuscript sources](artifact/manuscript)
 
-- [English paper](artifact/manuscript/paper_en.pdf), 13 main-text LNCS pages.
-- [Russian translation](artifact/manuscript/paper_ru.pdf), 14 main-text pages.
-- [English supplement](artifact/manuscript/supplement_en.pdf).
-- [Russian supplement](artifact/manuscript/supplement_ru.pdf).
+The six-structure evaluation includes 288 independent training datasets. The
+paper reports known and discovered structures separately, strong baselines,
+selector sensitivity, and the unchanged serial reference experiment.
+The English main text occupies 13 pages before references; the Russian main
+text occupies 14. The papers use the LNCS class dated 3 September 2026.
 
-All 288 structural fits completed; all 3168 calibration/validation episodes pass
-the pre-crisis criterion. Independent arithmetic checks cover 200448 policy paths
-with zero discrepancy. Source/PDF consistency, numeric translation parity, references
-and anonymous PDF metadata passed automated checks; selected pages were also
-visually inspected. The original P0 evidence remains unchanged.
+The complete 5.26 GB research archive has passed fresh-extraction verification
+and is being uploaded separately. This repository will receive the full package
+index and verification receipt after the archive transfer is acknowledged.
 
-The new primary results are mixed: no per-structure improvement passes correction
-for six comparisons, and P4 worsens. Secondary routing/combined averages favor
-retention with supplied structure, but the routing aggregate benefit disappears
-with discovered structure. The paper and supplement report strong comparators,
-selector sensitivity and structural failures alongside the supported benefits.
-
-The complete trajectory archive is being packaged and verified in a fresh location.
-It has not yet been uploaded. PDFs use Git LFS; install LFS and run `git lfs pull`
-if a downloaded file is a text pointer. This owner repository is not an anonymous
-review link; a separate anonymous mirror is still required.
-
-## Implementation
-
-- `specifications.py`: six process families, resource pools, generating laws and interventions.
-- `engine.cpp` / `native.py`: single-thread workflow execution and paired counter-based randomness.
-- `learning.py`: behavioral calibration and training-only process discovery.
-- `campaign.py`: preparation receipts followed by independent test evaluation.
-- `summarize.py`: paired independent-fit inference; no policy selection from test outcomes.
-
-Dependencies and exact versions are recorded in `FREEZE.json`. The checked-in shared library is the executed Linux x86-64 build. To rebuild on another environment, use `g++ -std=c++17 -O3 -shared -fPIC engine.cpp -o engine.so`, record the new binary hash and treat this as a separate replication build. Do not silently change a completed experiment's freeze receipt.
-
-The original serial-process experiment P0 remains unchanged. The source study uses synthetic operational data, not private organizational logs. Generative AI assisted implementation, analysis, drafting and translation; the manuscript includes the required usage statement.
-
-The GitHub repository is the author's source repository. It is not itself an anonymous review link. A separately checked anonymous artifact is being prepared.
+The personal repository URL and commit history identify the owner. An anonymous
+review mirror remains to be created and checked before conference submission.
