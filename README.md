@@ -1,33 +1,24 @@
 # Preparing Congestion Responses from Pre-Crisis Process Logs
 
-CAiSE 2027: corrected process execution, automatic discovery and manuscript v8.
+Research code and experimental data for preparing responses to process congestion. This repository distributes protocols, process specifications, observations, fitted models, policies, independent evaluation trajectories and reproduction scripts.
 
-- [English manuscript](papers/CAiSE2027_Preparing_Congestion_Responses_v8_EN.pdf)
-- [Russian translation](papers/CAiSE2027_Preparing_Congestion_Responses_v8_RU.pdf)
-- [English supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v8_Supplement_EN.pdf) and [Russian supplement](papers/CAiSE2027_Preparing_Congestion_Responses_v8_Supplement_RU.pdf)
-- [Submission fields](submission/CAiSE2027_Preparing_Congestion_Responses_v8_Submission_Fields.html)
-- [Full archive index](releases/v4/packages/packages.json) and [fresh-extraction verification](releases/v4/VERIFIED.json)
-- [Frozen protocol](artifact_v4/structural/PROTOCOL.md), [primary comparisons](artifact_v4/structural/analysis/confirmatory_summary.json) and [raw arithmetic audit](artifact_v4/structural/analysis/raw_audit.json)
+- [Corrected structural campaign](artifact_v4/README.md): six process structures, four feedback mechanisms, twelve independent training datasets per cell.
+- [Frozen protocol](artifact_v4/structural/PROTOCOL.md), [primary comparisons](artifact_v4/structural/analysis/confirmatory_summary.json) and [raw arithmetic audit](artifact_v4/structural/analysis/raw_audit.json).
+- [Current archive index](releases/v4/packages/packages.json) and [distribution correction audit](releases/v4/CURATION.json).
+- [Earlier structural campaign](artifact/README.md) and [its archive index](releases/v3/packages/packages.json), retained separately from the corrected confirmation.
 
-The new campaign contains 288 independent training datasets: six process structures, four mechanisms, twelve fits per cell. Supplied structure, automatically selected structure and standard IM use the same corrected executor and fitted behavior. All original P0 results are unchanged. The earlier structural campaign and manuscript remain in [release v3](releases/v3/packages/packages.json); its exposed outcomes are not pooled into the new confirmatory evaluation.
-
-Two aggregate routing-feedback contrasts were fixed before fresh main outcomes. Costs are normalized within each fit by its no-action cost, then paired differences receive equal weights across the six designed processes. Intervals are two-sided 97.5%, correcting for two hypotheses; they do not describe a representative population of all business processes.
-
-- Retained-load versus predictive selection after automatic discovery: paired normalized cost difference -0.084773, adjusted 97.5% interval [-0.135261, -0.034284].
-- Selected discovery versus standard IM, both using retained-load planning: paired normalized cost difference -0.095822, adjusted 97.5% interval [-0.120549, -0.071094].
-
-The complete results include fixed actions, a feedback-strength rule fitted from training data, a planner using the true generator and the same action catalogue, control mechanisms, individual process outcomes, selector sensitivity and uncertainty about intervention effects. The manuscripts delimit which comparisons support a benefit.
+Costs are normalized within each independently trained model by its no-action cost. The two original aggregate routing-feedback contrasts use equal weights across the six designed processes and two-sided 97.5% paired intervals. All fixed-action baselines, feedback-strength heuristics, known-generator planners and control mechanisms are retained. The processes are not a representative random sample of business processes.
 
 ## Reproduction
 
-Install Git LFS and download every package in the release index. GitHub source ZIP downloads may contain LFS pointers. Using the Python dependencies recorded in artifact_v4/structural/FREEZE.json:
+Install Git LFS and fetch every package in the selected index. GitHub source ZIP downloads can contain LFS pointers. With the recorded Python dependencies, run:
 
 ```sh
 python artifact_v4/verify_bundle.py releases/v4/packages /path/to/new/verification_directory
 ```
 
-The destination must not exist. The verifier checks every package and member, recomputes the primary comparisons from raw saved policy outcomes, and regenerates numerical summaries, tables and figures in the new directory. It also repeats a technical input-isolation check on the excluded pilots. It performs no new main-campaign simulation or test-based policy selection. Native simulation is single-threaded; apply your approved resource limits. Source, executed Linux x86-64 binary, source freeze and metadata relocation records are included. The compact artifact_v4 directory is for browsing; complete models, policies and trajectories are in the ZIP packages.
+The destination must not exist. The command verifies package/member hashes and regenerates saved numerical results without fitting models, selecting policies or running new main simulations. Use approved resource limits. Full runtime source, the executed native binary and provenance freezes are included. The compact artifact directories support browsing; complete observations and trajectories are in the release packages.
 
-Generative AI assisted implementation, experiment operation, analysis, drafting and translation. Full disclosure is in the papers. No GenAI model is used in the evaluated process simulator.
+Manuscript PDFs, full manuscript sources, translations and submission forms are excluded from the current distribution. CURATION.json documents this packaging correction and byte preservation of retained scientific files. Original verification receipts are retained as provenance for the original packages; they are not a claim that curated archives retain their old checksums.
 
-This owner-identified GitHub repository is not an anonymous review URL. The exported packages are sanitized; a public anonymous mirror still requires separate access and verification. No EasyChair submission is performed by this release.
+Generative AI assisted implementation, experiment operation and analysis. It is not a component of the evaluated process models. No conference submission is performed by this repository.

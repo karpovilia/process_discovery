@@ -1,10 +1,11 @@
 [
   {
-    "file": "P0_reference_v2.zip",
-    "sha256": "944522ad89ceb2cb4f9980f23f0200ac39340284fa2a9ee5080ba4b260950a8c",
-    "bytes": 134885725,
+    "file": "P0_reference_data.zip",
+    "sha256": "14a69278ce2ed9253fb75a5b9d887e040c79160aa3138dc3271480a94f3cf6bc",
+    "bytes": 133318180,
     "extract_to": "legacy",
-    "role": "Unmodified original serial study and earlier evidence"
+    "role": "Unmodified original serial study and earlier evidence",
+    "files": 2252
   },
   {
     "file": "development_record.zip",
@@ -70,10 +71,10 @@
     "files": 5232
   },
   {
-    "file": "code_paper_analysis_v7.zip",
-    "sha256": "1147531bdce565dfa809030f50d8adc8c6b9d2891f437dcb364f71d2b595a908",
-    "bytes": 16144433,
+    "file": "code_analysis_v7.zip",
+    "sha256": "b20a2c5c5f866447a977b2142a3b6d251d7431fc4066df0a7e09734b6b3d852d",
+    "bytes": 13045707,
     "extract_to": ".",
-    "files": 254
+    "files": 165
   }
 ]

@@ -31,7 +31,7 @@ def main():
  source_freeze=sha(dest/'structural/SOURCE_FREEZE.json')
  for file in (dest/'structural/main_v1').glob('*/PREPARED.json'):assert json.loads(file.read_text())['freeze_sha256']==source_freeze
  numeric=['structural/analysis/'+x for x in ['summary.json','paper_claims.json','input_isolation_audit.json','decision_integrity_audit.json','confirmatory_summary.json','per_fit.json','contrasts.json','aggregate.json','selector_per_fit.json','calibration_audits.json','model_quality.json','selector_summary.json','discovery_summary.json','hindsight_per_fit.json','structural_conformance.json','resource_summary.json','P4_process_outcomes.json','recovery_summary.json','trigger_support.json','full_summary.csv','selector_summary.csv']]+['selector/selector_results/summary.json','selector/selector_results/per_seed.json']
- figures=[str(x.relative_to(dest)) for x in (dest/'manuscript/generated').iterdir() if x.name.startswith(('structural_','operational_')) if x.suffix in {'.tex','.png','.pdf'}]
+ figures=[]  # Article assembly assets are excluded from this research-data release.
  before={name:sha(dest/name) for name in numeric+figures}
  jobs=[['structural/summarize.py'],['structural/confirmatory_summary.py'],['structural/decision_integrity_audit.py'],['structural/report_diagnostics.py'],['structural/operational_report.py'],['structural/render_results.py'],['structural/paper_claims.py'],['structural/input_isolation_audit.py'],['selector/selector_sensitivity.py','analyze']]
  for args in jobs:
@@ -54,6 +54,6 @@ def main():
   txt=subprocess.check_output(['pdftotext',str(src),'-'],text=True)
   assert not forbidden.search(txt)
   pdfs.append(dict(file=str(src.relative_to(dest)),sha256=sha(src)))
- receipt=dict(status='passed',time=time.time(),packages=checks,members_verified=len(manifest),numeric_outputs_reproduced=numeric,figures_tables_reproduced=figures,pdfs=pdfs,anonymity_scan='passed',identity_terms_checked=len(terms),scope='Fresh extraction; original execution freeze linked to every preparation receipt; all package/member hashes checked; numerical analyses, selector diagnostics and manuscript tables/figures regenerated exactly. No new simulation or policy selection using test outcomes.')
+ receipt=dict(status='passed',time=time.time(),packages=checks,members_verified=len(manifest),numeric_outputs_reproduced=numeric,figures_tables_reproduced=figures,pdfs=pdfs,anonymity_scan='passed',identity_terms_checked=len(terms),scope='Fresh extraction; original execution freeze linked to every preparation receipt; all package/member hashes checked; numerical analyses and selector diagnostics regenerated exactly. Article assets are excluded; generated figures are not compared by this packaging verifier. No new simulation or policy selection using test outcomes.')
  (packages.parent/'VERIFIED.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt,indent=2),flush=True)
 if __name__=='__main__':main()

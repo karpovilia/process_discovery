@@ -1,13 +1,9 @@
-# Preparing Congestion Responses from Pre-Crisis Process Logs
+# Preparing Congestion Responses: research artifact v3
 
-Anonymous research artifact, version3. Download every package listed in packages.json and extract code_paper_analysis_v7.zip, the six P1–P6 result packages and P4/P5 resource-replay packages into one directory. Extract P0_reference_v2.zip under legacy/. development_record.zip is the preserved development audit trail and is excluded from confirmatory analysis.
+This release contains scientific code, frozen protocols, calibrated specifications, fitted models, prepared policies and independent test outcomes. Manuscript PDFs, full manuscript sources and translations are excluded.
 
-Main manuscripts: manuscript/paper_en.pdf and paper_ru.pdf. Supplements retain the full experimental evidence. P0 is unchanged. The new structural campaign uses 288 independent training datasets across six designed structures and four feedback mechanisms, with known and discovered control flow evaluated separately.
+Download all files listed in packages.json with Git LFS. From the repository root run `python artifact/verify_bundle.py releases/v3/packages /path/to/new/verification_directory` with the recorded dependencies. The verifier checks package and member hashes and regenerates numerical results from saved outcomes. It performs no new model fitting or policy selection. Result rendering code remains available; article assembly files are not distributed.
 
-Reproduce saved new aggregates with `python structural/summarize.py`; reproduce P0 selector diagnostics with `python selector/selector_sensitivity.py analyze`. The latter reads original P0 action outcomes from legacy/. Dependencies and versions are in structural/FREEZE.json. Run code sequentially within your resource limits. The supplied engine.so is the executed Linux x86-64 build; engine.cpp is its source. A fresh platform build must record its own binary hash and execution receipt.
+P0 remains the original reference evaluation. The structural campaign contains six designed processes, four mechanisms and twelve independent training datasets per cell. Earlier exposed outcomes must not be pooled with the corrected confirmatory campaign. See structural/PROTOCOL.md, SOURCE_FREEZE.json and PORTABILITY.json for provenance. All numerical observations, policies, source freezes and scientific runtime files are preserved byte for byte by this packaging correction.
 
-To replicate new simulations, copy structural code, calibrated specifications and FREEZE.json into a fresh directory without main_v1 or analysis, then run `python campaign.py main`. Never overwrite completed outputs. The portable freeze differs only in relocated metadata; SOURCE_FREEZE.json and PORTABILITY.json preserve the original provenance. Numerical source results remain byte-for-byte unchanged.
-
-Known-generator planning uses planning scenarios, not realized test arrivals. Selector sweeps and auxiliary replays are diagnostic and do not choose policies using test outcomes. Per-fit preparation receipts precede independent tests. Individual trajectories are dependent within a trained model; the inference unit is the independently trained dataset.
-
-Generative AI assisted code, analysis, experiment operation, drafting and translation. The evaluated runtime models are regression, logistic routing and discrete-event process simulation. The manuscripts contain the full disclosure.
+CURATION.json records the removal of manuscript assets and checksum/verification-wrapper updates. Original local archives are preserved. GenAI assisted implementation and analysis; it is not part of the evaluated simulator.
