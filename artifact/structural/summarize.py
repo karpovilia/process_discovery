@@ -50,7 +50,7 @@ def main():
                 rows.append(row)
             if variant=='main':
                 settings=[('return',.01,v) for v in [0,.001,.0025,.005,.01]]+[('duration',v,.005) for v in [0,.0025,.005,.01,.02]]
-                for structure in ['known','discovered']:
+                for structure in ['known','discovered','legacy_discovered']:
                     if structure+'_11' not in prepared['choices']:continue
                     for axis,dd,dr in settings:
                         mask=str(int(fitted['gains']['duration']>dd))+str(int(fitted['gains']['route']>dr));policy=prepared['choices'][structure+'_'+mask]['policy'];rr=by[policy]
@@ -63,19 +63,19 @@ def main():
     for (process,world,variant,method),rr in groups.items():summary.append(dict(process=process,world=world,variant=variant,method=method,n=len(rr),**{m:ci([r[m] for r in rr]) for m in METRICS},policies=dict(Counter(r['policy'] for r in rr))))
     contrasts=[]
     for process,world,variant in sorted({(r['process'],r['world'],r['variant']) for r in rows}):
-        for structure in ['known','discovered']:
+        for structure in ['known','discovered','legacy_discovered']:
             methods=['predictive','static','heuristic','oracle']
             for baseline in methods:
                 m=structure+'_retained';b=structure+'_'+baseline if baseline in ['predictive','static'] else baseline
                 aa={r['seed']:r for r in groups.get((process,world,variant,m),[])};bb={r['seed']:r for r in groups.get((process,world,variant,b),[])};seeds=sorted(set(aa)&set(bb))
                 if not seeds:continue
                 diff=[aa[k]['cost']-bb[k]['cost'] for k in seeds];norm=[aa[k]['normalized_cost']-bb[k]['normalized_cost'] for k in seeds]
-                primary=world=='routing' and structure=='known' and baseline=='predictive' and variant=='main'
-                contrasts.append(dict(process=process,world=world,variant=variant,structure=structure,baseline=baseline,primary=primary,difference=ci(diff),normalized_difference=ci(norm),family_adjusted_difference=ci(diff,.05/6) if primary else None,relative_mean_reduction=1-average([aa[k]['cost'] for k in seeds])/average([bb[k]['cost'] for k in seeds])))
+                componentwise=world=='routing' and structure=='discovered' and baseline=='predictive' and variant=='main'
+                contrasts.append(dict(process=process,world=world,variant=variant,structure=structure,baseline=baseline,primary=False,secondary_family=componentwise,difference=ci(diff),normalized_difference=ci(norm),family_adjusted_difference=ci(diff,.05/6) if componentwise else None,relative_mean_reduction=1-average([aa[k]['cost'] for k in seeds])/average([bb[k]['cost'] for k in seeds])))
     # Equal-weight aggregation over the complete six designed classes, independent fit uncertainty.
     aggregates=[]
     for world in ['fixed','service','routing','combined']:
-        for structure in ['known','discovered']:
+        for structure in ['known','discovered','legacy_discovered']:
             selected=[c for c in contrasts if c['world']==world and c['structure']==structure and c['baseline']=='predictive' and c['variant']=='main']
             estimates=[];variances=[];dfs=[]
             for c in selected:

@@ -50,7 +50,7 @@ def heuristic(fitted,spec,net):
 
 def inputs(name,world,k,pilot=False):
     spec=json.loads((HERE/'calibration'/f'{name}.json').read_text())['spec'];net=compile_net(spec)
-    base=(150000000000 if pilot else 900000000000)+int(name[1])*1000000000+WORLDS.index(world)*100000000+k*1000000
+    base=(1800000000000 if pilot else 1900000000000)+int(name[1])*1000000000+WORLDS.index(world)*100000000+k*1000000
     return spec,net,base
 
 def verify_freeze():
@@ -82,7 +82,9 @@ def prepare(folder,name,world,k,pilot=False):
     try:
         dn,dmeta=discover(training,spec,folder);dmeta['language']=compare_languages(net,dn);language(dn);nets['discovered']=dn;write(folder/'discovered_net.json',dn)
     except Exception as exc:dmeta=dict(status='failed',error=repr(exc),traceback=traceback.format_exc())
+    if (folder/'legacy_discovered_net.json').exists():nets['legacy_discovered']=json.loads((folder/'legacy_discovered_net.json').read_text())
     write(folder/'discovery.json',dmeta)
+    if pilot and dmeta.get('status')!='executable':raise RuntimeError('technical pilot discovery failure: '+repr(dmeta))
     masks={m:model_for(fitted,m) for m in ['00','10','01','11']}
     if len(fitted['route_sources'])>1:
         for source in fitted['route_sources']:masks['11_without_'+net['labels'][source]]=model_for(fitted,'11',[source])
@@ -161,7 +163,7 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('mode',choices=['pilot','main']);p.add_argument('--limit-processes',type=int,default=6);args=p.parse_args()
     pilot=args.mode=='pilot';root=HERE/('pilot_final' if pilot else 'main_v1');root.mkdir(exist_ok=True)
     if not pilot:verify_freeze()
-    tasks=[(name,w,k) for name in PRIORITY[:args.limit_processes] for w in (['routing'] if pilot else ['routing','combined','fixed','service']) for k in range(1 if pilot else 12)]
+    tasks=[(name,w,k) for w in (['routing'] if pilot else ['routing','combined','fixed','service']) for name in PRIORITY[:args.limit_processes] for k in range(1 if pilot else 12)]
     for name,w,k in tasks:
         failure=root/f'{name}_{w}_s{k:02d}'/'FAILED.json'
         if failure.exists():continue

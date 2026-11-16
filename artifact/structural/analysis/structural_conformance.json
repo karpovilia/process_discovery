@@ -4,14 +4,9 @@
     "world": "combined",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -20,14 +15,9 @@
     "world": "combined",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -36,14 +26,9 @@
     "world": "combined",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -52,14 +37,9 @@
     "world": "combined",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -68,14 +48,9 @@
     "world": "combined",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -84,14 +59,9 @@
     "world": "combined",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -100,14 +70,9 @@
     "world": "combined",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -116,14 +81,9 @@
     "world": "combined",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -132,14 +92,9 @@
     "world": "combined",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -148,14 +103,9 @@
     "world": "combined",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -164,14 +114,9 @@
     "world": "combined",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -180,14 +125,9 @@
     "world": "combined",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -196,14 +136,9 @@
     "world": "fixed",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -212,14 +147,9 @@
     "world": "fixed",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -228,14 +158,9 @@
     "world": "fixed",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -244,14 +169,9 @@
     "world": "fixed",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -260,14 +180,9 @@
     "world": "fixed",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -276,14 +191,9 @@
     "world": "fixed",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -292,14 +202,9 @@
     "world": "fixed",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -308,14 +213,9 @@
     "world": "fixed",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -324,14 +224,9 @@
     "world": "fixed",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -340,14 +235,9 @@
     "world": "fixed",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -356,14 +246,9 @@
     "world": "fixed",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -372,14 +257,9 @@
     "world": "fixed",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -388,14 +268,9 @@
     "world": "routing",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -404,14 +279,9 @@
     "world": "routing",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -420,14 +290,9 @@
     "world": "routing",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -436,14 +301,9 @@
     "world": "routing",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -452,14 +312,9 @@
     "world": "routing",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -468,14 +323,9 @@
     "world": "routing",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -484,14 +334,9 @@
     "world": "routing",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -500,14 +345,9 @@
     "world": "routing",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -516,14 +356,9 @@
     "world": "routing",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -532,14 +367,9 @@
     "world": "routing",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -548,14 +378,9 @@
     "world": "routing",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -564,14 +389,9 @@
     "world": "routing",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -580,14 +400,9 @@
     "world": "service",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -596,14 +411,9 @@
     "world": "service",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -612,14 +422,9 @@
     "world": "service",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -628,14 +433,9 @@
     "world": "service",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -644,14 +444,9 @@
     "world": "service",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -660,14 +455,9 @@
     "world": "service",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -676,14 +466,9 @@
     "world": "service",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -692,14 +477,9 @@
     "world": "service",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -708,14 +488,9 @@
     "world": "service",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -724,14 +499,9 @@
     "world": "service",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -740,14 +510,9 @@
     "world": "service",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -756,14 +521,9 @@
     "world": "service",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "B",
-      "D",
-      "C"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -772,13 +532,9 @@
     "world": "combined",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -787,13 +543,9 @@
     "world": "combined",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -802,13 +554,9 @@
     "world": "combined",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -817,13 +565,9 @@
     "world": "combined",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -832,13 +576,9 @@
     "world": "combined",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -847,13 +587,9 @@
     "world": "combined",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -862,13 +598,9 @@
     "world": "combined",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -877,13 +609,9 @@
     "world": "combined",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -892,13 +620,9 @@
     "world": "combined",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -907,13 +631,9 @@
     "world": "combined",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -922,13 +642,9 @@
     "world": "combined",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -937,13 +653,9 @@
     "world": "combined",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -952,13 +664,9 @@
     "world": "fixed",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -967,13 +675,9 @@
     "world": "fixed",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -982,13 +686,9 @@
     "world": "fixed",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -997,13 +697,9 @@
     "world": "fixed",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1012,13 +708,9 @@
     "world": "fixed",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1027,13 +719,9 @@
     "world": "fixed",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1042,13 +730,9 @@
     "world": "fixed",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1057,13 +741,9 @@
     "world": "fixed",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1072,13 +752,9 @@
     "world": "fixed",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1087,13 +763,9 @@
     "world": "fixed",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1102,13 +774,9 @@
     "world": "fixed",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1117,13 +785,9 @@
     "world": "fixed",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1132,13 +796,9 @@
     "world": "routing",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1147,13 +807,9 @@
     "world": "routing",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1162,13 +818,9 @@
     "world": "routing",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1177,13 +829,9 @@
     "world": "routing",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1192,13 +840,9 @@
     "world": "routing",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1207,13 +851,9 @@
     "world": "routing",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1222,13 +862,9 @@
     "world": "routing",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1237,13 +873,9 @@
     "world": "routing",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1252,13 +884,9 @@
     "world": "routing",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1267,13 +895,9 @@
     "world": "routing",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1282,13 +906,9 @@
     "world": "routing",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1297,13 +917,9 @@
     "world": "routing",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1312,13 +928,9 @@
     "world": "service",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1327,13 +939,9 @@
     "world": "service",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1342,13 +950,9 @@
     "world": "service",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1357,13 +961,9 @@
     "world": "service",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1372,13 +972,9 @@
     "world": "service",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1387,13 +983,9 @@
     "world": "service",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1402,13 +994,9 @@
     "world": "service",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1417,13 +1005,9 @@
     "world": "service",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1432,13 +1016,9 @@
     "world": "service",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1447,13 +1027,9 @@
     "world": "service",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1462,13 +1038,9 @@
     "world": "service",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -1477,13 +1049,9 @@
     "world": "service",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "D",
-      "B"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3076,14 +2644,9 @@
     "world": "combined",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3092,14 +2655,9 @@
     "world": "combined",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3108,14 +2666,9 @@
     "world": "combined",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3124,14 +2677,9 @@
     "world": "combined",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3140,14 +2688,9 @@
     "world": "combined",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3156,14 +2699,9 @@
     "world": "combined",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3172,14 +2710,9 @@
     "world": "combined",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3188,14 +2721,9 @@
     "world": "combined",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3204,14 +2732,9 @@
     "world": "combined",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3220,14 +2743,9 @@
     "world": "combined",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3236,14 +2754,9 @@
     "world": "combined",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3252,14 +2765,9 @@
     "world": "combined",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3268,14 +2776,9 @@
     "world": "fixed",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3284,14 +2787,9 @@
     "world": "fixed",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3300,14 +2798,9 @@
     "world": "fixed",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3316,14 +2809,9 @@
     "world": "fixed",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3332,14 +2820,9 @@
     "world": "fixed",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3348,14 +2831,9 @@
     "world": "fixed",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3364,14 +2842,9 @@
     "world": "fixed",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3380,14 +2853,9 @@
     "world": "fixed",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3396,14 +2864,9 @@
     "world": "fixed",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3412,14 +2875,9 @@
     "world": "fixed",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3428,14 +2886,9 @@
     "world": "fixed",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3444,14 +2897,9 @@
     "world": "fixed",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3460,14 +2908,9 @@
     "world": "routing",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3476,14 +2919,9 @@
     "world": "routing",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3492,14 +2930,9 @@
     "world": "routing",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3508,14 +2941,9 @@
     "world": "routing",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3524,14 +2952,9 @@
     "world": "routing",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3540,14 +2963,9 @@
     "world": "routing",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3556,14 +2974,9 @@
     "world": "routing",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3572,14 +2985,9 @@
     "world": "routing",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3588,14 +2996,9 @@
     "world": "routing",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3604,14 +3007,9 @@
     "world": "routing",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3620,14 +3018,9 @@
     "world": "routing",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3636,14 +3029,9 @@
     "world": "routing",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3652,14 +3040,9 @@
     "world": "service",
     "seed": 0,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3668,14 +3051,9 @@
     "world": "service",
     "seed": 1,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3684,14 +3062,9 @@
     "world": "service",
     "seed": 2,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3700,14 +3073,9 @@
     "world": "service",
     "seed": 3,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3716,14 +3084,9 @@
     "world": "service",
     "seed": 4,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3732,14 +3095,9 @@
     "world": "service",
     "seed": 5,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3748,14 +3106,9 @@
     "world": "service",
     "seed": 6,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3764,14 +3117,9 @@
     "world": "service",
     "seed": 7,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3780,14 +3128,9 @@
     "world": "service",
     "seed": 8,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3796,14 +3139,9 @@
     "world": "service",
     "seed": 9,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3812,14 +3150,9 @@
     "world": "service",
     "seed": 10,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   },
@@ -3828,14 +3161,9 @@
     "world": "service",
     "seed": 11,
     "computational_status": "executable",
-    "reference_structure_status": "nonconforming",
-    "reference_conformance_failure": true,
-    "added_witness": [
-      "A",
-      "E",
-      "G",
-      "F"
-    ],
+    "reference_structure_status": "conforming",
+    "reference_conformance_failure": false,
+    "added_witness": null,
     "missing_witness": null,
     "classification": "Evaluation of the saved train-only structural audit against synthetic reference; not a policy filter, repaired model, or exclusion from cost analysis"
   }

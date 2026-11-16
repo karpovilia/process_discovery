@@ -4,10 +4,10 @@
     "structure": "known",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.05836364088103757,
-    "low": 0.03340030324852256,
-    "high": 0.08332697851355259,
-    "df": 54.098892463743866,
+    "mean": 0.04977592179981997,
+    "low": 0.02745071925122499,
+    "high": 0.07210112434841495,
+    "df": 51.43947990936258,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -15,10 +15,21 @@
     "structure": "discovered",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.06990956896451175,
-    "low": 0.048569327741817284,
-    "high": 0.09124981018720622,
-    "df": 34.60908117864593,
+    "mean": 0.04977592179981997,
+    "low": 0.02745071925122499,
+    "high": 0.07210112434841495,
+    "df": 51.43947990936258,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "fixed",
+    "structure": "legacy_discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.0574195947875156,
+    "low": 0.03757675442552535,
+    "high": 0.07726243514950584,
+    "df": 38.49196378685952,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -26,10 +37,10 @@
     "structure": "known",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.06912601779633207,
-    "low": 0.02905091693582605,
-    "high": 0.10920111865683808,
-    "df": 52.11871622333107,
+    "mean": 0.10954959936469565,
+    "low": 0.07103246954198253,
+    "high": 0.14806672918740876,
+    "df": 45.558722276160736,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -37,10 +48,21 @@
     "structure": "discovered",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.07515182980150355,
-    "low": 0.046915766967404876,
-    "high": 0.10338789263560222,
-    "df": 25.858472107131334,
+    "mean": 0.10954959936469565,
+    "low": 0.07103246954198253,
+    "high": 0.14806672918740876,
+    "df": 45.558722276160736,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "service",
+    "structure": "legacy_discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": 0.0876304775761188,
+    "low": 0.05937098303944123,
+    "high": 0.11588997211279638,
+    "df": 24.221651503232863,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -48,10 +70,10 @@
     "structure": "known",
     "processes": 6,
     "complete_six": true,
-    "mean": -0.0895872774457293,
-    "low": -0.13464596951577038,
-    "high": -0.04452858537568821,
-    "df": 34.32914695449914,
+    "mean": -0.08477281153059191,
+    "low": -0.1284428261079335,
+    "high": -0.041102796953250295,
+    "df": 28.21736498208389,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -59,10 +81,21 @@
     "structure": "discovered",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.0005192667919003158,
-    "low": -0.03658021138386407,
-    "high": 0.037618744967664694,
-    "df": 20.507523213988303,
+    "mean": -0.08477281153059191,
+    "low": -0.1284428261079335,
+    "high": -0.041102796953250295,
+    "df": 28.21736498208389,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "routing",
+    "structure": "legacy_discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": -0.017114072732585753,
+    "low": -0.051847391802370205,
+    "high": 0.0176192463371987,
+    "df": 14.780844868461223,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -70,10 +103,10 @@
     "structure": "known",
     "processes": 6,
     "complete_six": true,
-    "mean": -0.03624585601312547,
-    "low": -0.052172500932428506,
-    "high": -0.02031921109382244,
-    "df": 36.4951548703892,
+    "mean": -0.05452598163651806,
+    "low": -0.07049723010909557,
+    "high": -0.03855473316394055,
+    "df": 37.36708724507126,
     "weighting": "equal designed-process weights, independent-fit variance"
   },
   {
@@ -81,10 +114,21 @@
     "structure": "discovered",
     "processes": 6,
     "complete_six": true,
-    "mean": 0.007545712407456418,
-    "low": 0.001608507081223876,
-    "high": 0.01348291773368896,
-    "df": 25.978071930016714,
+    "mean": -0.05452598163651806,
+    "low": -0.07049723010909557,
+    "high": -0.03855473316394055,
+    "df": 37.36708724507126,
+    "weighting": "equal designed-process weights, independent-fit variance"
+  },
+  {
+    "world": "combined",
+    "structure": "legacy_discovered",
+    "processes": 6,
+    "complete_six": true,
+    "mean": -0.00029170940919001506,
+    "low": -0.007194099927772057,
+    "high": 0.006610681109392026,
+    "df": 21.520396998522045,
     "weighting": "equal designed-process weights, independent-fit variance"
   }
 ]

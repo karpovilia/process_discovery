@@ -30,10 +30,10 @@ def main():
  print('all extracted member hashes verified',len(manifest),flush=True)
  source_freeze=sha(dest/'structural/SOURCE_FREEZE.json')
  for file in (dest/'structural/main_v1').glob('*/PREPARED.json'):assert json.loads(file.read_text())['freeze_sha256']==source_freeze
- numeric=['structural/analysis/'+x for x in ['summary.json','per_fit.json','contrasts.json','aggregate.json','selector_per_fit.json','calibration_audits.json','model_quality.json','selector_summary.json','discovery_summary.json','hindsight_per_fit.json','structural_conformance.json','resource_summary.json','P4_process_outcomes.json','recovery_summary.json','trigger_support.json','full_summary.csv','selector_summary.csv']]+['selector/selector_results/summary.json','selector/selector_results/per_seed.json']
+ numeric=['structural/analysis/'+x for x in ['summary.json','paper_claims.json','input_isolation_audit.json','decision_integrity_audit.json','confirmatory_summary.json','per_fit.json','contrasts.json','aggregate.json','selector_per_fit.json','calibration_audits.json','model_quality.json','selector_summary.json','discovery_summary.json','hindsight_per_fit.json','structural_conformance.json','resource_summary.json','P4_process_outcomes.json','recovery_summary.json','trigger_support.json','full_summary.csv','selector_summary.csv']]+['selector/selector_results/summary.json','selector/selector_results/per_seed.json']
  figures=[]  # Article assembly assets are excluded from this research-data release.
  before={name:sha(dest/name) for name in numeric+figures}
- jobs=[['structural/summarize.py'],['structural/report_diagnostics.py'],['structural/operational_report.py'],['structural/render_results.py'],['selector/selector_sensitivity.py','analyze']]
+ jobs=[['structural/summarize.py'],['structural/confirmatory_summary.py'],['structural/decision_integrity_audit.py'],['structural/report_diagnostics.py'],['structural/operational_report.py'],['structural/render_results.py'],['structural/paper_claims.py'],['structural/input_isolation_audit.py'],['selector/selector_sensitivity.py','analyze']]
  for args in jobs:
   result=subprocess.run([sys.executable,*args],cwd=dest,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True)
   log=dest/('verification_'+Path(args[0]).stem+'.txt');log.write_text(result.stdout)

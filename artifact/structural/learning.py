@@ -92,26 +92,47 @@ def model_for(fit,mask,disabled_sources=()):
 def discover(episodes,spec,out):
     import pandas as pd,pm4py
     from pm4py.util import constants
+    from pm4py.objects.process_tree.obj import ProcessTree,Operator
+    from structure_discovery import mine,convert
     constants.SHOW_PROGRESS_BAR=False
-    labels=sorted(spec['roles']);rows=[]
+    labels=sorted(spec['roles']);rows=[];cases=[]
     for ei,e in enumerate(episodes):
-        for k,r in enumerate(e['records']):
+        records=e['records']
+        for cid in np.unique(records[:,0]):
+            rr=records[records[:,0]==cid];rr=rr[np.argsort(rr[:,6],kind='stable')]
+            cases.append(dict(trace=tuple(labels[int(x)] for x in rr[:,1]),complex=int(rr[0,2]),process=int(rr[0,3])))
+        for r in records:
             rows.append({'case:concept:name':f'{ei}_{int(r[0])}','concept:name':labels[int(r[1])],'time:timestamp':pd.Timestamp('2020-01-01',tz='UTC')+pd.to_timedelta(float(r[6])+ei*100000,unit='s')})
     frame=pd.DataFrame(rows).sort_values(['case:concept:name','time:timestamp','concept:name'],kind='stable')
-    tree=pm4py.discover_process_tree_inductive(frame,noise_threshold=0.)
-    def convert(node):
-        if node.operator is None:return node.label
-        op=str(node.operator);children=[convert(c) for c in node.children]
-        mapping={'->':'seq','+':'and','X':'xor','*':'loop'}
-        if op not in mapping:raise ValueError('unsupported discovered operator '+op)
-        if op in ['+','X']:children=sorted(children,key=lambda x:json.dumps(x,sort_keys=True))
-        return dict(op=mapping[op],children=children)
-    dsl=convert(tree);net=compile_net(spec,dsl)
-    pn,im,fm=pm4py.convert_to_petri_net(tree)
+    legacy=pm4py.discover_process_tree_inductive(frame,noise_threshold=0.,multi_processing=False)
+    guarded=mine(cases,guarded=True)
+    operators={'seq':Operator.SEQUENCE,'and':Operator.PARALLEL,'xor':Operator.XOR,'loop':Operator.LOOP}
+    def pm_tree(dsl):
+        if dsl is None or isinstance(dsl,str):return ProcessTree(label=dsl)
+        node=ProcessTree(operator=operators[dsl['op']]);node.children=[pm_tree(x) for x in dsl['children']]
+        for child in node.children:child.parent=node
+        return node
+    candidates=[];objects={}
+    for name,tree,dsl in [('standard_im',legacy,convert(legacy)),('loop_first_guards',pm_tree(guarded),guarded)]:
+        pn,im,fm=pm4py.convert_to_petri_net(tree)
+        token_fitness=pm4py.fitness_token_based_replay(frame,pn,im,fm)
+        fitness=pm4py.fitness_alignments(frame,pn,im,fm,multi_processing=False)
+        precision=float(pm4py.precision_token_based_replay(frame,pn,im,fm))
+        entry=dict(name=name,tree=str(tree),dsl=dsl,fitness=fitness,token_replay_fitness=token_fitness,precision=precision)
+        try:
+            net=compile_net(spec,dsl);language(net)
+            entry.update(status='executable',transitions=len(net['transitions']))
+            objects[name]=(net,pn,im,fm)
+            if name=='standard_im':(out/'legacy_discovered_net.json').write_text(json.dumps(net,indent=2))
+        except Exception as exc:entry.update(status='failed',error=repr(exc))
+        candidates.append(entry)
+    (out/'discovery_candidates.json').write_text(json.dumps(candidates,indent=2))
+    eligible=[c for c in candidates if c['status']=='executable' and c['fitness']['percentage_of_fitting_traces']>=100.-1e-9]
+    if not eligible:raise ValueError('No executable discovery candidate reproduces training traces')
+    selected=min(eligible,key=lambda c:(-c['precision'],c['transitions'],c['name']!='loop_first_guards'))
+    net,pn,im,fm=objects[selected['name']]
     pm4py.write_pnml(pn,im,fm,str(out/'discovered.pnml'))
-    fitness=pm4py.fitness_token_based_replay(frame,pn,im,fm)
-    precision=pm4py.precision_token_based_replay(frame,pn,im,fm)
-    return net,dict(tree=str(tree),dsl=dsl,fitness=fitness,precision=float(precision),training_cases=int(frame['case:concept:name'].nunique()),training_events=len(frame),pm4py=pm4py.__version__,resource_mapping='supplied operational pool map, not inferred',status='executable')
+    return net,dict(selected,selected_candidate=selected['name'],candidates=candidates,training_selection_rule='100 percent fitting aligned traces, highest training token-replay precision, fewer transitions, guard candidate final tie',training_cases=len(cases),training_events=len(frame),pm4py=pm4py.__version__,resource_mapping='supplied operational pool map, not inferred',guard_metadata='Observed binary class/process; >=10 cases per value and constant, different activity sets per value. Guards retained in JSON executable model; PNML contains its control-flow projection.',status='executable')
 
 
 def language(net,limit=10000):

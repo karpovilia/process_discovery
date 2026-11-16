@@ -6,3 +6,7 @@ main_v1/
 pilot*/
 execution/
 *.tmp
+
+# Local reproduction outputs
+reproduced/
+VERIFIED.json

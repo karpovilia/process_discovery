@@ -5,7 +5,31 @@ import numpy as np
 HERE=Path(__file__).resolve().parent
 WORLDS=['fixed','service','routing','combined']
 
+def canonicalize_observed_tree(node):
+    """Move a loop choice past its shared following redo block, preserving its language.
+
+    seq(loop(body, redo), redo) == loop(seq(body, redo), tau).
+    A next-activity model cannot distinguish the old alternatives, which both begin
+    with redo. The rewritten choice occurs at the observed return decision instead.
+    Apply only to supplied/discovered trees, not to the truth generator specification.
+    """
+    if node is None or isinstance(node,str):return node
+    node=dict(node,children=[canonicalize_observed_tree(x) for x in node['children']])
+    if node['op']!='seq':return node
+    ch=[]
+    for x in node['children']:
+        ch.extend(x['children'] if isinstance(x,dict) and x['op']=='seq' else [x])
+    out=[];i=0
+    while i<len(ch):
+        x=ch[i]
+        if isinstance(x,dict) and x['op']=='loop' and len(x['children'])==2 and x['children'][1] is not None and i+1<len(ch) and x['children'][1]==ch[i+1]:
+            body=canonicalize_observed_tree({'op':'seq','children':[x['children'][0],ch[i+1]]})
+            out.append(dict(x,children=[body,None]));i+=2
+        else:out.append(x);i+=1
+    return out[0] if len(out)==1 else dict(node,children=out)
+
 def compile_net(spec,tree=None):
+    if tree is not None:tree=canonicalize_observed_tree(tree)
     labels=sorted(spec['roles']);pools=sorted(spec['capacities']);trans=[];groups=[];places=2
     def place():
         nonlocal places
@@ -50,6 +74,13 @@ def compile_net(spec,tree=None):
                     else:todo.extend(q for q in range(places) if t['outputs']>>q&1)
         return result
     for t in trans:t['first']=first(t['outputs'])
+    for g,node in enumerate(groups):
+        options=[t for t in trans if t['group']==g]
+        if node['kind']==1 and node['attribute'] in ('complex','process'):continue
+        for i,t in enumerate(options):
+            for u in options[i+1:]:
+                if t['first'] & u['first']:
+                    raise ValueError('unidentifiable choice: overlapping first-visible labels; normalize or fit a richer routing model')
     return dict(labels=labels,pools=pools,transitions=trans,groups=groups,places=places,initial=1,final=2,tree=spec['tree'] if tree is None else tree)
 
 PINT=ct.POINTER(ct.c_int);PDOUBLE=ct.POINTER(ct.c_double);PUINT=ct.POINTER(ct.c_uint64)
@@ -87,7 +118,7 @@ def arrays(spec,net):
     for key in ['group_attribute','group_source','group_pool','group_driver']:a[key]=np.zeros(max(1,len(gs)),np.int32)
     for key in ['group_base','group_complexity','group_amplitude']:a[key]=np.zeros(max(1,len(gs)),float)
     for g,node in enumerate(gs):
-        a['group_attribute'][g]=0 if node['attribute']=='complex' else 1
+        a['group_attribute'][g]={'complex':0,'process':1}.get(node['attribute'],-1)
         if node['kind']==2 and node['tag'] in spec['routes']:
             r=spec['routes'][node['tag']];a['group_source'][g]=labels.index(r['source']);a['group_pool'][g]=pools.index(r['queue_pool']);a['group_driver'][g]=['global','queue','process'].index(r['driver'])
             for key,field in [('group_base','base'),('group_complexity','complexity'),('group_amplitude','amplitude')]:a[key][g]=r[field]

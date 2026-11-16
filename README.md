@@ -1,24 +1,42 @@
-# Preparing Congestion Responses from Pre-Crisis Process Logs
+# From Process Logs to Overload Decisions: Modeling and Controlled Stress Probing
 
-Research code and experimental data for preparing responses to process congestion. This repository distributes protocols, process specifications, observations, fitted models, policies, independent evaluation trajectories and reproduction scripts.
+Research artifact for preparing responses to overload in process-oriented information systems. Executable process models represent resource competition, service times and repeated processing. Candidate interventions are selected before independent future workloads, and activate from observed unfinished work.
 
-- [Corrected structural campaign](artifact_v4/README.md): six process structures, four feedback mechanisms, twelve independent training datasets per cell.
-- [Frozen protocol](artifact_v4/structural/PROTOCOL.md), [primary comparisons](artifact_v4/structural/analysis/confirmatory_summary.json) and [raw arithmetic audit](artifact_v4/structural/analysis/raw_audit.json).
-- [Current archive index](releases/v4/packages/packages.json) and [distribution correction audit](releases/v4/CURATION.json).
-- [Earlier structural campaign](artifact/README.md) and [its archive index](releases/v3/packages/packages.json), retained separately from the corrected confirmation.
+## Start here
 
-Costs are normalized within each independently trained model by its no-action cost. The two original aggregate routing-feedback contrasts use equal weights across the six designed processes and two-sided 97.5% paired intervals. All fixed-action baselines, feedback-strength heuristics, known-generator planners and control mechanisms are retained. The processes are not a representative random sample of business processes.
+| What to inspect | Where to go |
+| --- | --- |
+| Process definitions and experimental design | [Study guide](artifact/structural/README.md) |
+| Costs, overload events, activations and lead times | [Results table](artifact/structural/analysis/full_summary.csv) |
+| Paired comparisons and confidence intervals | [Primary comparisons](artifact/structural/analysis/confirmatory_summary.json) |
+| Predictive component-selection diagnostics | [Selector results](artifact/structural/analysis/selector_summary.csv) |
+| Executable model, discovery and analysis code | [Source files](artifact/structural) |
+| Complete observations, fitted models, policies and trajectories | [Data index](data/packages.json) |
+| Reproduce numerical results from saved outputs | [Reproduction instructions](REPRODUCING.md) |
 
-## Reproduction
+The data include the serial reference process P0 and six process families P1–P6. The six-family study uses four feedback mechanisms and 12 independently trained models per combination, for 288 fits. Policies are prepared using training, validation and planning data; future evaluation uses separate random streams.
 
-Install Git LFS and fetch every package in the selected index. GitHub source ZIP downloads can contain LFS pointers. With the recorded Python dependencies, run:
+Cost combines accumulated unfinished work and intervention charges. Normalized cost divides each trained model's mean evaluation cost by its corresponding no-action cost. The results retain fixed-action baselines, a feedback-strength heuristic, a known-generator planner and component ablations. The two primary comparisons use routing feedback, equal weights across P1–P6 and paired 97.5% confidence intervals.
+
+## Reproduce
+
+Install [Git LFS](https://git-lfs.com/) before downloading the large data files. From the repository directory:
 
 ```sh
-python artifact_v4/verify_bundle.py releases/v4/packages /path/to/new/verification_directory
+git lfs pull --include="data/**" --exclude=""
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+python artifact/verify_bundle.py data reproduced
 ```
 
-The destination must not exist. The command verifies package/member hashes and regenerates saved numerical results without fitting models, selecting policies or running new main simulations. Use approved resource limits. Full runtime source, the executed native binary and provenance freezes are included. The compact artifact directories support browsing; complete observations and trajectories are in the release packages.
+Use a new destination directory. The verifier checks package and extracted-file hashes, then regenerates numerical summaries from saved outputs. It does not train models, choose new policies or simulate new workloads. See [REPRODUCING.md](REPRODUCING.md) for the environment, disk requirements and extracted layout.
 
-Manuscript PDFs, full manuscript sources, translations and submission forms are excluded from the current distribution. CURATION.json documents this packaging correction and byte preservation of retained scientific files. Original verification receipts are retained as provenance for the original packages; they are not a claim that curated archives retain their old checksums.
+## Repository layout
 
-Generative AI assisted implementation, experiment operation and analysis. It is not a component of the evaluated process models. No conference submission is performed by this repository.
+```text
+artifact/          browsable scientific code and numerical summaries
+data/              complete data packages and their checksum index
+REPRODUCING.md     environment and reproduction commands
+requirements.txt   recorded Python dependencies
+```

@@ -4,21 +4,21 @@
     "policy": "none",
     "process_id": 0,
     "wip_area": {
-      "mean": 7776.4865451388905,
-      "low": 7674.61948392451,
-      "high": 7878.353606353271,
+      "mean": 7644.695746527777,
+      "low": 7496.0309609649485,
+      "high": 7793.360532090606,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 16.901124126380576,
-      "low": 16.708079853446336,
-      "high": 17.094168399314817,
+      "mean": 16.614691813362978,
+      "low": 16.326966052696534,
+      "high": 16.90241757402942,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 21.527654183389387,
-      "low": 19.353054868974354,
-      "high": 23.70225349780442,
+      "mean": 23.26857550463524,
+      "low": 22.010986228116035,
+      "high": 24.526164781154446,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -28,21 +28,21 @@
     "policy": "none",
     "process_id": 1,
     "wip_area": {
-      "mean": 8612.974392361111,
-      "low": 8466.461143930177,
-      "high": 8759.487640792046,
+      "mean": 8411.60894097222,
+      "low": 8240.077574031651,
+      "high": 8583.14030791279,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 18.750686234266954,
-      "low": 18.501840142237654,
-      "high": 18.999532326296254,
+      "mean": 18.400749805850143,
+      "low": 18.108002401408577,
+      "high": 18.69349721029171,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 23.86165785244037,
-      "low": 21.52312797778642,
-      "high": 26.20018772709432,
+      "mean": 25.61149741428089,
+      "low": 24.303470916426814,
+      "high": 26.919523912134967,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -52,21 +52,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 4684.430989583333,
-      "low": 4623.5523692352535,
-      "high": 4745.3096099314125,
+      "mean": 4619.109809027778,
+      "low": 4533.490493499355,
+      "high": 4704.729124556202,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 10.425332202234754,
-      "low": 10.312953896237396,
-      "high": 10.537710508232113,
+      "mean": 10.285136773963584,
+      "low": 10.115929357356203,
+      "high": 10.454344190570966,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 11.935061374501016,
-      "low": 10.800318379078012,
-      "high": 13.06980436992402,
+      "mean": 13.206170089087045,
+      "low": 12.36831610621559,
+      "high": 14.044024071958502,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -76,21 +76,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 5406.819444444444,
-      "low": 5320.808141191972,
-      "high": 5492.830747696917,
+      "mean": 5307.452256944444,
+      "low": 5210.967505989664,
+      "high": 5403.937007899225,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 12.063703937191038,
-      "low": 11.921992769123687,
-      "high": 12.205415105258389,
+      "mean": 11.898483871529614,
+      "low": 11.731728405779172,
+      "high": 12.065239337280055,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 13.797214581761972,
-      "low": 12.547928839344593,
-      "high": 15.046500324179352,
+      "mean": 15.032656064966874,
+      "low": 14.233715332061937,
+      "high": 15.83159679787181,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -100,21 +100,21 @@
     "policy": "rework_X_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 7442.567708333333,
-      "low": 7340.267094911111,
-      "high": 7544.868321755555,
+      "mean": 7326.906684027777,
+      "low": 7189.2741027200655,
+      "high": 7464.539265335489,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 16.196450866231526,
-      "low": 16.002405415760936,
-      "high": 16.390496316702116,
+      "mean": 15.94644644765772,
+      "low": 15.682970146844706,
+      "high": 16.209922748470735,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 20.614696467465592,
-      "low": 18.508768257294957,
-      "high": 22.720624677636227,
+      "mean": 22.18634416894602,
+      "low": 21.000549303690878,
+      "high": 23.372139034201165,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -124,21 +124,21 @@
     "policy": "rework_X_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 8446.232204861111,
-      "low": 8298.618788498363,
-      "high": 8593.84562122386,
+      "mean": 8255.333333333332,
+      "low": 8088.253748203243,
+      "high": 8422.41291846342,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 18.403467313521674,
-      "low": 18.15191979941864,
-      "high": 18.655014827624708,
+      "mean": 18.074662516455728,
+      "low": 17.792038520655815,
+      "high": 18.35728651225564,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 23.361591805669132,
-      "low": 21.052951979709373,
-      "high": 25.67023163162889,
+      "mean": 25.054754043562813,
+      "low": 23.833180914081012,
+      "high": 26.276327173044614,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -148,21 +148,21 @@
     "policy": "rework_Y_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 7460.72092013889,
-      "low": 7365.061798736794,
-      "high": 7556.380041540985,
+      "mean": 7340.3324652777765,
+      "low": 7193.442647830353,
+      "high": 7487.2222827252,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 16.242111569048223,
-      "low": 16.06262790215199,
-      "high": 16.421595235944455,
+      "mean": 15.977348936260084,
+      "low": 15.692389717979458,
+      "high": 16.26230815454071,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 20.587537072945278,
-      "low": 18.541091086474164,
-      "high": 22.63398305941639,
+      "mean": 22.092385134632256,
+      "low": 20.808953092635864,
+      "high": 23.375817176628647,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -172,21 +172,21 @@
     "policy": "rework_Y_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 7987.139756944445,
-      "low": 7861.197305607189,
-      "high": 8113.082208281701,
+      "mean": 7815.761284722222,
+      "low": 7655.054183525934,
+      "high": 7976.46838591851,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 17.440433691068726,
-      "low": 17.221389823400784,
-      "high": 17.65947755873667,
+      "mean": 17.1415637812372,
+      "low": 16.863187390953346,
+      "high": 17.419940171521052,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 22.049149553284124,
-      "low": 19.93201620536392,
-      "high": 24.16628290120433,
+      "mean": 23.396672938587532,
+      "low": 22.17422712395092,
+      "high": 24.619118753224143,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -196,21 +196,21 @@
     "policy": "none",
     "process_id": 0,
     "wip_area": {
-      "mean": 43694.701822916664,
-      "low": 43009.19788133436,
-      "high": 44380.20576449897,
+      "mean": 43687.27951388888,
+      "low": 43117.69504949716,
+      "high": 44256.863978280606,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 95.2863678774699,
-      "low": 93.93945433368955,
-      "high": 96.63328142125025,
+      "mean": 95.42177613716645,
+      "low": 94.40140025075385,
+      "high": 96.44215202357904,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 184.33540373132533,
-      "low": 173.52918923841423,
-      "high": 195.14161822423642,
+      "mean": 176.41379262167285,
+      "low": 164.37050184542963,
+      "high": 188.45708339791608,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -220,21 +220,21 @@
     "policy": "none",
     "process_id": 1,
     "wip_area": {
-      "mean": 45544.585503472226,
-      "low": 44840.73641274271,
-      "high": 46248.43459420174,
+      "mean": 45708.131510416664,
+      "low": 45171.20590894313,
+      "high": 46245.0571118902,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 98.69795722263994,
-      "low": 97.52693064284931,
-      "high": 99.86898380243058,
+      "mean": 98.85620827001914,
+      "low": 97.67747651341128,
+      "high": 100.034940026627,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 191.9249523180636,
-      "low": 180.92310566856887,
-      "high": 202.9267989675583,
+      "mean": 181.77511881094873,
+      "low": 167.46434633419491,
+      "high": 196.08589128770254,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -244,21 +244,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 22810.35069444445,
-      "low": 22286.467386087996,
-      "high": 23334.234002800902,
+      "mean": 22698.59678819444,
+      "low": 22330.410396258343,
+      "high": 23066.78318013054,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 48.67325320755535,
-      "low": 47.64123358350478,
-      "high": 49.70527283160592,
+      "mean": 48.571641577778855,
+      "low": 47.878813251980745,
+      "high": 49.264469903576966,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 84.37347670826021,
-      "low": 75.76279439315924,
-      "high": 92.98415902336119,
+      "mean": 75.39985808606738,
+      "low": 67.61363777875214,
+      "high": 83.18607839338263,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -268,21 +268,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 24076.600260416668,
-      "low": 23544.7566811681,
-      "high": 24608.443839665237,
+      "mean": 24055.41189236111,
+      "low": 23661.457162445466,
+      "high": 24449.366622276753,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 51.35433926744887,
-      "low": 50.38178658234748,
-      "high": 52.32689195255026,
+      "mean": 51.27786739582448,
+      "low": 50.53302149627973,
+      "high": 52.02271329536923,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 87.91058325982299,
-      "low": 79.37600504855676,
-      "high": 96.44516147108921,
+      "mean": 78.32720441380626,
+      "low": 69.21613918136012,
+      "high": 87.4382696462524,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -292,21 +292,21 @@
     "policy": "rework_X_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 41849.71874999999,
-      "low": 41181.50210776297,
-      "high": 42517.935392237014,
+      "mean": 41750.621961805555,
+      "low": 41220.37785682036,
+      "high": 42280.866066790746,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 91.59571716615396,
-      "low": 90.24018264421868,
-      "high": 92.95125168808924,
+      "mean": 91.56890475700133,
+      "low": 90.62930741797156,
+      "high": 92.50850209603111,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 174.80212938192506,
-      "low": 163.91865611356536,
-      "high": 185.68560265028475,
+      "mean": 165.42955219452426,
+      "low": 153.75851496193422,
+      "high": 177.1005894271143,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -316,21 +316,21 @@
     "policy": "rework_X_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 44624.109809027774,
-      "low": 43906.032483054194,
-      "high": 45342.18713500135,
+      "mean": 44765.0486111111,
+      "low": 44239.14519909496,
+      "high": 45290.95202312725,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 96.72820472072834,
-      "low": 95.5363004112165,
-      "high": 97.92010903024018,
+      "mean": 96.88086382451809,
+      "low": 95.7184896010673,
+      "high": 98.04323804796887,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 186.61330470605324,
-      "low": 175.35569821796682,
-      "high": 197.87091119413967,
+      "mean": 175.6567533709438,
+      "low": 161.2183259068755,
+      "high": 190.0951808350121,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -340,21 +340,21 @@
     "policy": "rework_Y_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 42165.001302083336,
-      "low": 41460.7906927197,
-      "high": 42869.211911446975,
+      "mean": 42154.9357638889,
+      "low": 41550.65915027228,
+      "high": 42759.212377505515,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 91.9543098168532,
-      "low": 90.56874033742953,
-      "high": 93.33987929627686,
+      "mean": 92.10040691384295,
+      "low": 90.95652112232158,
+      "high": 93.24429270536432,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 174.9661569980458,
-      "low": 163.69188863464356,
-      "high": 186.24042536144802,
+      "mean": 166.0915737159642,
+      "low": 153.54312084702352,
+      "high": 178.64002658490486,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -364,21 +364,21 @@
     "policy": "rework_Y_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 42485.606770833336,
-      "low": 41754.622590426436,
-      "high": 43216.590951240236,
+      "mean": 42570.891927083336,
+      "low": 42012.86408575509,
+      "high": 43128.91976841158,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 92.5797222903867,
-      "low": 91.32753689635986,
-      "high": 93.83190768441354,
+      "mean": 92.54013318228039,
+      "low": 91.34276586751564,
+      "high": 93.73750049704513,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 174.69973839668953,
-      "low": 163.77979948719593,
-      "high": 185.61967730618312,
+      "mean": 164.01322408856353,
+      "low": 149.42657913396383,
+      "high": 178.59986904316324,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -388,21 +388,21 @@
     "policy": "none",
     "process_id": 0,
     "wip_area": {
-      "mean": 31131.27256944444,
-      "low": 30438.087176172176,
-      "high": 31824.457962716708,
+      "mean": 31650.922309027777,
+      "low": 30631.77510572734,
+      "high": 32670.069512328213,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 65.54605358596754,
-      "low": 64.2009348755566,
-      "high": 66.89117229637849,
+      "mean": 66.30566202706753,
+      "low": 64.50083013785637,
+      "high": 68.11049391627868,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 111.8199583218095,
-      "low": 102.66321588904772,
-      "high": 120.97670075457127,
+      "mean": 119.62645976591894,
+      "low": 107.92334448139083,
+      "high": 131.32957505044703,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -412,21 +412,21 @@
     "policy": "none",
     "process_id": 1,
     "wip_area": {
-      "mean": 30368.141927083332,
-      "low": 29630.182866333034,
-      "high": 31106.10098783363,
+      "mean": 30880.08376736111,
+      "low": 29721.451826924782,
+      "high": 32038.715707797437,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 64.34372299521065,
-      "low": 62.89822192331927,
-      "high": 65.78922406710204,
+      "mean": 65.02401111900383,
+      "low": 63.16583274456076,
+      "high": 66.8821894934469,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 109.49309582492697,
-      "low": 99.88457958946486,
-      "high": 119.10161206038907,
+      "mean": 116.00370496688588,
+      "low": 104.73985285907239,
+      "high": 127.26755707469937,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -436,21 +436,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 15010.813368055555,
-      "low": 14635.576004621606,
-      "high": 15386.050731489504,
+      "mean": 15275.62847222222,
+      "low": 14722.584827483344,
+      "high": 15828.672116961097,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 32.00251717107039,
-      "low": 31.25192707887557,
-      "high": 32.75310726326521,
+      "mean": 32.406369986547006,
+      "low": 31.4224498601164,
+      "high": 33.39029011297761,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 46.72658257030577,
-      "low": 41.40734179108382,
-      "high": 52.04582334952772,
+      "mean": 51.3927571415018,
+      "low": 45.77181256617651,
+      "high": 57.013701716827086,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -460,21 +460,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 14879.572482638889,
-      "low": 14447.62609076494,
-      "high": 15311.518874512838,
+      "mean": 15164.691840277776,
+      "low": 14551.529823955445,
+      "high": 15777.853856600106,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 31.958386623536004,
-      "low": 31.093501285947436,
-      "high": 32.823271961124576,
+      "mean": 32.388948086392176,
+      "low": 31.335831308786776,
+      "high": 33.44206486399757,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 46.497688426897945,
-      "low": 40.40447600436876,
-      "high": 52.59090084942713,
+      "mean": 50.356016237380864,
+      "low": 44.67323871476276,
+      "high": 56.03879375999897,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -484,21 +484,21 @@
     "policy": "rework_X_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 16541.98133680556,
-      "low": 16118.928221707873,
-      "high": 16965.034451903244,
+      "mean": 16831.25390625,
+      "low": 16235.059747010464,
+      "high": 17427.448065489538,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 35.268687100268295,
-      "low": 34.42114327128071,
-      "high": 36.11623092925588,
+      "mean": 35.77391837336599,
+      "low": 34.6182957894656,
+      "high": 36.929540957266376,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 54.24962439264573,
-      "low": 47.2413567006749,
-      "high": 61.25789208461656,
+      "mean": 58.64992860779682,
+      "low": 52.8988484754112,
+      "high": 64.40100874018243,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -508,21 +508,21 @@
     "policy": "rework_X_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 21859.83637152778,
-      "low": 21191.21062490268,
-      "high": 22528.462118152882,
+      "mean": 22298.220486111113,
+      "low": 21305.635514166,
+      "high": 23290.805458056228,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 46.65488280305618,
-      "low": 45.32678047210915,
-      "high": 47.982985134003215,
+      "mean": 47.302781435307146,
+      "low": 45.548189951109116,
+      "high": 49.05737291950518,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 72.12230893962452,
-      "low": 61.90205836285234,
-      "high": 82.3425595163967,
+      "mean": 77.74104810289342,
+      "low": 69.47416285876409,
+      "high": 86.00793334702274,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -532,21 +532,21 @@
     "policy": "rework_Y_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 21544.754340277777,
-      "low": 20952.59507469294,
-      "high": 22136.913605862614,
+      "mean": 21918.96571180556,
+      "low": 21099.29257931614,
+      "high": 22738.638844294976,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 45.70570247563439,
-      "low": 44.54223140024218,
-      "high": 46.8691735510266,
+      "mean": 46.29669918317335,
+      "low": 44.84463814837408,
+      "high": 47.748760217972624,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 70.68213573185714,
-      "low": 63.24396078408769,
-      "high": 78.1203106796266,
+      "mean": 76.21311196391449,
+      "low": 68.10184116687331,
+      "high": 84.32438276095566,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -556,21 +556,21 @@
     "policy": "rework_Y_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 16268.796006944445,
-      "low": 15784.223923252695,
-      "high": 16753.368090636195,
+      "mean": 16607.80685763889,
+      "low": 15971.206777626661,
+      "high": 17244.406937651118,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 34.92782112427151,
-      "low": 33.97475499433088,
-      "high": 35.88088725421214,
+      "mean": 35.45836975375406,
+      "low": 34.36052128624541,
+      "high": 36.55621822126272,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 52.47334926693902,
-      "low": 47.07228559028175,
-      "high": 57.87441294359628,
+      "mean": 56.214448366133986,
+      "low": 50.644278279779186,
+      "high": 61.784618452488786,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -580,21 +580,21 @@
     "policy": "none",
     "process_id": 0,
     "wip_area": {
-      "mean": 91636.30425347223,
-      "low": 90158.06261559261,
-      "high": 93114.54589135185,
+      "mean": 90994.5859375,
+      "low": 89943.77601763437,
+      "high": 92045.39585736563,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 157.56542351340914,
-      "low": 155.47592308573775,
-      "high": 159.65492394108054,
+      "mean": 157.44900494863353,
+      "low": 155.76184424901444,
+      "high": 159.13616564825261,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 567.4531303792684,
-      "low": 540.3469621955711,
-      "high": 594.5592985629656,
+      "mean": 538.816640375263,
+      "low": 518.3554679042286,
+      "high": 559.2778128462974,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -604,21 +604,21 @@
     "policy": "none",
     "process_id": 1,
     "wip_area": {
-      "mean": 89792.70052083333,
-      "low": 88730.57706345376,
-      "high": 90854.8239782129,
+      "mean": 89227.35633680555,
+      "low": 87893.27377863876,
+      "high": 90561.43889497234,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 157.69969307440655,
-      "low": 155.78708885188783,
-      "high": 159.61229729692528,
+      "mean": 157.30812456970344,
+      "low": 155.241162931345,
+      "high": 159.37508620806187,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 554.4674076743617,
-      "low": 534.8129455580996,
-      "high": 574.1218697906237,
+      "mean": 525.6877240807618,
+      "low": 502.8250964497866,
+      "high": 548.550351711737,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -628,21 +628,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 72567.23784722222,
-      "low": 71455.13377254122,
-      "high": 73679.34192190322,
+      "mean": 71854.17968750001,
+      "low": 70875.03802450064,
+      "high": 72833.32135049939,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 135.2378784343056,
-      "low": 133.4953778484391,
-      "high": 136.9803790201721,
+      "mean": 135.05551728441117,
+      "low": 133.3873799123783,
+      "high": 136.72365465644404,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 373.43218435279937,
-      "low": 351.8563357073477,
-      "high": 395.00803299825105,
+      "mean": 347.7488040467645,
+      "low": 335.1537726581724,
+      "high": 360.34383543535665,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -652,21 +652,21 @@
     "policy": "capacity_shared_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 70681.5703125,
-      "low": 70116.81128283996,
-      "high": 71246.32934216004,
+      "mean": 70129.62760416667,
+      "low": 69078.12017450016,
+      "high": 71181.13503383318,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 134.3164701250985,
-      "low": 133.1439071635063,
-      "high": 135.4890330866907,
+      "mean": 133.70798178300228,
+      "low": 131.81020837098876,
+      "high": 135.6057551950158,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 365.2944754949687,
-      "low": 347.6632515905755,
-      "high": 382.9256993993619,
+      "mean": 338.59033893288125,
+      "low": 324.26875365014484,
+      "high": 352.91192421561766,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -676,21 +676,21 @@
     "policy": "rework_X_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 69663.10373263889,
-      "low": 68705.12308472274,
-      "high": 70621.08438055504,
+      "mean": 69000.15147569445,
+      "low": 68299.08115711085,
+      "high": 69701.22179427806,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 138.95590290721285,
-      "low": 137.27645396714823,
-      "high": 140.63535184727746,
+      "mean": 138.7399974898136,
+      "low": 137.88215723454272,
+      "high": 139.59783774508446,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 355.6969515892982,
-      "low": 339.99804051318284,
-      "high": 371.3958626654135,
+      "mean": 333.9567194920235,
+      "low": 322.8791655055765,
+      "high": 345.03427347847054,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -700,21 +700,21 @@
     "policy": "rework_X_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 83693.63151041667,
-      "low": 83124.51914581162,
-      "high": 84262.74387502173,
+      "mean": 83056.9900173611,
+      "low": 82107.835729925,
+      "high": 84006.14430479718,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 151.99271448674878,
-      "low": 151.2865999247511,
-      "high": 152.69882904874646,
+      "mean": 151.5801270020949,
+      "low": 150.27397346168942,
+      "high": 152.8862805425004,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 471.8498049471611,
-      "low": 452.9167053945737,
-      "high": 490.7829044997485,
+      "mean": 441.35592110015887,
+      "low": 425.09237303107943,
+      "high": 457.6194691692383,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -724,21 +724,21 @@
     "policy": "rework_Y_q10",
     "process_id": 0,
     "wip_area": {
-      "mean": 86184.44053819445,
-      "low": 85055.67800087346,
-      "high": 87313.20307551544,
+      "mean": 85341.91883680555,
+      "low": 84410.87028759452,
+      "high": 86272.96738601658,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 153.27159929950554,
-      "low": 151.50638279670943,
-      "high": 155.03681580230165,
+      "mean": 152.94634337751256,
+      "low": 151.74924996312015,
+      "high": 154.14343679190497,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 491.1020719412277,
-      "low": 465.6103357041256,
-      "high": 516.5938081783298,
+      "mean": 456.4543926640105,
+      "low": 439.8264754156701,
+      "high": 473.082309912351,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."
@@ -748,21 +748,21 @@
     "policy": "rework_Y_q10",
     "process_id": 1,
     "wip_area": {
-      "mean": 69805.16666666667,
-      "low": 69093.43176449495,
-      "high": 70516.9015688384,
+      "mean": 68998.83897569444,
+      "low": 68110.08774443985,
+      "high": 69887.59020694903,
       "n": 12
     },
     "completed_case_cycle": {
-      "mean": 140.75755039162866,
-      "low": 139.72646515648017,
-      "high": 141.78863562677714,
+      "mean": 139.8071004793671,
+      "low": 138.17075190258723,
+      "high": 141.443449056147,
       "n": 12
     },
     "extended_complete_cohort_cycle": {
-      "mean": 366.3167490183527,
-      "low": 351.69766735909747,
-      "high": 380.93583067760795,
+      "mean": 335.60330685176024,
+      "low": 321.2361426014408,
+      "high": 349.97047110207967,
       "n": 12
     },
     "cohort_scope": "Two fixed high-baseline pulse conditions, one replicate each, action maintained through600T; WIP uses all48 original test episodes."

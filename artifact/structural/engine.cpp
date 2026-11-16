@@ -63,8 +63,14 @@ extern "C" int simulate(const Input *in,Output *out,double *samples,double *reco
   for(int other:options)if(I.groups[other]!=g)throw std::runtime_error("non-local conflict");
   int visit=++decisions[cid*(I.nlabels+1)+source];
   double u=uniform(I.seed,cid,source,visit,1,0);
+  // Explicit operational or training-derived guards are hard routing constraints.
+  if(I.choice_kind[tr]==1 && I.group_attribute[g]>=0){
+   int value=I.group_attribute[g]==0?cl:pr;
+   for(int z:options)if(I.choice_option[z]==value)return z;
+   throw std::runtime_error("class branch absent");
+  }
   if(I.mode==0){
-   if(I.choice_kind[tr]==1){int value=I.group_attribute[g]==0?cl:pr;for(int z:options)if(I.choice_option[z]==value)return z;throw std::runtime_error("class branch absent");}
+   if(I.choice_kind[tr]==1)throw std::runtime_error("truth XOR requires a guard");
    int qs=I.group_pool[g];double p=I.group_base[g]+I.group_complexity[g]*cl;
    if(I.world==2||I.world==3){double level=arrived-done;
     if(I.group_driver[g]==1)level=double(queues[qs].size());
